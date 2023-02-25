@@ -13,17 +13,20 @@
 }
 .message-greeting p {
     color: white;
+    font-size: 18px;
+    letter-spacing: 0.6em;
+
 }
 .message-logo-greeting{
     color: rgb(0, 149, 255);
     background-color: white;
     border-radius: 5px;
     padding: 5px 0;
-    letter-spacing: 0.25rem;
-    text-indent: 0.25rem;
+    letter-spacing: 0.4em;
+    text-indent: 0.4em;
     text-align: center;
     width: 5rem;
-    font-size: 0.75rem;
+    font-size: 14px;
 }
 
 .card-greeting {
@@ -70,30 +73,40 @@
     top: 42%;
     left: -3%;
 }
+
+.mvBird04 {
+    position: absolute;
+    top: 10%;
+    left: 75%;
+}
+.mvLeaf02 {
+    position: absolute;
+    top: 25%;
+    left: -3%;
+}
+
 .phirosophy {
     text-align: center;
 }
 .phirosophy-main {
     color: #35A7D2;
     font-size: 24px;
-    letter-spacing: 1rem;
-    text-indent: 1rem;
+    letter-spacing: 0.6em;
+    text-indent: 0.6em;
     padding: 2rem 0;
 }
 .phirosophy-text1 {
-    font-size: 24px;
-    letter-spacing: 0.5rem;
-    text-indent: 0.5rem;
+    font-size: 27px;
+    letter-spacing: 0.2em;
     padding: 2rem 0;
-    line-height: 3rem;
+    line-height: 1.85;
 }
 .phirosophy-text2 {
     font-size: 20px;
     color: #595757;
-    letter-spacing: 0.25rem;
-    text-indent: 0.25rem;
+    letter-spacing: 0.1em;
     padding: 2rem 0;
-    line-height: 2rem;
+    line-height: 2;
 }
 .phiroPosi {
     position: relative;
@@ -107,29 +120,36 @@
 .cardPhiro {
     background-color: #FFFFFF;
     padding:2rem;
-    width: 450px;
+    width: 460px;
     position: absolute;
-    top: 10%;
-    left: 7%;
+    top: 8%;
+    left: 6%;
 }
 .phiroTxt01 {
     font-size: 24px;
     color: #35A7D2;
+    letter-spacing: 0.6em;
     margin-bottom: 1rem;
 }
 .phiroTxt02 {
     font-size: 12px;
     color: #595757;
+    letter-spacing: 0.1em;
     margin-bottom: 1rem;
+    line-height: 1.75;
 }
 .phiroTxt03 {
     font-size: 12px;
     color: #595757;
+    letter-spacing: 0.1em;
+    line-height: 1.75;
     margin-bottom: 1rem;
 }
 .phiroTxt04 {
     font-size: 12px;
     color: #595757;
+    letter-spacing: 0.1em;
+    line-height: 1.75;
     margin-bottom: 1.5rem;
 }
 .phiroTxt05 {
@@ -140,31 +160,48 @@
 .phiroTxt06 {
     font-size: 18px;
     color: #595757;
+    letter-spacing: 0.1em;
     margin-bottom: 1rem;
     font-weight: 300;
 }
 .phiroTxt07 {
-    font-size: 12px;
+    font-size: 18px;
     color: #FFFFFF;
-    letter-spacing: 4px;
+    letter-spacing: 0.44em;
     position: absolute;
     top: 10%;
-    right: 10%;
-    line-height: 2em;
+    right: 8%;
+    line-height: 2.27;
 }
 .phiroTxt08 {
     font-size: 79px;
     color: #FFFFFF;
+    letter-spacing: 0.1em;
     line-height: 1.2em;
     position: absolute;
-    top: 60%;
-    right: 3%;
+    top: 65%;
+    right: 2%;
 }
 .policy-main {
     color: #35A7D2;
     font-size: 24px;
-    letter-spacing: 1rem;
-    text-indent: 1rem;
+    letter-spacing: 0.6em;
+    padding: 4rem 0;
+    text-align: center;
+}
+.policy-main01 {
+    color: #1E5199;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    text-indent: 0.2em;
+    padding: 2rem 0;
+    text-align: center;
+}
+.policy-main02 {
+    color: #35A7D2;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    text-indent: 0.2rem;
     padding: 2rem 0;
     text-align: center;
 }
@@ -175,13 +212,15 @@
 .policy-card {
     border: 1px solid gray;
     border-radius: 5px;
-    margin: 0 2rem 3rem 0;
-    padding: 1rem;
+    margin: 0 3rem 3rem 0;
+    padding: 1.5rem;
 }
 
 .policy-text {
     font-size: 12px;
-    color: grey;
+    letter-spacing: 0.1em;
+    line-height: 1.75;
+    color: #595757;
 }
     
 .border-hasen {
