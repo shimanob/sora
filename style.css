@@ -11,6 +11,10 @@ body {
     padding: 0;
     font-family: '小塚ゴシック Pro','Kozuka Gothic Pro Light',sans-serif;
 }
+
+a {
+	text-decoration: none;
+}
 /* ヘッダー */
 
 #mv {
@@ -18,6 +22,7 @@ body {
     height: 768px;
     background: url(./img/mv.png) no-repeat;
     background-size: cover;
+    position: relative;
 }
 .header-inner {
     display: flex;
@@ -52,11 +57,11 @@ body {
     color: #4C4948;
     flex-grow: 1;
     text-align: center;
-    border-left: 1px solid #4C4948;
+    border-left: 1px solid lightgrey;
 }
 
 .header-inner a:nth-child(6) {
-    border-right: 1px solid #4C4948;
+    border-right: 1px solid lightgray;
 }
 
 .menu-title {
@@ -72,13 +77,43 @@ body {
     background-color: #35A7D2;
     color: #fff;
 }
-.header-news {
+/* バナー本体 */
+.news-banner {
+    display: block;
+    height: 40px;
+    width: 100%;
     background-color: #E60012;
-    color: #FFFFFF;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+  }
+  
+  /* バナー内コンテンツ */
+  .news-banner__content {
+    display: inline-block;
+    color: #fff;
+    font: 18px;
+    line-height: 30px;
+    padding-left: 100%;
+    white-space: nowrap;
+    animation: animate-banner 20s linear infinite;
     text-align: center;
-    padding: 0.5rem 0;
-    font-size: 18px;
-}
+  }
+  
+  /* バナー内の要素をすべて選択 */
+  .news-banner__content > * {
+    display: inline-block;
+  }
+  
+  /* 横にスクロールさせるアニメーション */
+  @keyframes animate-banner {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 .card {
     background: #fff;
     border-radius: 0 0 5px 5px;
@@ -165,7 +200,7 @@ body {
     position: absolute;
     letter-spacing: 0.3em;
     top: 50%;
-    left: 38%;
+    left: 40%;
 }
 .mv-main-text span {
     font-size: 35px;
@@ -182,8 +217,8 @@ body {
     width: 16rem;
 }
 .mvBird {
-    position: absolute;
-    top: 62%;
+    position: relative;
+    top: 4%;
     left: -4%;
 }
 /* ボディ */
@@ -238,13 +273,15 @@ body {
 }
 
 .message-text h3 {
-    letter-spacing: 0.2em;
+    letter-spacing: 0.15em;
     font-size: 30px;
     color: #3E3A39;
+    padding-bottom: 2rem;
+    font-weight: normal;
 }
 .message-text span {
     font-size: 22px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
 }
 .message-text-2 {
     font-size: 20px;
@@ -253,6 +290,7 @@ body {
     letter-spacing: 0.1em;
     line-height: 2rem;
     font-weight: lighter;
+    padding-bottom: 1rem;
 }
 
 .message-text-3 {
@@ -327,13 +365,17 @@ body {
 }
 .box-text {
     color: #3E3A39;
-    margin: 0 2rem;
+    margin: 0 6rem 0 2rem;
     position: relative;
     font-size: 23px;
     letter-spacing: 0.2em;
 }
 .box-text01 {
+    font-size: 23px;
     margin-top: 0;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    padding-bottom: 1rem;
 }
 .box-text01 span {
     color: #429AD0;
@@ -341,16 +383,16 @@ body {
 .move {
     color: #B5B5B6;
     position: absolute;
-    left: 80%;
+    left: 85%;
     top: 40%;
     letter-spacing: 0.6em;
     font-size: 18px;
+    font-weight: normal;
 }
 
 .move span {
     font-size: 60px;
     letter-spacing: normal;
-    font-weight: lighter;
 }
 .representantive {
     color: #B5B5B6;
@@ -616,12 +658,14 @@ body {
     background-color: #F6F6F6;
 }
 .recruitPosition {
+    width: 200px;
     text-align: center;
     color: #429AD0;
     font-size: 16px;
     letter-spacing: 0.2em;
     position: relative;
     top: -45%;
+    left: 15%;
 }
 .recruit-item-text {
     text-align: center;
@@ -700,3 +744,4 @@ iframe{
     background: rgb(67, 155, 208);
     margin: 20rem 1rem 0 0;
 }
+
