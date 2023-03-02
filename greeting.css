@@ -9,7 +9,7 @@
 .message-greeting {
     position: absolute;
     top: 60%;
-    left: 40%;
+    left: 38%;
 }
 .message-greeting p {
     color: white;
@@ -25,7 +25,6 @@
     letter-spacing: 0.4em;
     text-indent: 0.4em;
     text-align: center;
-    width: 5rem;
     font-size: 14px;
 }
 

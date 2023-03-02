@@ -1,0 +1,227 @@
+.spFeature {
+    flex-wrap: wrap;
+    margin: 6rem 0 0 0;
+    position: relative;
+}
+.spFeatureBox {
+    display: flex;
+    background-color: #F6F6F6;
+    margin: 0 2rem 2rem 0;
+}
+.spFeatureBox figure {
+    margin: 0 1rem 0 0;
+}
+.spFeatureBoxTxt {
+    padding: 1rem 1.5rem 1rem 1rem;
+}
+.spFeatureBoxTxt02 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #595757;
+}
+.spFeatureBoxTxt03 {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #595757;
+    padding-top: 0.5rem;
+}
+.spFeatureBoxTxt04 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #595757;
+    padding-top: 0.5rem;
+}
+.spFeatureBoxTxt05 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #B5B5B6;
+}
+.spFeatureBoxTxt06 {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #B5B5B6;
+    padding-top: 0.5rem;
+}
+.spFeatureBoxTxt07 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #B5B5B6;
+    padding-top: 0.5rem;
+}
+.dotPosition {
+    position: absolute;
+    top: 105%;
+    right: 13%;
+}
+.soraPosition {
+    position: absolute;
+    top: 58%;
+    left: 15%;
+}
+.spFeature {
+    display: flex;
+    justify-content: center;
+}
+.spFeature figure {
+    margin: 0;
+}
+.spFeatureTxt {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #231815;
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
+.soraPositionText {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'A-OTF リュウミン Pro',sans-serif;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 10%;
+    left: 48%;
+}
+.spFeatureBg {
+    background-color: #F6F6F6;
+    padding: 0 3rem;
+}
+.spFeature02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 0 0;
+}
+
+.spFeatureTxt02 {
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.26em;
+    margin: 0 1rem 0 0;
+    color: #595757;
+}
+.spFeatureTxt03 {
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #429AD0;
+    margin-top: 4rem;
+}
+.spFeatureTxt04 {
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    font-size: 14px;
+    margin-top: 4rem;
+    color: #595757;
+}
+.spFeatureTxt05 {
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    margin-top: 2rem;
+    color: #595757;
+}
+.spFeatureTxt06 {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #595757;
+    margin-top: 1rem;
+}
+.spFeatureTxt07 {
+    font-family: 'A-OTF リュウミン Pro', sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    color: #595757;
+    font-weight: 100;
+    width: 80%;
+}
+.spFeatureTxt08 {
+    font-family: 'A-OTF リュウミン Pro', sans-serif;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    color: #595757;
+    font-weight: 100;
+    width: 80%;
+}
+
+.spFeatureTxt09 {
+    font-family: 'A-OTF 中ゴシックBBB Pro Medium',sans-serif;
+    font-size: 16px;
+    color: #595757;
+    width: 80%;
+}
+
+.spFeatureContent {
+    width: 600px;
+    margin-left: 2rem;
+}
+.spFeatureContent02 {
+    width: 600px;
+}
+.spFeatureContents01 {
+    font-family: 'RyuminPr5 Light-83pv-RKSJ-H◆',sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #595757;
+}
+.spFeatureContents02 {
+    font-family: 'RyuminPr5 Light-83pv-RKSJ-H◆',sans-serif;
+    font-size: 32px;
+    color: #595757;
+    width: 576px;
+}
+.spFeatureContents03 {
+    font-family: 'A-OTF 中ゴシックBBB Pro Medium',sans-serif;
+    font-size: 16px;
+    color: #595757;
+    width: 533px;
+}
+.spFeatureContents04 {
+    font-family: 'A-OTF 中ゴシックBBB Pro Medium',sans-serif;
+    font-size: 16px;
+    color: #595757;
+    width: 533px;
+}
+
+.spFeatureLine {
+    border: 1px solid lightgray;
+    padding: 2rem;
+}
+.spFeatureContents05 {
+    font-family: 'RyuminPr5 Light-83pv-RKSJ-H◆',sans-serif;
+    font-size: 32px;
+    color: #595757;
+    text-align: center;
+}
+.spFeatureContents06 {
+    font-family: 'A-OTF 中ゴシックBBB Pro Medium',sans-serif;
+    font-size: 16px;
+    width: 322px;
+    color: #595757;
+    padding-top: 1.5rem;
+}
+.spFeatureContents07 {
+    font-family: 'RyuminPr5 Light-83pv-RKSJ-H◆',sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    color: #595757;
+    padding-top: 1.5rem;
+}
+.spFeatureContents08 {
+    font-family: 'A-OTF 中ゴシックBBB Pro Medium',sans-serif;
+    font-size: 16px;
+    color: #595757;
+    padding-top: 2rem;
+}
+.spFeatureContents09 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.spFeatureContents10 {
+    margin-right: 2rem;
+}
+.dotPosition02 {
+    position: absolute;
+    top: -20%;
+    right: 13%;
+}

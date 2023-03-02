@@ -222,6 +222,10 @@ a {
     left: -4%;
 }
 /* ボディ */
+.contentWidth {
+    width: 1200px;
+    margin: 0 auto;
+}
 
 /* ご挨拶 */
 #message {
@@ -735,13 +739,18 @@ iframe{
     height: 0.75rem;
     border-radius: 50%;
     background: lightgrey;
-    margin: 20rem 1rem 0 0;
+    margin-left: 1rem;
 }
 .dot-content1 {
     width: 0.75rem;
     height: 0.75rem;
     border-radius: 50%;
     background: rgb(67, 155, 208);
+}
+.dotSpace {
     margin: 20rem 1rem 0 0;
 }
 
+.pb-3 {
+    padding-bottom: 3rem;
+}
