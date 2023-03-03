@@ -1,15 +1,23 @@
 .spFeature {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    margin: 6rem 0 0 0;
     position: relative;
+}
+.spFeatureflex {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.soraTopligo {
+    position: absolute;
+    top: 0%;
+    left: 35%;
 }
 .spFeatureBox {
     display: flex;
     background-color: #F6F6F6;
-    margin: 0 2rem 2rem 0;
-}
-.spFeatureBox figure {
-    margin: 0 1rem 0 0;
+    margin: 1rem;
 }
 .spFeatureBoxTxt {
     padding: 1rem 1.5rem 1rem 1rem;
@@ -50,13 +58,13 @@
 }
 .dotPosition {
     position: absolute;
-    top: 105%;
-    right: 13%;
+    top: 120%;
+    right: 4%;
 }
 .soraPosition {
     position: absolute;
     top: 58%;
-    left: 15%;
+    left: 10%;
 }
 .spFeature {
     display: flex;
@@ -78,14 +86,14 @@
     color: #FFFFFF;
     font-size: 30px;
     font-family: 'A-OTF リュウミン Pro',sans-serif;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     position: absolute;
-    top: 10%;
-    left: 48%;
+    top: 6%;
+    left: 80%;
 }
 .spFeatureBg {
     background-color: #F6F6F6;
-    padding: 0 3rem;
+    padding: 3rem;
 }
 .spFeature02 {
     display: flex;
@@ -132,7 +140,8 @@
     letter-spacing: 0.1em;
     color: #595757;
     font-weight: 100;
-    width: 80%;
+    padding: 2.5rem;
+    line-height: 1.5;
 }
 .spFeatureTxt08 {
     font-family: 'A-OTF リュウミン Pro', sans-serif;
@@ -140,14 +149,14 @@
     letter-spacing: 0.1em;
     color: #595757;
     font-weight: 100;
-    width: 80%;
 }
 
 .spFeatureTxt09 {
     font-family: 'A-OTF 中ゴシックBBB Pro Medium',sans-serif;
     font-size: 16px;
     color: #595757;
-    width: 80%;
+    padding: 0 2.5rem 2.5rem 2.5rem;
+    line-height: 2.5;
 }
 
 .spFeatureContent {
@@ -162,24 +171,26 @@
     font-size: 20px;
     letter-spacing: 0.1em;
     color: #595757;
+    padding-bottom: 0.75rem;
 }
 .spFeatureContents02 {
     font-family: 'RyuminPr5 Light-83pv-RKSJ-H◆',sans-serif;
     font-size: 32px;
     color: #595757;
     width: 576px;
+    padding-bottom: 0.75rem;
 }
 .spFeatureContents03 {
     font-family: 'A-OTF 中ゴシックBBB Pro Medium',sans-serif;
     font-size: 16px;
     color: #595757;
-    width: 533px;
+    width: 565px;
 }
 .spFeatureContents04 {
     font-family: 'A-OTF 中ゴシックBBB Pro Medium',sans-serif;
     font-size: 16px;
     color: #595757;
-    width: 533px;
+    width: 573px;
 }
 
 .spFeatureLine {

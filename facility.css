@@ -23,6 +23,10 @@
     color: #595757;
     text-align: center;
 }
+.grid {
+    display: grid;
+    justify-content: center;
+}
 .flex {
     display: flex;
     justify-content: center;
@@ -116,13 +120,14 @@
     background: #61BCCC;
     border-radius: 5px;
     width: 1100px;
-    margin-bottom: 2rem;
     z-index: 20;
+    position: absolute;
+    top: -2%;
 }
 
 .suisaiPosi02 {
     position: absolute;
-    top: 2%;
+    top: -0.5%;
     left: -10%;
     z-index: 10;
 }
@@ -287,8 +292,9 @@
     background: #B5C97D;
     border-radius: 5px;
     width: 1100px;
-    margin-bottom: 2rem;
     z-index: 20;
+    position: absolute;
+    top: -2%;
 }
 .alohaCard06 {
     background: #B5C97D;
