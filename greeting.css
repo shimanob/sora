@@ -8,14 +8,14 @@
 }
 .message-greeting {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 38%;
 }
 .message-greeting p {
     color: white;
     font-size: 18px;
     letter-spacing: 0.6em;
-
+    padding-bottom: 1rem;
 }
 .message-logo-greeting{
     color: rgb(0, 149, 255);

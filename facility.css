@@ -1,0 +1,411 @@
+.contentSpace {
+    margin-left: 6rem;
+}
+.facilityBg {
+    background-color: #F6F6F6;
+}
+.facilityFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 20;
+}
+.facilityCard {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin: 1rem;
+    width: 350px;
+    padding: 1rem 0 2rem 0;
+}
+.facilityTxt01 {
+    font-size: 14px;
+    color: #595757;
+    text-align: center;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.facilityCard02 {
+    display: flex;
+    border-radius: 8px;
+    background-color: #61BCCC;
+    align-items: center;
+    margin: 3rem 0;
+}
+.facilityCard02 figure {
+    margin-left: 15rem;
+}
+.facilityTxt02 {
+    font-size: 20px;
+    letter-spacing: 0.4em;
+    color: #FFFFFF;
+    margin-left: 3rem;
+}
+.facilityPosi01 {
+    position: absolute;
+    top: 3%;
+    left: 45%;
+    font-size: 28px;
+    letter-spacing: 0.3em;
+    line-height: 1.96;
+    font-weight: 600;
+}
+.contentAb {
+    position: relative;
+}
+.facilityPosi02 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 17px;
+    color: #61BCCC;
+    letter-spacing: 0.3em;
+    line-height: 2.35;
+    font-weight: 600;
+}
+.facilityPosi03 {
+    position: absolute;
+    top: 23%;
+    left: 45%;
+    font-size: 17px;
+    letter-spacing: 0.36em;
+    line-height: 3.82;
+    font-weight: 600;
+}
+.facilityCard03 {
+    background: #61BCCC;
+    border-radius: 5px;
+    width: 450px;
+    margin-top: 0.5rem;
+}
+.facilityCardTxt03 {
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+.facilityTxt03 {
+    font-size: 20px;
+    line-height: 1.95;
+    color: #595757;
+}
+.facilityPosi04 {
+    position: absolute;
+    top: 50%;
+    left: 8.5%;
+}
+.facilityCard04 {
+    background: #61BCCC;
+    border-radius: 5px;
+    width: 500px;
+}
+.flamePosi {
+    position: absolute;
+    top: 25%;
+    left: 85%;
+}
+.imgSpace {
+    margin: 1rem;
+}
+.facilityCard05 {
+    background: #61BCCC;
+    border-radius: 5px;
+    width: 1100px;
+    margin-bottom: 2rem;
+    z-index: 20;
+}
+
+.suisaiPosi02 {
+    position: absolute;
+    top: 2%;
+    left: -10%;
+    z-index: 10;
+}
+
+.flowPosi {
+    margin-top: 4rem;
+}
+.facilityCard06 {
+    background: #61BCCC;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    width: 1200px;
+    z-index: 20;
+}
+.facilityTxt04 {
+    font-size: 24px;
+    letter-spacing: 0.22em;
+    color: #FFFFFF;
+}
+.facilityTxt05 {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.facilityTxt06 {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.card001 {
+    background: #fff;
+    border-radius: 8px;
+    width: 266px;
+    height: 72px;
+    margin: 0.5rem;
+    position: relative;
+}
+.card2001 {
+    background: #fff;
+    border-radius: 8px;
+    text-align: left;
+    width: 266px;
+    height: 72px;
+    margin: 0.5rem;
+    position: relative;
+}
+
+.mvTel001 {
+    width: 18px;
+    height: 29px;
+    position: absolute;
+    top: -2%;
+    left: 0;
+    margin-left: 1rem;
+}
+.card-text1001 {
+    color: #61BCCC;
+    font-size: 37px;
+    padding-left: 45px;
+    font-family: "oswald", sans-serif;
+    vertical-align: top;
+}
+.mvMail001 {
+    width: 52px;
+    height: 48px;
+    position: absolute;
+    top: -9%;
+    left: 0;
+    margin-left: 1rem;
+}
+
+.card-text2001 {
+    font-size: 12px;
+    color: #61BCCC;
+    letter-spacing: normal;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    padding-left: 45px;
+}
+.card-text4001 {
+    font-size: 24px;
+    color: #61BCCC;
+    line-height: 1.5rem;
+    padding-left: 80px;
+    padding-top: 12px;
+    letter-spacing: 0.16em;
+}
+.card-text5001 {
+    font-size: 12px;
+    color: #61BCCC;
+    letter-spacing: normal;
+}
+.headerInqBtn {
+    display: inline-block;
+    color: #61BCCC;
+    font-size: 37px;
+    padding-left: 45px;
+    font-family: "oswald", sans-serif;
+    vertical-align: top;
+    position: relative;
+}
+.headerInqBtn:before{
+    content: "";
+    background: url("img/mail.png") no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 18px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: block;
+}
+.sinfoDot {
+    position: absolute;
+    top: -21%;
+    left: 51%;
+}
+.sinfoDotcontent01 {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: #61BCCC;
+    margin-top: 0.75rem;
+}
+.sinfoDotcontent02 {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: #B5C97D;
+    margin-top: 0.75rem;
+}
+.sinfoDotcontent03 {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: #EFB66D;
+    margin-top: 0.75rem;
+}
+
+.alohaCard02 {
+    display: flex;
+    border-radius: 8px;
+    background-color: #B5C97D;
+    align-items: center;
+    margin: 3rem 0;
+    width: 1000px;
+}
+
+.alohaCard03 {
+    background: #B5C97D;
+    border-radius: 5px;
+    width: 450px;
+    margin-top: 0.5rem;
+}
+.alohaCard04 {
+    background: #B5C97D;
+    border-radius: 5px;
+    width: 500px;
+}
+.alohaCard05 {
+    background: #B5C97D;
+    border-radius: 5px;
+    width: 1100px;
+    margin-bottom: 2rem;
+    z-index: 20;
+}
+.alohaCard06 {
+    background: #B5C97D;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    width: 1200px;
+    z-index: 20;
+}
+.alohaTxt01 {
+    color: #B5C97D;
+    font-size: 37px;
+    padding-left: 45px;
+    font-family: "oswald", sans-serif;
+    vertical-align: top;
+}
+.alohaTxt02 {
+    font-size: 12px;
+    color: #B5C97D;
+    letter-spacing: normal;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    padding-left: 45px;
+}
+.alohaTxt03 {
+    font-size: 24px;
+    color: #B5C97D;
+    line-height: 1.5rem;
+    padding-left: 80px;
+    padding-top: 12px;
+    letter-spacing: 0.16em;
+}
+.alohaTxt04 {
+    font-size: 12px;
+    color: #B5C97D;
+    letter-spacing: normal;
+}
+.feelCard02 {
+    display: flex;
+    border-radius: 8px;
+    background-color: #EFB66D;
+    align-items: center;
+    margin: 3rem 0;
+    width: 1000px;
+}
+
+.feelCard03 {
+    background: #EFB66D;
+    border-radius: 5px;
+    width: 450px;
+    margin-top: 0.5rem;
+}
+.feelCard04 {
+    background: #EFB66D;
+    border-radius: 5px;
+    width: 500px;
+}
+.feelCard05 {
+    background: #EFB66D;
+    border-radius: 5px;
+    width: 1100px;
+    margin-bottom: 2rem;
+    z-index: 20;
+}
+.feelCard06 {
+    background: #EFB66D;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    width: 1200px;
+    z-index: 20;
+}
+.feelTxt01 {
+    color: #EFB66D;
+    font-size: 37px;
+    padding-left: 45px;
+    font-family: "oswald", sans-serif;
+    vertical-align: top;
+}
+.feelTxt02 {
+    font-size: 12px;
+    color: #EFB66D;
+    letter-spacing: normal;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    padding-left: 45px;
+}
+.feelTxt03 {
+    font-size: 24px;
+    color: #EFB66D;
+    line-height: 1.5rem;
+    padding-left: 80px;
+    padding-top: 12px;
+    letter-spacing: 0.16em;
+}
+.feelTxt04 {
+    font-size: 12px;
+    color: #EFB66D;
+    letter-spacing: normal;
+}
+.feelPosi02 {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    font-size: 17px;
+    color: #EFB66D;
+    letter-spacing: 0.3em;
+    line-height: 2.35;
+    font-weight: 600;
+}
+.alohaPosi02 {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    font-size: 17px;
+    color: #B5C97D;
+    letter-spacing: 0.3em;
+    line-height: 2.35;
+    font-weight: 600;
+}
