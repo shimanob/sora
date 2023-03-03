@@ -322,6 +322,7 @@ a {
     letter-spacing: 0.2em;
     text-indent: 0.2em;
     margin: 2rem 0;
+    cursor: pointer;
 }
 .message-more02 {
     color: #429AD0;
@@ -332,6 +333,7 @@ a {
     letter-spacing: 0.1em;
     text-indent: 0.1em;
     margin-top: 2rem;
+    cursor: pointer;
 }
 .box {
     margin: 5rem 0;
@@ -691,30 +693,42 @@ a {
     padding: 3rem 4rem;
 }
 .new-content figure {
-    margin-left: 0;
+    margin: 0;
 }
 .new-content-text {
     border-bottom: 1px solid rgba(180,180,180,0.5);
+    padding-bottom: 1.5rem;
 }
 .new-contents-text1 {
     font-size: 14px;
     color: #595757;
     font-family: "A-OTF リュウミン Pro", sans-serif;
     letter-spacing: 0.1em;
+    margin-top: 0;
+    line-height: 2;
 }
 .new-contents-text2 {
     color: #429AD0;
     font-size: 14px;
     letter-spacing: -0.2em;
+    margin-bottom: 0;
 }
 .new-contents-text3 {
     font-size: 12px;
     color: #595757;
+    line-height: 2;
+    margin: 0;
+}
+.new-contents-text5 {
+    font-size: 12px;
+    color: #595757;
+    margin: 1.5rem 0 0.25rem 0;
 }
 .new-contents-text4 {
     color: #429AD0;
     font-size: 16px;
     letter-spacing: 0.1em;
+    margin-top: 0.25rem;
 }
 iframe{
     width:100%;
