@@ -1,0 +1,251 @@
+.companymvBird {
+    position: absolute;
+    top: 20%;
+    left: 68%;
+}
+.companymvTxt {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    width: 40rem;
+    top: 20%;
+    left: 28%;
+    letter-spacing: 0.3em;
+}
+.companymvTxt span{
+    font-size: 35px;
+    letter-spacing: 0.3em;
+}
+
+.companyTxt01 {
+    font-size: 30.36px;
+    letter-spacing: 0.2em;
+    color: #3E3A39;
+    font-weight: 600;
+    padding: 5rem 3rem 0 0;
+}
+.companyTxt02 {
+    font-size: 22px;
+    font-weight: lighter;
+    color: #595757;
+    line-height: 2.01;
+    padding-top: 2rem;
+}
+.companyLogo {
+    position: absolute;
+    top: 2%;
+    left: 9%;
+}
+.companyLogoPosi {
+    padding-top: 10rem;
+    margin-left: 5rem;
+}
+.companyTxt03 {
+    font-size: 30.36px;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    color: #3E3A39;
+}
+.companyTxt04 {
+    font-size: 21.28px;
+    color: #595757;
+    font-weight: lighter;
+}
+.company-content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.company-content-text {
+    border-bottom: 1px solid rgba(180,180,180,0.5);
+}
+.companyGoogle {
+    color: #FFFFFF;
+    background-color: #429AD0;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+    margin: 2rem 0 0 9rem;
+    cursor: pointer;
+}
+.companyTxt05 {
+    font-size: 30.36px;
+    letter-spacing: 0.2em;
+    color: #3E3A39;
+    padding-top: 4rem;
+}
+.companyContent02 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.companyTxt06 {
+    font-size: 21.28px;
+    color: #595757;
+    font-weight: lighter;
+    padding: 0 4rem;
+}
+.companyTxt07 {
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    color: #3E3A39;
+    font-weight: 600;
+    padding-left: 4rem;
+
+}
+.companyTxt08 {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 2.29;
+    color: #595757;
+    padding-left: 4rem;
+}
+.companyTxt09 {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 2.29;
+    color: #595757;
+    padding-left: 2rem;
+}
+.companyTxt10 {
+    font-size: 18px;
+    letter-spacing: 0.6em;
+    font-weight: 600;
+    color: #429AD0;
+    padding-top: 5rem;
+}
+.companyFormLogo {
+    position: absolute;
+    top: 0;
+    left: 7%;
+}
+.companyForm {
+    border: 1px solid lightgrey;
+    width: 206px;
+    border-radius: 5px;
+    margin: 3rem 0 0 1.5rem;
+    padding: 0.25rem;
+}
+.companyTxt11 {
+    font-size: 14px;
+    letter-spacing: 0.4em;
+    color: #595757;
+    text-align: center;
+}
+.companyTxt12 {
+    font-size: 14px;
+    color: #595757;
+    line-height: 2.45;
+    font-weight: lighter;
+    padding: 3rem 0 2rem 0;
+    border-bottom: 1px solid lightgray;
+}
+.companyTxt13 {
+    color: #3E3A39;
+    font-size: 37px;
+    padding: 1rem 0 0 2rem;
+    font-family: "oswald", sans-serif;
+}
+.companyTxt14 {
+    font-size: 12px;
+    color: #3E3A39;
+    letter-spacing: normal;
+    padding-left: 2rem;
+}
+.companyTxt15 {
+    font-size: 12px;
+    color: #3E3A39;
+    padding-left: 5rem;
+}
+.companyTxt16 {
+    font-size: 21.28px;
+    font-weight: lighter;
+    color: #595757;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+}
+.companyTxt17 {
+    width: 300px;
+    margin-top: 2rem;
+}
+.companyTxt18 {
+    font-size: 21.28px;
+    color: #595757;
+    font-weight: lighter;
+    padding: 0 4rem;
+    width: 137px;
+}
+.companyBottomline {
+    border-bottom: 1px solid lightgray;
+    width: 887px;
+}
+.companyLine {
+    border-left: 1px solid lightgray;
+}
+.companyLine02 {
+    border-left: 1px solid lightgray;
+    height: 171px;
+}
+.inputTxt01 {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #595757;
+    text-align: left;
+}
+.inputTxt02 {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #9FA0A0;
+    margin-left: 1.5rem;
+}
+.inputTxt03 {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #595757;
+    margin-left: 10rem;
+}
+.inputStar {
+    color: #429AD0;
+}
+.input01 {
+    background-color: #F2F2F3;
+    width: 374px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0.5rem 0 0.5rem 1.5rem;
+}
+.input02 {
+    background-color: #F2F2F3;
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0.5rem 0 0 1.5rem;
+}
+.input03 {
+    background-color: #F2F2F3;
+    width: 374px;
+    padding-bottom: 114px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0.5rem 0 0.5rem 1.5rem;
+}
+.inputSpace {
+    padding: 1rem 0;
+}
+.submitBtn {
+    background-color: #595757;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: lighter;
+}
