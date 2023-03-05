@@ -1,0 +1,151 @@
+.recruitFlex {
+    display: flex;
+    justify-content: center;
+}
+.recruitBtn {
+    background-color: #429AD0;
+    color: #F7F8F8;
+    width: 265px;
+    height: 64px;
+    border-radius: 5px;
+    text-align: center;
+    height:60px;
+    line-height:60px;
+    margin: 4rem 0;
+}
+.recruitBtnlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recruitTxt01 {
+    font-size: 34px;
+    font-family: "oswald", sans-serif;
+    vertical-align: -10%;
+}
+.recruitTxt02 {
+    font-size: 21px;
+    font-family: 'A-OTF 中ゴシックBBB Pro Medium', sans-serif;
+}
+.recruitTxt03 {
+    font-size: 27px;
+    letter-spacing: 0.2em;
+    color: #3E3A39;
+    font-weight: 600;
+    text-align: center;
+}
+.recruitTxt04 {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #3E3A39;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 2;
+}
+.recruitTxt05 {
+    font-size: 21px;
+    color: #F7F8F8;
+    text-align: center;
+}
+.recruitTxt06 {
+    font-size: 21px;
+    color: #3E3A39;
+    padding: 1rem 0 1rem 2rem ;
+}
+.recruitTxt07 {
+    font-size: 16px;
+    color: #3E3A39;
+    padding: 1rem 0 0 1.7rem ;
+}
+.recruitTxt08 {
+    font-size: 16px;
+    color: #3E3A39;
+    padding: 1rem 0 0 1.7rem ;
+}
+.freeTxt {
+    width: 500px;
+    height: 30px;
+    margin: 1rem 0 1rem 1rem;
+}
+.recruitCenter {
+    text-align: center;
+    margin: 4rem 0;
+}
+.recruitBtn02 {
+    background-color: #429AD0;
+    color: #F7F8F8;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin: 0.75rem;
+    width: 260px;
+    position: relative;
+}
+.recruitBtn03 {
+    background-color: #9FA0A0;
+    color: #F7F8F8;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin: 0.75rem;
+    width: 260px;
+    position: relative;
+}
+.trianglePosi {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+.searchBox {
+    border: 3px solid lightgray;
+    border-radius: 2px;
+    margin: 4rem 2.8rem;
+}
+.searchBox02 {
+    background-color: rgb(234, 234, 234);
+}
+.searchBox03 {
+    display: flex;
+    border: 1px solid lightgray;
+    margin: 0.3rem 0 0 0.3rem;
+}
+.searchBox04 {
+    background-color: rgb(234, 234, 234);
+    padding: 0 18rem 0 0;
+}
+.searchBox05 {
+    padding: 1rem;
+}
+.searchBox06 {
+    background-color: rgb(234, 234, 234);
+    padding: 0 16rem 0 0;
+}
+.searchBox07 {
+    background-color: rgb(234, 234, 234);
+    padding: 0 14rem 0 0;
+}
+.searchBox08 {
+    display: flex;
+    border: 1px solid lightgray;
+    margin: 0 0 0 0.3rem;
+}
+
+.searchBox05 button {
+    margin-bottom: 0.5rem;
+}
+.recruitSubmit {
+    text-align: center;
+    margin: 2rem 0;
+}
+.recruitSubmitBtn {
+    background-color: #5D6D7E ;
+    border-radius: 5px;
+    color: #F7F8F8;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    padding: 0.2rem 2rem;
+}
+.recruitImgPosi {
+    margin-bottom: 8rem;
+}

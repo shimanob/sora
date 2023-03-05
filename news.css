@@ -1,0 +1,85 @@
+.footerBg {
+    background-color: #F6F6F6 !important;
+}
+.sectionBg {
+    background-color: #F6F6F6;
+    padding: 8rem 0 4rem 0;
+}
+.newsmvImg {
+    text-align: center;
+    padding: 4rem 0;
+}
+.newsContents01 {
+    background-color: #EFB66D;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.newsContents02 {
+    background-color: #B5C97D;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.newsContents03 {
+    background-color: #61BCCC;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.newsContents04 {
+    background-color: #429AD0;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.newsContents05 {
+    background-color: #429AD0;
+    border-radius: 5px;
+    margin: 0 1rem 1rem 0;
+}
+.newsContents06 {
+    background-color: #C9CACA;
+    border-radius: 5px;
+    margin: 0 1rem 1rem 0;
+}
+.newsContentTxt01 {
+    font-size: 16px;
+    color: #F6F6F6;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+}
+.newsContentTxt02 {
+    color: #EFB66D;
+    font-size: 14px;
+    letter-spacing: -0.2em;
+    margin-bottom: 0;
+}
+.newsContentTxt03 {
+    color: #B5C97D;
+    font-size: 14px;
+    letter-spacing: -0.2em;
+    margin-bottom: 0;
+}
+.newsContentTxt04 {
+    color: #61BCCC;
+    font-size: 14px;
+    letter-spacing: -0.2em;
+    margin-bottom: 0;
+}
+.newsContentTxt05 {
+    font-size: 14px;
+    color: #595757;
+    font-family: "A-OTF リュウミン Pro", sans-serif;
+    letter-spacing: 0.1em;
+    margin-top: 0;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+.newsContentTxt07 {
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+}
+.newsContentTxt08 {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #429AD0;
+}
