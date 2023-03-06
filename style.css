@@ -1,15 +1,101 @@
-.kozuka {
-	font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+@charset "utf-8";
+/*
+Theme Name:
+Theme URI:
+Author:
+*/
+
+/* WP */
+/* -------------------------------------------------- */
+/* 投稿の画像配置 */
+.alignright { display: block; margin: 0 0 10px auto; }/* 配置位置 左 */
+.alignleft { display: block; margin: 0 auto 10px 0; }/* 配置位置 右 */
+.aligncenter { display: block; margin: 0 auto 10px; }/* 配置位置 中央 */
+/* .alignright { float: right; padding: 0px 0 10px 10px; } *//* 後続のテキスト左回り込み */
+/*.alignleft { float: left; padding: 0px 10px 10px 0; }*//* 後続テキスト右回り込み */
+
+/* LINK */
+/* -------------------------------------------------- */
+a:link,
+a:visited { text-decoration: none; color: #333333; }
+a:hover  { text-decoration: none; color: #B98E31; }
+a:active { text-decoration: none; color: #B98E31; }
+
+/* CLEARFIX */
+/* -------------------------------------------------- */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
 }
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* OUTLINE */
+/* -------------------------------------------------- */
 html {
-    margin: 0;
-    padding: 0;
+	font-size: 62.5%;/* 10px */
 }
 
 body {
+	background: #FFFFFF;
+	color: #3e3a39;
+	font-size: 14px;
+	font-size: 1.4rem;
     margin: 0;
-    padding: 0;
-    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro Light',sans-serif;
+}
+
+#container {
+	position: relative;
+	font-family: 'Noto Sans JP', "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W4", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, Osaka,"ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1.6;
+	font-feature-settings : "palt";
+}
+
+/* FONT */
+/* -------------------------------------------------- */
+
+.yumin{
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif !important;
+}
+
+/* IEのみYuminOFF */
+@media all and (-ms-high-contrast:none){
+    .yumin {font-family: Century, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif !important;}
+}
+
+
+/* COMMON */
+/* -------------------------------------------------- */
+/*objectfitをIE,EDGEにも対応*/
+.imgCover {
+object-fit: cover;
+font-family: 'object-fit: cover;'
+}
+
+
+/* RESPONSIVE */
+/* -------------------------------------------------- */
+@media screen and (min-width: 768px) {
+        /* 768px以上用（PC用）の記述 */
+        .contentWrap {
+			width: 1100px;
+			margin-left: auto;
+			margin-right: auto;
+        }
+}
+
+@media screen and (max-width: 767px) {
+        .contentWrap {
+			width: 95%;
+			margin: 0 auto;
+        }
 }
 
 a {
@@ -35,12 +121,12 @@ a {
 }
 .nav-out {
     color: #FFFFFF;
-    padding: 0.5rem 0 0.5rem 11rem;
-    font-size: 12px;
-    background: url(./img/footer.png);
+    padding: 8px 0 8px 160px;
+    font-size: 1.2rem;
+    background-image: linear-gradient(90deg, rgba(32, 80, 153, 1), rgba(42, 167, 213, 1));
 }
 .logo {
-    margin-left: 6rem;
+    margin-left: 60px;
 }
 
 .nav-menu {
@@ -65,12 +151,12 @@ a {
 }
 
 .menu-title {
-    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
-    margin: 0 0.5rem 0 0.5rem;
+    padding: 12px 24px 12px 24px;
+    margin: 0 8px 0 8px;
     cursor: pointer;
     border-radius: 10px;
-    font-size: 14px;
-    color: gray;
+    font-size: 1.4rem;
+    color: #4C4948;
 }
 
 .menu-title:hover {
@@ -92,7 +178,7 @@ a {
   .news-banner__content {
     display: inline-block;
     color: #fff;
-    font: 18px;
+    font-size: 1.8rem;
     line-height: 30px;
     padding-left: 100%;
     white-space: nowrap;
@@ -121,7 +207,7 @@ a {
     height: 72px;
     position: relative;
     left: 73%;
-    padding-bottom: 1rem;
+    padding-bottom: 16px;
 }
 .card2 {
     background: #fff;
@@ -131,90 +217,93 @@ a {
     height: 72px;
     position: relative;
     left: 73%;
-    margin-top: 2rem;
-    padding-top: 1rem;
+    margin-top: 36px;
+    padding-top: 16px;
 }
 
 .mvTel {
     width: 18px;
     height: 29px;
     position: absolute;
-    top: -3px;
-    left: 3px;
-    margin-left: 1rem;
+    top: 23%;
+    left: 0;
+    margin-left: 16px;
 }
 .card-text1 {
     color: #3E3A39;
-    font-size: 37px;
+    font-size: 3.7rem;
     padding-left: 45px;
+    padding-top: 16px;
     font-family: "oswald", sans-serif;
 }
 .mvRec {
     width: 92px;
     height: 63px;
     position: absolute;
-    top: -6px;
+    top: 18%;
     left: 3px;
-    margin-left: 1rem;
+    margin-left: 10px;
 }
 .mvMail {
     width: 52px;
     height: 48px;
     position: absolute;
-    top: 0;
+    top: 20%;
     left: 3px;
-    margin-left: 1rem;
+    margin-left: 10px;
 }
 
 .card-text2 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #3E3A39;
     letter-spacing: normal;
     padding-left: 45px;
 }
 .card-text3 {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #429AD0;
     line-height: 1.5rem;
     padding-left: 120px;
-    padding-top: 5px;
+    padding-top: 16px;
     letter-spacing: 0.16em;
 }
 .card-text4 {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #429AD0;
     line-height: 1.5rem;
     padding-left: 80px;
-    padding-top: 5px;
+    padding-top: 16px;
     letter-spacing: 0.16em;
 }
 .card-text5 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #3E3A39;
     letter-spacing: normal;
 }
 .mv-main-text {
     color: #fff;
-    font-size: 24px;
+    font-size: 2.4rem;
     text-align: center;
     position: absolute;
     letter-spacing: 0.3em;
+    line-height: 1.75;
     top: 50%;
     left: 40%;
 }
 .mv-main-text span {
-    font-size: 35px;
+    font-size: 3.5rem;
     letter-spacing: 0.3em;
 }
 
 .mv-sub-text {
+    font-size: 1.6rem;
     color: #fff;
     position: absolute;
     top: 70%;
     left: 73%;
-    line-height: 2rem;
+    line-height: 2.5;
     letter-spacing: 0.3em;
-    width: 16rem;
+    width: 25rem;
 }
 .mvBird {
     position: relative;
@@ -223,13 +312,13 @@ a {
 }
 /* ボディ */
 .contentWidth {
-    width: 1200px;
+    width: 1104px;
     margin: 0 auto;
 }
 
 /* ご挨拶 */
 #message {
-    margin: 5rem 0;
+    margin: 50px 0;
 }
 .position {
     position: relative;
@@ -248,7 +337,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0;
+    padding: 20px 0;
 }
 
 .message-logo {
@@ -256,59 +345,59 @@ a {
     border: gray 1px solid;
     border-radius: 5px;
     padding: 5px;
-    margin-right: 5rem;
+    margin-right: 50px;
     letter-spacing: 0.4em;
     text-indent: 0.4em;
     text-align: center;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .message p {
     color: #429AD0;
-    margin-right: 10rem;
+    margin-right: 100px;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: 0.6em;
 }
 
 .message-text {
     text-align: center;
-    padding: 0 7rem;
+    padding: 0 70px;
 }
 
 .message-text h3 {
     letter-spacing: 0.15em;
-    font-size: 30px;
+    font-size: 3rem;
     color: #3E3A39;
-    padding-bottom: 2rem;
+    padding-bottom: 20px;
     font-weight: normal;
 }
 .message-text span {
-    font-size: 22px;
+    font-size: 2.2rem;
     letter-spacing: 0.1em;
 }
 .message-text-2 {
-    font-size: 20px;
+    font-size: 2rem;
     color: #595757;
-    margin-top: 2rem;
+    margin-top: 20px;
     letter-spacing: 0.1em;
     line-height: 2rem;
     font-weight: lighter;
-    padding-bottom: 1rem;
+    padding-bottom: 10px;
 }
 
 .message-text-3 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #595757;
-    margin-top: 2rem;
+    margin-top: 20px;
     font-weight: lighter;
     line-height: 1.75;
 }
 
 .message-text-4 {
-    margin-top: 3rem;
+    margin-top: 30px;
     color: #595757;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: lighter;
     letter-spacing: 0.1em;
 }
@@ -316,27 +405,26 @@ a {
 .message-more {
     color: #429AD0;
     border: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     border-radius: 5px;
-    padding: 0.65rem 0.5rem;
+    padding: 6.5px 5px;
     letter-spacing: 0.2em;
     text-indent: 0.2em;
-    margin: 2rem 0;
+    margin: 20px 0;
     cursor: pointer;
 }
 .message-more02 {
     color: #429AD0;
     border: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: 5px;
     letter-spacing: 0.1em;
     text-indent: 0.1em;
-    margin-top: 2rem;
     cursor: pointer;
 }
 .box {
-    margin: 5rem 0;
+    margin: 50px 0;
 }
 
 .box1{
@@ -373,15 +461,15 @@ a {
     color: #3E3A39;
     margin: 0 6rem 0 2rem;
     position: relative;
-    font-size: 23px;
+    font-size: 2.3rem;
     letter-spacing: 0.2em;
 }
 .box-text01 {
-    font-size: 23px;
+    font-size: 2.3rem;
     margin-top: 0;
     letter-spacing: 0.1em;
     font-weight: 500;
-    padding-bottom: 1rem;
+    padding-bottom: 10px;
 }
 .box-text01 span {
     color: #429AD0;
@@ -392,23 +480,23 @@ a {
     left: 85%;
     top: 40%;
     letter-spacing: 0.6em;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: normal;
 }
 
 .move span {
-    font-size: 60px;
+    font-size: 6rem;
     letter-spacing: normal;
 }
 .representantive {
     color: #B5B5B6;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-family: "ITC Avant Garde Gothic Std";
     line-height: 33px;
     letter-spacing: 0.1em;
 }
 .representantive span {
-    font-size: 24px;
+    font-size: 2.4rem;
     letter-spacing: 0.4em;
 }
 .button {
@@ -443,16 +531,19 @@ a {
     width: 750px;
     text-align: left;
     margin-right: 1rem;
+    padding: 32px;
 }
 .service-text2 {
-    font-size: 20px;
+    font-size: 2rem;
     color: #429AD0;
     margin-top: 0;
     letter-spacing: 0.2em;
+    padding-bottom: 32px;
 }
 .service-text3 {
     color: #595757;
-    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.75;
 }
 
 .item-list {
@@ -465,7 +556,7 @@ a {
 .item {
     width: 350px;
     margin: 0;
-    padding: 1rem;
+    padding: 10px;
 }
 
 .image {
@@ -473,7 +564,7 @@ a {
     padding: 0;
 }
 .imageTxt {
-    margin-top: 2rem;
+    margin-top: 20px;
     padding: 0;
     text-align: center;
 }
@@ -497,7 +588,7 @@ a {
 
 .item-list .content-color{
     padding: 0;
-    margin: 3rem 1rem;
+    margin: 30px 10px;
 }
 
 .ml-1 {
@@ -535,16 +626,17 @@ a {
 }
 .mv2-main-text {
     color: #fff;
-    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 1.75;
     text-align: center;
     position: absolute;
-    width: 40rem;
+    width: 64rem;
     top: 25%;
     left: 15%;
     letter-spacing: 0.3em;
 }
 .mv2-main-text span {
-    font-size: 35px;
+    font-size: 3.5rem;
     letter-spacing: 0.3em;
 }
 .mv2-card {
@@ -554,129 +646,86 @@ a {
     top: 0;
     right: 10%;
     position: absolute;
-    padding: 1rem;
+    padding: 10px;
 }
 .mv2-card-text1 {
-    font-size: 27px;
+    font-size: 2.7rem;
     letter-spacing: 0.2em;
     line-height: 1.75;
     text-align: left;
     font-weight: 500;
-    padding-left: 1rem;
+    padding-left: 10px;
 }
 .mv2-card-text2{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #595757;
     line-height: 2;
-    padding-left: 1rem;
+    padding-left: 10px;
 }
 .recruit-content {
     background-color: #F6F6F6;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 10px;
 }
 .recruit-contents {
     font-weight: 100;
     letter-spacing: 0.1em;
-    padding: 0 0.5rem;
+    padding: 0 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .recruit-box {
     background-color: #429AD0;
     color: #ffffff;
     border-radius: 5px;
-    padding: 0 0.5rem;
+    padding: 0 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: 0.1em;
+    margin: 10px 0;
 }
 .recrui-text {
-    font-size: 24px;
+    font-size: 2.4rem;
     letter-spacing: 0.2em;
-    margin: 1rem 0;
+    margin: 10px 0;
 }
 .recruit-item {
     display: flex;
     justify-content: center;
-    padding: 3rem 0 1rem 0;
+    padding: 30px 0 10px 0;
 }
 .recruit-item2 {
     display: flex;
     justify-content: center;
-    padding: 1rem 0 3rem 0;
+    padding: 10px 0 30px 0;
 }
 .recruitImg01 {
     border-radius: 50%;
-    width: 200.8069px;
-    height: 200.8069px;
-    object-fit: cover;
-    object-position: 65% 50%;
-}
-.recruitImg02 {
-    border-radius: 50%;
-    width: 200.8069px;
-    height: 200.8069px;
-    object-fit: cover;
-    object-position: 50% 50%;
-}
-.recruitImg03 {
-    border-radius: 50%;
-    width: 200.8069px;
-    height: 200.8069px;
-    object-fit: cover;
-    object-position: 25% 50%;
-}
-.recruitImg04 {
-    border-radius: 50%;
-    width: 200.8069px;
-    height: 200.8069px;
-    object-fit: cover;
-    object-position: 20% 50%;
-}
-.recruitImg05 {
-    border-radius: 50%;
-    width: 200.8069px;
-    height: 200.8069px;
-    object-fit: cover;
-    object-position: 50% 50%;
-}
-.recruitImg06 {
-    border-radius: 50%;
-    width: 200.8069px;
-    height: 200.8069px;
-    object-fit: cover;
-    object-position: 50% 50%;
-}
-.recruitImg07 {
-    border-radius: 50%;
-    width: 200.8069px;
-    height: 200.8069px;
-    object-fit: cover;
-    object-position: 70% 50%;
+    margin: 32px;
 }
 .recruitImg08 {
     border-radius: 50%;
     width: 200.8069px;
     height: 200.8069px;
     background-color: #F6F6F6;
+    margin: 32px;
 }
 .recruitPosition {
     width: 200px;
     text-align: center;
     color: #429AD0;
-    font-size: 16px;
+    font-size: 1.6rem;
     letter-spacing: 0.2em;
     position: relative;
     top: -45%;
-    left: 15%;
+    left: 12%;
 }
 .recruit-item-text {
     text-align: center;
     color: #595757;
-    font-size: 16px;
+    font-size: 1.6rem;
     letter-spacing: 0.1em;
     line-height: 1.81;
     font-weight: 100;
@@ -688,18 +737,18 @@ a {
 .new-content {
     display: flex;
     background-color: white;
-    margin: 1rem 0 5rem 0;
-    padding: 3rem 4rem;
+    margin: 10px 0 50px 0;
+    padding: 30px 40px;
 }
 .new-content figure {
     margin: 0;
 }
 .new-content-text {
     border-bottom: 1px solid rgba(180,180,180,0.5);
-    padding-bottom: 1.5rem;
+    padding-bottom: 15px;
 }
 .new-contents-text1 {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #595757;
     font-family: "A-OTF リュウミン Pro", sans-serif;
     letter-spacing: 0.1em;
@@ -708,26 +757,26 @@ a {
 }
 .new-contents-text2 {
     color: #429AD0;
-    font-size: 14px;
+    font-size: 1.4rem;
     letter-spacing: -0.2em;
     margin-bottom: 0;
 }
 .new-contents-text3 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #595757;
     line-height: 2;
     margin: 0;
 }
 .new-contents-text5 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #595757;
-    margin: 1.5rem 0 0.25rem 0;
+    margin: 15px 0 2.5px 0;
 }
 .new-contents-text4 {
     color: #429AD0;
-    font-size: 16px;
+    font-size: 1.6rem;
     letter-spacing: 0.1em;
-    margin-top: 0.25rem;
+    margin-top: 2.5px;
 }
 iframe{
     width:100%;
@@ -736,12 +785,12 @@ iframe{
 
 .footer-out {
     color: white;
-    padding: 0.5rem 0 0.5rem 11rem;
-    font-size: 0.75rem;
-    background: url(./img/footer.png);
+    padding: 8px 0 8px 110px;
+    font-size: 1.2rem;
+    background-image: linear-gradient(90deg, rgba(32, 80, 153, 1), rgba(42, 167, 213, 1));
 }
 .pt-4 {
-    padding-top: 4rem;
+    padding-top: 40px;
 }
 
 .dot {
@@ -752,7 +801,7 @@ iframe{
     height: 0.75rem;
     border-radius: 50%;
     background: lightgrey;
-    margin-left: 1rem;
+    margin-left: 10px;
 }
 .dot-content1 {
     width: 0.75rem;
@@ -761,9 +810,9 @@ iframe{
     background: rgb(67, 155, 208);
 }
 .dotSpace {
-    margin: 20rem 1rem 0 0;
+    margin: 200px 10px 0 0;
 }
 
 .pb-3 {
-    padding-bottom: 3rem;
+    padding-bottom: 30px;
 }

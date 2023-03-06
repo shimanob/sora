@@ -12,6 +12,13 @@
     height:60px;
     line-height:60px;
     margin: 4rem 0;
+    position: relative;
+}
+.trianglePosi01{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    padding-left: 10px;
 }
 .recruitBtnlay {
     display: flex;
@@ -22,10 +29,13 @@
     font-size: 34px;
     font-family: "oswald", sans-serif;
     vertical-align: -10%;
+    margin-left: 28px;
+    color: #F7F8F8;
 }
 .recruitTxt02 {
     font-size: 21px;
     font-family: 'A-OTF 中ゴシックBBB Pro Medium', sans-serif;
+    color: #F7F8F8;
 }
 .recruitTxt03 {
     font-size: 27px;
