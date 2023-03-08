@@ -794,16 +794,11 @@ a {
     height: 200.8069px;
     background-color: #F6F6F6;
     margin: 32px;
-}
-.recruitPosition {
-    width: 200px;
     text-align: center;
-    color: #429AD0;
     font-size: 1.6rem;
+    color: #429AD0;
     letter-spacing: 0.2em;
-    position: relative;
-    top: -45%;
-    left: 12%;
+    line-height: 200px;
 }
 .recruit-item-text {
     text-align: center;
