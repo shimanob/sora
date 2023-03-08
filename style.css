@@ -312,7 +312,7 @@ a {
     font-size: 1.6rem;
     color: #fff;
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 73%;
     line-height: 2.5;
     letter-spacing: 0.3em;
@@ -349,6 +349,12 @@ a {
     justify-content: center;
     padding: 70px 0;
 }
+.message02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
 
 .message-logo {
     color: #595757;
@@ -364,6 +370,13 @@ a {
 }
 
 .message p {
+    color: #429AD0;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 0.6em;
+}
+.message02 p {
     color: #429AD0;
     margin-right: 100px;
     text-align: center;
@@ -479,7 +492,7 @@ a {
     background-color: #EFEFEF;
 }
 .box {
-    margin: 50px 0;
+    margin-top: 50px;
 }
 
 .box1{
@@ -908,4 +921,10 @@ iframe{
 }
 .kagiKakko {
     letter-spacing: 0.1em;
+}
+.kagiKakko01 {
+    letter-spacing: -0.1em;
+}
+.kagiKakko02 {
+    letter-spacing: -0.5em;
 }

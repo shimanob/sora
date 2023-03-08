@@ -210,7 +210,7 @@
     justify-content: center;
 }
 .policy-card {
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 5px;
     margin: 0 48px 48px 0;
     padding: 24px;
@@ -224,7 +224,7 @@
 }
     
 .border-hasen {
-    background-image: linear-gradient(to right, #595757, #595757 6px, transparent 6px);
+    background-image: linear-gradient(to right, lightgrey, lightgrey 6px, transparent 6px);
     background-size: 10px 1px;
     background-position: left bottom;
     background-repeat: repeat-x;
