@@ -813,6 +813,10 @@ a {
     background-color: #F6F6F6;
     padding: 64px;
 }
+.new-main02 {
+    background-color: #F6F6F6;
+    padding: 0 0 64px 0;
+}
 .new-content {
     display: flex;
     background-color: white;
