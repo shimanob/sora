@@ -5,52 +5,55 @@
 }
 .companymvTxt {
     color: #fff;
-    font-size: 24px;
+    font-size: 2.4rem;
     text-align: center;
     position: absolute;
-    width: 40rem;
     top: 20%;
-    left: 28%;
+    left: 32%;
     letter-spacing: 0.3em;
+    line-height: 1.75;
 }
 .companymvTxt span{
-    font-size: 35px;
+    font-size: 3.5rem;
     letter-spacing: 0.3em;
 }
 
 .companyTxt01 {
-    font-size: 30.36px;
+    font-size: 3rem;
     letter-spacing: 0.2em;
     color: #3E3A39;
     font-weight: 600;
-    padding: 5rem 3rem 0 0;
+    padding: 80px 48px 0 0;
 }
 .companyTxt02 {
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: lighter;
     color: #595757;
     line-height: 2.01;
-    padding-top: 2rem;
+    padding-top: 48px;
 }
 .companyLogo {
     position: absolute;
     top: 2%;
-    left: 9%;
+    left: 10%;
 }
 .companyLogoPosi {
-    padding-top: 10rem;
-    margin-left: 5rem;
+    padding-top: 160px;
+    margin-left: 48px;
 }
 .companyTxt03 {
-    font-size: 30.36px;
+    font-size: 3rem;
     letter-spacing: 0.2em;
     font-weight: 600;
     color: #3E3A39;
+    padding-bottom: 32px;
 }
 .companyTxt04 {
-    font-size: 21.28px;
+    font-size: 2.1rem;
     color: #595757;
     font-weight: lighter;
+    line-height: 1.77;
+    padding: 10px 0;
 }
 .company-content {
     display: flex;
@@ -64,124 +67,124 @@
     color: #FFFFFF;
     background-color: #429AD0;
     border: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: 8px;
     letter-spacing: 0.1em;
     text-indent: 0.1em;
-    margin: 2rem 0 0 9rem;
+    margin: 48px 0 0 96px;
     cursor: pointer;
 }
 .companyTxt05 {
-    font-size: 30.36px;
+    font-size: 3rem;
     letter-spacing: 0.2em;
     color: #3E3A39;
-    padding-top: 4rem;
+    padding: 64px 0;
 }
 .companyContent02 {
     display: flex;
     position: relative;
     align-items: center;
     border: 1px solid lightgray;
-    padding: 1rem;
-    margin-top: 2rem;
+    padding: 32px;
+    margin-top: 32px;
 }
 .companyTxt06 {
-    font-size: 21.28px;
+    font-size: 2.1rem;
     color: #595757;
     font-weight: lighter;
-    padding: 0 4rem;
+    padding: 0 64px;
 }
 .companyTxt07 {
-    font-size: 24px;
+    font-size: 2.4rem;
     letter-spacing: 0.2em;
     color: #3E3A39;
     font-weight: 600;
-    padding-left: 4rem;
+    padding: 0 0 32px 64px;
 
 }
 .companyTxt08 {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: lighter;
     line-height: 2.29;
     color: #595757;
-    padding-left: 4rem;
+    padding-left: 64px;
 }
 .companyTxt09 {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: lighter;
     line-height: 2.29;
     color: #595757;
-    padding-left: 2rem;
+    padding-left: 32px;
 }
 .companyTxt10 {
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: 0.6em;
     font-weight: 600;
     color: #429AD0;
-    padding-top: 5rem;
+    padding-top: 96px;
 }
 .companyFormLogo {
     position: absolute;
     top: 0;
-    left: 7%;
+    left: 12%;
 }
 .companyForm {
     border: 1px solid lightgrey;
     width: 206px;
     border-radius: 5px;
-    margin: 3rem 0 0 1.5rem;
-    padding: 0.25rem;
+    margin: 48px 0 0 24px;
+    padding: 4px;
 }
 .companyTxt11 {
-    font-size: 14px;
+    font-size: 1.4rem;
     letter-spacing: 0.4em;
     color: #595757;
     text-align: center;
 }
 .companyTxt12 {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #595757;
     line-height: 2.45;
     font-weight: lighter;
-    padding: 3rem 0 2rem 0;
+    padding: 48px 0 32px 0;
     border-bottom: 1px solid lightgray;
 }
 .companyTxt13 {
     color: #3E3A39;
-    font-size: 37px;
-    padding: 1rem 0 0 2rem;
+    font-size: 3.7rem;
+    padding: 16px 0 10px 32px;
     font-family: "oswald", sans-serif;
 }
 .companyTxt14 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #3E3A39;
     letter-spacing: normal;
-    padding-left: 2rem;
+    padding: 0 0 10px 32px;
 }
 .companyTxt15 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #3E3A39;
-    padding-left: 5rem;
+    padding-left: 80px;
 }
 .companyTxt16 {
-    font-size: 21.28px;
+    font-size: 2.1rem;
     font-weight: lighter;
     color: #595757;
-    width: 300px;
+    width: 280px;
     text-align: center;
-    margin-bottom: 2rem;
-    padding-top: 3rem;
+    margin-bottom: 32px;
+    padding-top: 70px;
 }
 .companyTxt17 {
-    width: 300px;
-    margin-top: 2rem;
+    width: 280px;
+    margin-top: 32px;
 }
 .companyTxt18 {
-    font-size: 21.28px;
+    font-size: 2.1rem;
     color: #595757;
     font-weight: lighter;
-    padding: 0 4rem;
+    padding: 0 64px;
     width: 137px;
 }
 .companyBottomline {
@@ -196,22 +199,22 @@
     height: 171px;
 }
 .inputTxt01 {
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: lighter;
     color: #595757;
     text-align: left;
 }
 .inputTxt02 {
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: lighter;
     color: #9FA0A0;
-    margin-left: 1.5rem;
+    margin-left: 24px;
 }
 .inputTxt03 {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: lighter;
     color: #595757;
-    margin-left: 10rem;
+    margin-left: 160px;
 }
 .inputStar {
     color: #429AD0;
@@ -222,7 +225,7 @@
     height: 40px;
     border-radius: 5px;
     border-style: none;
-    margin: 0.5rem 0 0.5rem 1.5rem;
+    margin: 8px 0 8px 24px;
 }
 .input02 {
     background-color: #F2F2F3;
@@ -230,7 +233,7 @@
     height: 40px;
     border-radius: 5px;
     border-style: none;
-    margin: 0.5rem 0 0 1.5rem;
+    margin: 8px 0 0 24px;
 }
 .input03 {
     background-color: #F2F2F3;
@@ -238,14 +241,14 @@
     padding-bottom: 114px;
     border-radius: 5px;
     border-style: none;
-    margin: 0.5rem 0 0.5rem 1.5rem;
+    margin: 8px 0 8px 24px;
 }
 .inputSpace {
-    padding: 1rem 0;
+    padding: 16px 0;
 }
 .submitBtn {
     background-color: #595757;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: lighter;
 }

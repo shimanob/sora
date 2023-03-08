@@ -166,7 +166,7 @@
 }
 .messageIcon09 {
     position: absolute;
-    top: 52%;
+    top: 52.5%;
     left: 86%;
 }
 .messageIcon10 {
@@ -208,4 +208,9 @@
     position: absolute;
     top: 97.5%;
     left: 3%;
+}
+.messageIcon18 {
+    position: absolute;
+    top: 88.5%;
+    left: 99%;
 }

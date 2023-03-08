@@ -1,5 +1,5 @@
 .contentSpace {
-    margin-left: 6rem;
+    margin-left: 96px;
 }
 .facilityBg {
     background-color: #F6F6F6;
@@ -14,14 +14,15 @@
 .facilityCard {
     background-color: #FFFFFF;
     border-radius: 8px;
-    margin: 1rem;
+    margin: 16px 8px;
     width: 350px;
-    padding: 1rem 0 2rem 0;
+    padding: 16px 0 32px 0;
 }
 .facilityTxt01 {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #595757;
     text-align: center;
+    padding-top: 16px;
 }
 .grid {
     display: grid;
@@ -37,22 +38,22 @@
     border-radius: 8px;
     background-color: #61BCCC;
     align-items: center;
-    margin: 3rem 0;
+    margin: 48px 0;
 }
 .facilityCard02 figure {
-    margin-left: 15rem;
+    margin-left: 240px;
 }
 .facilityTxt02 {
-    font-size: 20px;
+    font-size: 2rem;
     letter-spacing: 0.4em;
     color: #FFFFFF;
-    margin-left: 3rem;
+    margin-left: 48px;
 }
 .facilityPosi01 {
     position: absolute;
     top: 3%;
     left: 45%;
-    font-size: 28px;
+    font-size: 2.8rem;
     letter-spacing: 0.3em;
     line-height: 1.96;
     font-weight: 600;
@@ -62,19 +63,20 @@
 }
 .facilityPosi02 {
     position: absolute;
-    top: 40%;
-    left: 20%;
-    font-size: 17px;
+    top: 50%;
+    left: 8%;
+    font-size: 1.7rem;
     color: #61BCCC;
     letter-spacing: 0.3em;
     line-height: 2.35;
     font-weight: 600;
+    text-align: center;
 }
 .facilityPosi03 {
     position: absolute;
-    top: 23%;
+    top: 26%;
     left: 45%;
-    font-size: 17px;
+    font-size: 1.7rem;
     letter-spacing: 0.36em;
     line-height: 3.82;
     font-weight: 600;
@@ -83,25 +85,26 @@
     background: #61BCCC;
     border-radius: 5px;
     width: 450px;
-    margin-top: 0.5rem;
+    margin-top: 8px;
 }
 .facilityCardTxt03 {
-    font-size: 24px;
+    font-size: 2.4rem;
     letter-spacing: 0.1em;
     color: #FFFFFF;
-    padding: 0.5rem 1.5rem;
+    padding: 8px 24px;
     font-weight: 600;
     margin: 0;
 }
 .facilityTxt03 {
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 1.95;
     color: #595757;
+    padding-top: 16px;
 }
 .facilityPosi04 {
     position: absolute;
     top: 50%;
-    left: 8.5%;
+    left: 5%;
 }
 .facilityCard04 {
     background: #61BCCC;
@@ -110,11 +113,11 @@
 }
 .flamePosi {
     position: absolute;
-    top: 25%;
-    left: 85%;
+    top: 22%;
+    left: 90%;
 }
 .imgSpace {
-    margin: 1rem;
+    margin: 10px;
 }
 .facilityCard05 {
     background: #61BCCC;
@@ -128,41 +131,43 @@
 .suisaiPosi02 {
     position: absolute;
     top: -0.5%;
-    left: -10%;
+    left: -15%;
     z-index: 10;
 }
 
 .flowPosi {
-    margin-top: 4rem;
+    margin-top: 64px;
 }
 .facilityCard06 {
     background: #61BCCC;
-    border-radius: 30px;
-    margin-bottom: 2rem;
-    width: 1200px;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    width: 1100px;
     z-index: 20;
 }
 .facilityTxt04 {
-    font-size: 24px;
+    font-size: 2.4rem;
     letter-spacing: 0.22em;
     color: #FFFFFF;
+    padding: 32px;
+
 }
 .facilityTxt05 {
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #FFFFFF;
-    margin: 0;
+    padding: 5px;
 }
 .facilityTxt06 {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #FFFFFF;
-    margin: 0;
+    padding: 5px;
 }
 .card001 {
     background: #fff;
     border-radius: 8px;
     width: 266px;
     height: 72px;
-    margin: 0.5rem;
+    margin: 8px;
     position: relative;
 }
 .card2001 {
@@ -171,7 +176,7 @@
     text-align: left;
     width: 266px;
     height: 72px;
-    margin: 0.5rem;
+    margin: 8px;
     position: relative;
 }
 
@@ -179,14 +184,14 @@
     width: 18px;
     height: 29px;
     position: absolute;
-    top: -2%;
-    left: 0;
-    margin-left: 1rem;
+    top: 20%;
+    left: 3%;
+    margin-left: 8px;
 }
 .card-text1001 {
     color: #61BCCC;
-    font-size: 37px;
-    padding-left: 45px;
+    font-size: 3.7rem;
+    padding: 10px 0 10px 45px;
     font-family: "oswald", sans-serif;
     vertical-align: top;
 }
@@ -194,13 +199,13 @@
     width: 52px;
     height: 48px;
     position: absolute;
-    top: -9%;
+    top: 13%;
     left: 0;
-    margin-left: 1rem;
+    margin-left: 16px;
 }
 
 .card-text2001 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #61BCCC;
     letter-spacing: normal;
     position: absolute;
@@ -209,22 +214,22 @@
     padding-left: 45px;
 }
 .card-text4001 {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #61BCCC;
-    line-height: 1.5rem;
+    line-height: 24px;
     padding-left: 80px;
     padding-top: 12px;
     letter-spacing: 0.16em;
 }
 .card-text5001 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #61BCCC;
     letter-spacing: normal;
 }
 .headerInqBtn {
     display: inline-block;
     color: #61BCCC;
-    font-size: 37px;
+    font-size: 3.7rem;
     padding-left: 45px;
     font-family: "oswald", sans-serif;
     vertical-align: top;
@@ -247,25 +252,25 @@
     left: 51%;
 }
 .sinfoDotcontent01 {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 19.2px;
+    height: 19.2px;
     border-radius: 50%;
     background: #61BCCC;
-    margin-top: 0.75rem;
+    margin-top: 12px;
 }
 .sinfoDotcontent02 {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 19.2px;
+    height: 19.2px;
     border-radius: 50%;
     background: #B5C97D;
-    margin-top: 0.75rem;
+    margin-top: 12px;
 }
 .sinfoDotcontent03 {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 19.2px;
+    height: 19.2px;
     border-radius: 50%;
     background: #EFB66D;
-    margin-top: 0.75rem;
+    margin-top: 12px;
 }
 
 .alohaCard02 {
@@ -273,7 +278,7 @@
     border-radius: 8px;
     background-color: #B5C97D;
     align-items: center;
-    margin: 3rem 0;
+    margin: 24px 0;
     width: 1000px;
 }
 
@@ -281,7 +286,7 @@
     background: #B5C97D;
     border-radius: 5px;
     width: 450px;
-    margin-top: 0.5rem;
+    margin-top: 8px;
 }
 .alohaCard04 {
     background: #B5C97D;
@@ -299,19 +304,19 @@
 .alohaCard06 {
     background: #B5C97D;
     border-radius: 30px;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     width: 1200px;
     z-index: 20;
 }
 .alohaTxt01 {
     color: #B5C97D;
-    font-size: 37px;
-    padding-left: 45px;
+    font-size: 3.7rem;
+    padding: 10px 0 10px 45px;
     font-family: "oswald", sans-serif;
     vertical-align: top;
 }
 .alohaTxt02 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #B5C97D;
     letter-spacing: normal;
     position: absolute;
@@ -320,15 +325,15 @@
     padding-left: 45px;
 }
 .alohaTxt03 {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #B5C97D;
-    line-height: 1.5rem;
+    line-height: 24px;
     padding-left: 80px;
     padding-top: 12px;
     letter-spacing: 0.16em;
 }
 .alohaTxt04 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #B5C97D;
     letter-spacing: normal;
 }
@@ -337,7 +342,7 @@
     border-radius: 8px;
     background-color: #EFB66D;
     align-items: center;
-    margin: 3rem 0;
+    margin: 48px 0;
     width: 1000px;
 }
 
@@ -345,7 +350,7 @@
     background: #EFB66D;
     border-radius: 5px;
     width: 450px;
-    margin-top: 0.5rem;
+    margin-top: 8px;
 }
 .feelCard04 {
     background: #EFB66D;
@@ -356,25 +361,25 @@
     background: #EFB66D;
     border-radius: 5px;
     width: 1100px;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     z-index: 20;
 }
 .feelCard06 {
     background: #EFB66D;
     border-radius: 30px;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     width: 1200px;
     z-index: 20;
 }
 .feelTxt01 {
     color: #EFB66D;
-    font-size: 37px;
-    padding-left: 45px;
+    font-size: 3.7rem;
+    padding:  10px 0 10px 45px;
     font-family: "oswald", sans-serif;
     vertical-align: top;
 }
 .feelTxt02 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #EFB66D;
     letter-spacing: normal;
     position: absolute;
@@ -383,23 +388,23 @@
     padding-left: 45px;
 }
 .feelTxt03 {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #EFB66D;
-    line-height: 1.5rem;
+    line-height: 24px;
     padding-left: 80px;
     padding-top: 12px;
     letter-spacing: 0.16em;
 }
 .feelTxt04 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #EFB66D;
     letter-spacing: normal;
 }
 .feelPosi02 {
     position: absolute;
     top: 50%;
-    left: 15%;
-    font-size: 17px;
+    left: 9%;
+    font-size: 1.7rem;
     color: #EFB66D;
     letter-spacing: 0.3em;
     line-height: 2.35;
@@ -407,9 +412,9 @@
 }
 .alohaPosi02 {
     position: absolute;
-    top: 50%;
-    left: 7%;
-    font-size: 17px;
+    top: 53%;
+    left: 2%;
+    font-size: 1.7rem;
     color: #B5C97D;
     letter-spacing: 0.3em;
     line-height: 2.35;
