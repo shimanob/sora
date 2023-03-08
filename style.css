@@ -215,6 +215,20 @@ a {
     width: 266px;
     height: 72px;
     position: relative;
+    top: -2%;
+    left: 73%;
+    margin-top: 36px;
+    padding-top: 16px;
+}
+
+.card3 {
+    background: #fff;
+    border-radius: 5px;
+    text-align: left;
+    width: 266px;
+    height: 72px;
+    position: relative;
+    top: -4%;
     left: 73%;
     margin-top: 36px;
     padding-top: 16px;
@@ -298,7 +312,7 @@ a {
     font-size: 1.6rem;
     color: #fff;
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 73%;
     line-height: 2.5;
     letter-spacing: 0.3em;
@@ -316,9 +330,6 @@ a {
 }
 
 /* ご挨拶 */
-#message {
-    margin: 50px 0;
-}
 .position {
     position: relative;
 }
@@ -336,19 +347,20 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
+    padding: 70px 0;
 }
 
 .message-logo {
     color: #595757;
     border: gray 1px solid;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
     margin-right: 50px;
     letter-spacing: 0.4em;
     text-indent: 0.4em;
     text-align: center;
     font-size: 1.4rem;
+    font-weight: lighter;
 }
 
 .message p {
@@ -369,7 +381,7 @@ a {
     font-size: 3rem;
     color: #3E3A39;
     line-height: 1.54;
-    padding: 64px 0 32px 0;
+    padding: 0 0 32px 0;
     font-weight: normal;
 }
 .message-text span {
@@ -407,11 +419,12 @@ a {
     border: none;
     font-size: 1.4rem;
     border-radius: 5px;
-    padding: 6.5px 5px;
+    padding: 6.5px;
     letter-spacing: 0.2em;
     text-indent: 0.2em;
     margin: 64px 0;
     cursor: pointer;
+    background-color: #EFEFEF;
 }
 .message-more02 {
     color: #429AD0;
@@ -422,6 +435,7 @@ a {
     letter-spacing: 0.1em;
     text-indent: 0.1em;
     cursor: pointer;
+    background-color: #EFEFEF;
 }
 .message-more03 {
     color: #429AD0;
@@ -434,7 +448,8 @@ a {
     cursor: pointer;
     margin: 32px 0 32px 26px;
     width: 81px;
-    height: 30px;
+    height: 35px;
+    background-color: #EFEFEF;
 }
 .message-more04 {
     color: #429AD0;
@@ -446,7 +461,8 @@ a {
     text-indent: 0.1em;
     cursor: pointer;
     width: 145px;
-    height: 30;
+    height: 35px;
+    background-color: #EFEFEF;
 }
 .message-more05 {
     color: #429AD0;
@@ -457,9 +473,10 @@ a {
     letter-spacing: 0.2em;
     text-indent: 0.2em;
     cursor: pointer;
-    margin: 32px 0;
+    margin: 26px 0;
     width: 81px;
-    height: 30px;
+    height: 35px;
+    background-color: #EFEFEF;
 }
 .box {
     margin: 50px 0;
@@ -473,7 +490,7 @@ a {
 
 .box2 {
     display: flex;
-    border: 1px solid;
+    border: 1px solid lightgrey;
     align-items: center;
     text-decoration:  none;
     position: relative;
@@ -628,7 +645,7 @@ a {
     font-size: 2rem;
     letter-spacing: 0.1em;
     line-height: 1.65;
-    font-weight: lighter;
+    font-weight: 100;
     color: #595757;
     padding: 32px 0 0 26px;
 }
@@ -636,7 +653,7 @@ a {
     font-size: 1.2rem;
     line-height: 1.75;
     color: #595757;
-    font-weight: lighter;
+    font-weight: 100;
     padding: 16px 0 0 26px;
 }
 .container {
@@ -718,13 +735,13 @@ a {
     line-height: 1.75;
     text-align: left;
     font-weight: 500;
-    padding-left: 10px;
+    padding: 10px 10px 10px 20px;
 }
 .mv2-card-text2{
     font-size: 1.2rem;
     color: #595757;
     line-height: 2;
-    padding-left: 10px;
+    padding: 10px 10px 10px 20px;
 }
 .recruit-content {
     background-color: #F6F6F6;
@@ -754,7 +771,7 @@ a {
 .recrui-text {
     font-size: 2.4rem;
     letter-spacing: 0.2em;
-    margin: 10px 0;
+    margin: 26px 0;
 }
 .recruit-item {
     display: flex;
