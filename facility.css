@@ -38,7 +38,7 @@
     border-radius: 8px;
     background-color: #61BCCC;
     align-items: center;
-    margin: 48px 0;
+    margin: 64px 0;
 }
 .facilityCard02 figure {
     margin-left: 240px;
@@ -249,7 +249,7 @@
 .sinfoDot {
     position: absolute;
     top: -21%;
-    left: 51%;
+    left: 51.2%;
 }
 .sinfoDotcontent01 {
     width: 19.2px;

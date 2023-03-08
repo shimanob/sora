@@ -815,7 +815,7 @@ a {
 }
 .new-main02 {
     background-color: #F6F6F6;
-    padding: 0 0 64px 0;
+    padding-bottom: 64px;
 }
 .new-content {
     display: flex;
