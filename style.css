@@ -352,7 +352,7 @@ a {
 
 .message-logo {
     color: #595757;
-    border: gray 1px solid;
+    border: 1px solid lightgray;
     border-radius: 5px;
     padding: 8px;
     margin-right: 50px;
