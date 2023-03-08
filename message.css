@@ -109,8 +109,28 @@
     left: -1%;
     top:0;
     display: block;
-
 }
+.messageTxt10 {
+    font-size: 2.4rem;
+    letter-spacing: 0.4em;
+    font-weight: 600;
+    color: #35A7D2;
+    padding-top: 50px;
+    padding-left: 25px;
+    position: relative;
+}
+.messageTxt10::before {
+    content: "";
+    background: url("img/message/messageicon17.png");
+    background-size: contain;
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    left: -1%;
+    top: 66%;
+    display: block;
+}
+
 .messagemvImg01 {
     border: 3px solid #429AD0;
     border-radius: 15px;
@@ -141,17 +161,17 @@
 }
 .messageIcon04 {
     position: absolute;
-    top: 24.5%;
+    top: 25.1%;
     left: 30%;
 }
 .messageIcon05 {
     position: absolute;
-    top: 25.5%;
+    top: 26.5%;
     left: 95%;
 }
 .messageIcon06 {
     position: absolute;
-    top: 38.5%;
+    top: 39.5%;
     left: 49%;
 }
 .messageIcon07 {
@@ -161,12 +181,12 @@
 }
 .messageIcon08 {
     position: absolute;
-    top: 54%;
+    top: 54.5%;
     left: 48%;
 }
 .messageIcon09 {
     position: absolute;
-    top: 52.5%;
+    top: 53.7%;
     left: 86%;
 }
 .messageIcon10 {
@@ -211,6 +231,6 @@
 }
 .messageIcon18 {
     position: absolute;
-    top: 88.5%;
+    top: 87%;
     left: 99%;
 }
