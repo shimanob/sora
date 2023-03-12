@@ -91,19 +91,19 @@
     font-size: 2.4rem;
     letter-spacing: 0.6em;
     text-indent: 0.6em;
-    padding: 32px 0;
+    padding-top: 90px;
 }
 .phirosophy-text1 {
     font-size: 2.7rem;
     letter-spacing: 0.2em;
-    padding: 32px 0;
+    padding: 60px 0;
     line-height: 1.85;
 }
 .phirosophy-text2 {
     font-size: 2rem;
     color: #595757;
     letter-spacing: 0.1em;
-    padding: 32px 0;
+    padding-bottom: 32px;
     line-height: 2;
 }
 .phiroPosi {
@@ -118,11 +118,11 @@
 }
 .cardPhiro {
     background-color: #FFFFFF;
-    padding:2rem;
+    padding: 38px;
     width: 460px;
     position: absolute;
     top: 8%;
-    left: 6%;
+    left: 3%;
 }
 .phiroTxt01 {
     font-size: 2.4rem;
@@ -160,7 +160,6 @@
     font-size: 1.8rem;
     color: #595757;
     letter-spacing: 0.1em;
-    margin-bottom: 16px;
     font-weight: 300;
 }
 .phiroTxt07 {
@@ -186,7 +185,7 @@
     color: #35A7D2;
     font-size: 2.4rem;
     letter-spacing: 0.6em;
-    padding: 64px 0;
+    padding: 80px 0 60px 0;
     text-align: center;
 }
 .policy-main01 {
@@ -212,8 +211,14 @@
 .policy-card {
     border: 1px solid lightgray;
     border-radius: 5px;
-    margin: 0 48px 48px 0;
-    padding: 24px;
+    margin: 0 36px 48px 0;
+    padding: 0 24px 24px 24px;
+}
+.policy-card02 {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 0 0 48px 0;
+    padding: 0 24px 24px 24px;
 }
 
 .policy-text {

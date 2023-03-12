@@ -1,682 +1,556 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <meta name="description" content="">
-    <meta name="keyword" content="">
-    <link rel="stylesheet" href="css/reset.css">
-    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/jquery.jscrollpane.css">
-    <link rel="stylesheet" href="css/slider-pro.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/webfont-notosansjp.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="news.css">
-    <link rel="icon" href="img/favicon.ico">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="stylesheet" href="css/sp.css" media="screen and (max-width: 767px)">
-    <link rel="stylesheet" href="css/pc.css" media="screen and (min-width: 768px)">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一般社団法人 空 | SORA</title>
+<meta name="description" content="福岡を中心とした、児童発達支援／放課後等デイサービス／生活介護／居宅サービス／移動支援のサポート企業 一般社団法人 空">
+<meta name="keyword" content="">
+<meta name="format-detection" content="telephone=no">
+<link rel="preload" href="./style.css" as="style">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/colorbox.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon-180x180.png">
+<link rel="stylesheet" href="./css/sp.css" media="screen and (max-width: 767px)">
+<link rel="stylesheet" href="./css/pc.css" media="screen and (min-width: 768px)">
 
-    <title>TOP</title>
+  <!--スライダーcss-->
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  <!--/スライダーcss-->
+
+<!-- No Follow -->
+    <meta name="robots" content="noindex" />
+    <meta name="robots" content="nofollow" />
+
+    <!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.js"></script>
+<script src="js/rem.min.js"></script>
+<![endif]--> 
+
 </head>
-
 <body>
-    <header>
-        <div id="mv">
-            <div class="nav-out">
-                福岡を中心とした、児童発達支援／放課後等デイサービス／生活介護／居宅サービス／移動支援のサポート企業　一般社団法人　空
+    <div id="container" class="top">
+        <header id="header">
+            <div class="headerCopy">
+                <div class="headerCopyW contentWrap">
+                    <p class="headerTxt">福岡を中心とした、児童発達支援／放課後等デイサービス／生活介護／居宅サービス／移動支援のサポート企業 一般社団法人 空</p>
+                </div>
             </div>
-            <div class="header-inner">
-                <a href=""><img src="img/logo.png" alt="" class="logo"></a>
-                <ul class="nav-menu">
-                    <a href=""><li class="menu">
-                        <div class="menu-title">ホーム</div>
-                    </li></a>
-                    <a href="greeting.html"><li class="menu">
-                        <div class="menu-title">ご挨拶</div>
-                    </li></a>
-                    <a href="service.html"><li class="menu">
-                        <div class="menu-title">サービス案内</div>
-                    </li></a>
-                    <a href="facility.html"><li class="menu">
-                        <div class="menu-title">各施設案内</div>
-                    </li></a>
-                    <a href="company.html"><li class="menu">
-                        <div class="menu-title">企業情報</div>
-                    </li></a>
-                    <a href="news.html"><li class="menu">
-                        <div class="menu-title">最新情報</div>
-                    </li></a>
+            <div class="headerW contentWrap">
+                <div class="headerLogo">
+                    <a href="./"><img src="img/logo.svg" class="logo1"></a>
+                </div>
+                <div id="menu">
+                    <div class="headerMenuBtn headMenu sp">
+                        <a class="menu-trigger" href="javascript:void(0);"> <span></span> <span></span> <span></span> </a>
+                    </div>
+                    <div class="headerLinkW menuSlide">
+                        <ul class="headerMenus">
+                            <li class="headerMenu"><a href="./">ホーム</a></li>
+                            <li class="headerMenu"><a href="greeting.html">ご挨拶</a></li>
+                            <li class="headerMenu"><a href="service.html">サービス案内</a></li>
+                            <li class="headerMenu"><a href="facility.html">各施設案内</a></li>
+                            <li class="headerMenu"><a href="#">企業情報</a></li>
+                            <li class="headerMenu"><a href="#">最新情報</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+        <div id="mvWrap">
+            <!-- /#mvTxt1 -->
+            <div id="mv">
+                <div class="mvBtnW">
+                    <div class="mvBtn1">
+                        <p class="mvTel oswald telLink">092-554-8152</p>
+                        <p class="mvTelS">お問い合わせ可能時間／9:00〜17:00</p>
+                    </div>
+                    <div class="mvBtn2">
+                        <a href="#">
+                            <p class="mvBtn2Ttl">採用情報</p>
+                            <p class="mvBtn2Txt">お申し込みはコチラから</p>
+                        </a>
+                    </div>
+                    <div class="mvBtn3">
+                        <a href="#">
+                            <p class="mvBtn3Ttl">お問い合わせ</p>
+                            <p class="mvBtn3Txt">お気軽にお問い合わせください</p>
+                        </a>
+                    </div>
+                </div>
+				<div class="mvCopyW">
+					<p class="mvCopy1">どこまでも高く広大で<br>
+                        <span>素敵な空のように</span></p>
+				</div>
+                <div class="mvCopy2W">
+                    <p class="mvCopy2">私たちは、<br>
+                        皆様のご不安なことを<br>
+                        少しでも安心に<br>
+                        変えていく<br>
+                        お手伝いをする企業です。</p>
+                </div>	 	      
+			</div>
+        </div>
+        <div class="mvInfoW active">
+            <p class="mvInfo"><a href="">【緊急NEWS!!】2月17日（金）・18日（土）地震災害に関する状況対応と避難に関する情報を随時お知らせし、施設ご利用再開までの情報を当ホームページにてお知らせします。</a></p>
+        </div>
+        <section id="topSec01">
+            <div class="topSec01W contentWrap">
+                <div class="commonTtl01W top01Ttl1">
+                    <span class="commonTtl01S"><span>ご挨拶</span></span>
+                    <h2 class="commonTtl01">GREETING MESSAGE</h2>
+                </div>
+                <div class="top01CopyW">
+                    <h3 class="top01Copy1">大きな安心を実感していただく毎日を皆様へ。</h3>
+                    <p class="top01Copy2">〜信頼していただける企業を目指して〜</p>
+                    <p class="top01Txt1">新たな必要とされる企業としての存在意義の認知とともに、<br>日々の活動から皆様の笑顔へと繋がることを一心に私たちの尽力してまいります。</p>
+                    <p class="top01Txt2">
+                        地域の児童、高齢者及び障害者（児）に対して日常生活にかかわる支援事業を行う中で、<br>すべての人々が健やかに暮らせる生活環境を共に作り、<br>また、その家族へのサポートとなる活動を積極的に行うことを通じて、豊かな地域社会づくり、社会福祉の増進に寄与することを目的としています。
+                    </p>
+                    <p class="top01Name">一般社団法人 空　代表理事 森田泰大</p>
+                    <div class="commonBtn01W">
+                        <a href="#" class="commonBtn01">more...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="topSec02">
+            <div class="topSec02W contentWrap">
+                <div class="top02Box">
+                    <a href="feature.html">
+                        <div class="top02BoxL">
+                            <figure class="top02Img">
+                                <img src="img/sec02_img.jpg">
+                            </figure>
+                        </div>
+                        <div class="top02BoxR">
+                            <p class="top02Copy">様々な利用者の利便性と充実だけを追求した、<br>
+                                新時代ニーズを<span>「ソーシャルシティ」</span>というカタチに。</p>
+                            <p class="top02Sh poppin">Representative Director &amp; President</p>
+                            <p class="top02Name poppin">YASUHIRO MORITA</p>
+                            <p class="top02No poppin">Vol.<span>01</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="commonBtn01W">
+                    <a href="feature.html" class="commonBtn01">more...</a>
+                </div>
+            </div>
+        </section>
+        <section id="topSec03">
+            <div class="topSec03W contentWrap">
+                <div class="commonTtl01W">
+                    <span class="commonTtl01S">サービス案内</span>
+                    <h2 class="commonTtl01 top01Ttl1">SERVICE INFORMATION</h2>
+                </div>
+                <ul class="top03Lists">
+                    <li class="top03List">
+                        <figure class="top03Img">
+                            <img src="img/sec03_img_1.jpg">
+                        </figure>
+                        <div class="top03TxtW">
+                            <h3 class="top03Ttl2">児童発達支援</h3>
+                            <p class="top03Txt1">SST（ソーシャルスキルトレーニング）<br>
+                                自分の困った、相手の困ったをみんなで考えながら、楽しく学び、コミュニケーションの幅を広げていきます。</p>
+                            <p class="top03Txt1">OTT（ワントレイタスク）<br>
+                                小さな「出来た！」を増やし、自分の「得意」をもっと伸ばせるように。そして「将来への一歩」が見つけられるように頑張っていきます。</p>
+                            <p class="top03Txt2">HT（ホーティカルチュアセラピー）<br>
+                                園芸療法／畑の土に触れることで心地よい刺激を受け、心と体の育成を助けます。</p>
+                        </div>
+                    </li>
+                    <li class="top03List">
+                        <figure class="top03Img">
+                            <img src="img/sec03_img_2.jpg">
+                        </figure>
+                        <div class="top03TxtW">
+                            <h3 class="top03Ttl2">保育所等訪問支援</h3>
+                            <p class="top03Txt1">保育所等訪問支援は、前述の児童福祉法の定義にもあったように保育所や幼稚園、認定こども 園、学校、放課後児童クラブなど<br>
+                                集団生活を営む施設を訪問し、障害のない子どもとの集団生活への適応のために専門的な支援を行うものです。</p>
+                            <p class="top03Txt2">通園でお困りの保護者様、学校生活に馴染めない児童の保護者様の相談を受けて、園児・児童が通う保育園、幼稚園、<br>
+                                学校に訪問支援員がお伺いし、保育士や幼稚園教諭、学校教師と共に、児童が不自由なく社会生活を送れるように<br>
+                                指導・支援していく福祉サービスです。<br>
+                                是非！！お気軽にお問合せ、ご相談ください。</p>
+                        </div>
+                    </li>
+                    <li class="top03List">
+                        <figure class="top03Img">
+                            <img src="img/sec03_img_3.jpg">
+                        </figure>
+                        <div class="top03TxtW">
+                            <h3 class="top03Ttl2">放課後等デイサービス</h3>
+                            <p class="top03Txt1">放課後等デイサービスは、学校の放課後から夕方までの時間帯に利用することができるデイサービスです。<br>
+                                小学生や中学生を対象に、専門のスタッフが常駐しており、運動や遊び、学習など様々なプログラムが用意されています。</p>
+                            <p class="top03Txt2">保護者が仕事などで忙しい場合でも、子どもたちが安心して過ごすことができる点がメリットであり、<br>
+                                自発的に参加することで、社交能力や創造性、学習能力などを育むことができます。<br>
+                                放課後等デイサービスは、子どもたちが安心して過ごせる環境を提供し、保護者にとっても負担を軽減するサービスと言えます。</p>
+                        </div>
+                    </li>
+                    <li class="top03List">
+                        <figure class="top03Img">
+                            <img src="img/sec03_img_4.jpg">
+                        </figure>
+                        <div class="top03TxtW">
+                            <h3 class="top03Ttl2">生活介護</h3>
+                            <p class="top03Txt1">生活介護サービスは、身体的・精神的な障害を持つ子どもたちが、自立した生活を送るために必要な介護や支援を提供するサービスです。</p>
+                                <p class="top03Txt2">専門のスタッフが常駐し、身の回りのことや就学・就労支援、レクリエーションなどのプログラムを通じて、<br>
+                                    自己決定能力や自己表現力を向上させ、自立した生活を送るための能力を育みます。</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="commonBtn01W">
+                    <a href="service.html" class="commonBtn01">more...</a>
+                </div>
+            </div>
+        </section>
+        <section id="topSec04">
+            <div class="topSec04W contentWrap">
+                <div class="commonTtl01W top04Ttl1">
+                    <span class="commonTtl01S">各施設案内</span>
+                    <h2 class="commonTtl01">INFORMATION FACILITYS</h2>
+                </div>
+                <ul class="top04Lists">
+                    <li class="top04List">
+                        <figure class="top04Img">
+                            <img src="img/sec04_img_1.jpg">
+                        </figure>
+                        <div class="top04LogoW">
+                            <figure class="top04Logo1">
+                                <img src="img/logo_1.svg">
+                            </figure>
+                        </div>
+                        <div class="top04TxtW">
+                            <p class="top04Name">放課後等デイサービス<br>
+                                シンフォニア</p>
+                            <p class="top04Add">〒818-00641<br>
+                                福岡県筑紫野市上古賀4-16-7オフィスパレア筑紫野1-A<br>
+                            TEL ／092-928-8152　FAX／092-928-8153</p>
+                        </div>
+                        <div class="top04BtnW">
+                            <a href="#" class="commonBtn01 top04Btn1">more...</a>
+                            <a href="#" class="commonBtn01 top04Btn2">GoogleMapで観る</a>
+                        </div>
+                    </li>
+                    <li class="top04List">
+                        <figure class="top04Img">
+                            <img src="img/sec04_img_2.jpg">
+                        </figure>
+                        <div class="top04LogoW">
+                            <figure class="top04Logo2">
+                                <img src="img/logo_2.svg">
+                            </figure>
+                        </div>
+                        <div class="top04TxtW">
+                            <p class="top04Name">デイサービス<br>
+                                ALOHAキッズ</p>
+                            <p class="top04Add">事業所番号／4051700054<br>
+                                〒818-0066<br>
+                                福岡県筑紫野市大字永岡1453-2 リファレンス筑紫野 1F<br>
+                                TEL ／092-923-5130　FAX／092-923-5135</p>
+                        </div>
+                        <div class="top04BtnW">
+                            <a href="#" class="commonBtn01 top04Btn1">more...</a>
+                            <a href="#" class="commonBtn01 top04Btn2">GoogleMapで観る</a>
+                        </div>
+                    </li>
+                    <li class="top04List">
+                        <figure class="top04Img">
+                            <img src="img/sec04_img_3.jpg">
+                        </figure>
+                        <div class="top04LogoW">
+                            <figure class="top04Logo3">
+                                <img src="img/logo_3.svg">
+                            </figure>
+                        </div>
+                        <div class="top04TxtW">
+                            <p class="top04Name">じどうデイサービス<br>
+                                フィール</p>
+                            <p class="top04Add">〒816-0921<br>
+                                福岡県大野城市仲畑1丁目7番33号サニープレイスⅡ 1F<br>
+                                TEL ／092-558-3318　FAX／092-558-3319</p>
+                        </div>
+                        <div class="top04BtnW">
+                            <a href="#" class="commonBtn01 top04Btn1">more...</a>
+                            <a href="#" class="commonBtn01 top04Btn2">GoogleMapで観る</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
-            <div class="card">
-                <div class="card-range">
-                    <figure class="mvTel">
-                        <img src="img/phone.png" alt="">
-                    </figure>
-                    <div class="card-text1"><a style="color: #3E3A39;" href="092-554-8152">092-554-8152</a></div>
-                    <div class="card-text2">お問い合わせ可能時間/9:00〜17:00</div>
+        </section>
+        <section id="topSec05">
+            <div class="topSec05W contentWrap">
+                <div class="commonTtl01W top05Ttl1">
+                    <span class="commonTtl01S">会社概要</span>
+                    <h2 class="commonTtl01">COMPANY PROFILE</h2>
                 </div>
             </div>
-            <div class="card2">
-                <a href="recruit.html">
-                    <div class="card-range">
-                        <figure class="mvRec">
-                            <img src="img/recruit_sm.png" alt="">
-                        </figure>
-                        <div class="card-text3">採用情報</div>
-                        <p class="card-text5">お申し込みはコチラから</p>
-                    </div>
-                </a>
-            </div>
-            <div class="card3">
-                <a href="company.html">
-                    <div class="card-range">
-                        <figure class="mvMail">
-                            <img src="img/mail.png" alt="">
-                        </figure>
-                        <div class="card-text4">お問い合わせ</div>
-                        <p class="card-text6">お気軽にお問い合わせください</p>
-                    </div>
-                </a>
-            </div>
-            <div class="mv-main-text">
-                どこまでも高く広大で<br>
-                <span>素敵な空のように</span>
-            </div>
-            <div class="mv-sub-text">
-                私たちは、<br>
-                皆様のご不安なことを<br>
-                少しでも安心に<br>
-                変えていく<br>
-                お手伝いをする企業です。
-            </div>
-            <figure class="mvBird">
-                <img src="./img/bird01.png" alt="">
-            </figure>
-        </div>
-        <div class="news-banner">
-            <div class="news-banner__content">【緊急NEWS!!】2月17日(金)・18日(土)地震災害に関する状況対応と避難に関する情報を随時お知らせし、施設ご利用再開までの情報を当ホームページにてお知らせします。</div>
-        </div>
-    </header>
-
-    <section id="message" class="position">
-        <figure
-        class="mvBird02">
-            <img src="img/bird02.png" alt="">
-        </figure>
-        <figure class="mvLeaf">
-            <img src="img/leaf.png" alt="">
-        </figure>
-        <div class="message">
-            <div class="message-logo">
-                ご挨拶
-            </div>
-            <p>
-                GREETING MESSAGE
-            </p>
-        </div>
-        <div class="message-text">
-            <h3>大きな安心を実感していただく毎日を皆様へ。<br><span>〜信頼していただける企業を目指して〜</span></h3>
-            <p class="message-text-2">新たな必要とされる企業としての存在意義の認知とともに、<br>日々の活動から皆様の笑顔へと繋がることを一心に私たちの尽力してまいります。</p>
-            <p class="message-text-3">
-                地域の児童、高齢者及び障害者（児）に対して日常生活にかかわる支援事業を行う中で、<br>すべての人々が健やかに暮らせる生活環境を共に作り、<br>また、その家族へのサポートとなる活動を積極的に行うことを通じて、豊かな地域社会づくり、社会福祉の増進に寄与することを目的としています。
-            </p>
-            <p class="message-text-4">一般社団法人 空　代表理事 森田泰大</p>
-            <a href="greeting.html">
-                <button class="message-more">
-                    more...
-                </button>
-            </a>
-        </div>
-        <div class="box">
-            <div class="box1 contentWrap">
-                <div class="box2">
-                    <a href="feature.html">
-                        <figure>
-                            <img src="img/men.jpg" alt="" style="vertical-align: top;" class="mens">
-                        </figure>
-                        <figure>
-                            <img src="img/sora.png" alt="" style="vertical-align: top;" class="soraLogo">
-                        </figure>
-                    </a>
-                    <div class="box-text">
-                        <h3 class="box-text01">様々な利用者の利便性と充実だけを追求した、<br>
-                            新時代ニーズを<span>「ソーシャルシティ」</span>というカタチに。
-                        </h3>
-                        <p class="move">Vol.<span>01</span></p>
-                        <p class="representantive">
-                            Representative Director & President<br>
-                        <span>YASUHIRO MORITA</span>
-                        </p>
+            <div class="topSec05Bg">
+                <p class="top05Copy">笑顔と安心の広がりが<br>
+                    <span>どこまでも届くように。</span></p>
+                <div class="top05TxtW">
+                    <p class="top05Txt1">積極的な観点から<br>
+                        革新的な配慮が<br>
+                        産まれるよう<br>
+                        一同努力します。</p>
+                    <p class="top05Txt2">◆ 設立 ／ 2011年9月00日<br>
+                        ◆ 社名 ／ 一般社団法人　空<br>
+                        ◆ 代表者名 ／ 代表理事 森田泰大<br>
+                        ◆ 本社所在／ 福岡県筑紫野市上古賀4丁目16-7<br>
+                        <span class="mg1">オフィスパレア筑紫野Ⅰ-A</span><br>
+                        ◆ 福岡事務所 ／ 福岡県福岡市南区長丘<br>
+                        <span class="mg2">3丁目18番10号</span><br>
+                        ◆ 事業 ／ 児童発達支援<br>
+                        <span class="mg3">保育所等訪問支援</span><br>
+                        <span class="mg3">放課後等デイサービス</span><br>
+                        <span class="mg3">生活介護</span></p>
+                    <div class="commonBtn01W">
+                        <a href="#" class="commonBtn01">more...</a>
                     </div>
                 </div>
             </div>
-            <div class="button mt-3">
-                <a href="feature.html">
-                    <button class="message-more">
-                        more...
-                    </button>
-                </a>
+        </section>
+        <section id="topSec06">
+            <div class="topSec06W1 contentWrap">
+                <div class="commonTtl01W top06Ttl1">
+                    <span class="commonTtl01S">採用情報</span>
+                    <h2 class="commonTtl01">RECRUITMENT INFORMATION</h2>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <section id="service">
-        <div class="message02">
-            <div class="message-logo">
-                サービス案内
-            </div>
-            <p>
-                SERVICE INFORMATION
-            </p>
-        </div>
-        <ul class="service-box contentWrap">
-            <li class="service-box2">
-                <a href="service.html">
-                    <figure>
-                        <img src="img/service01.png" alt="" style="vertical-align: top;">
-                    </figure>
-                </a>
-                <div class="service-text">
-                    <p class="service-text2">
-                        児童発達支援
-                    </p>
-                    <p class="service-text3">
-                        SST(ソーシャルスキルトレーニング)<br>自分の困った、相手の困ったをみんなで考えながら、楽しく学び、コミュニケーションの幅を広げていきます。
-                    </p>
-                    <p class="service-text3" style="padding: 16px 0;">
-                        OTT(ワントレイタスク)<br>小さな「出来た!」を増やし、自分の「得意」をもっと伸ばせるように。そして「将来への一歩」が見つけられるように頑張っていきます。
-                    </p>
-                    <p class="service-text3">
-                        HT(ホーティカルチュアセラピー)<br>園芸療法/畑の土に触れることで心地よい刺激を受け、心と体の育成を助けます。
-                    </p>
-                </div>
-            </li>
-            <li class="service-box2">
-                <a href="service.html">
-                    <figure>
-                        <img src="img/service02.png" alt="" style="vertical-align: top;">
-                    </figure>
-                </a>
-                <div class="service-text">
-                    <p class="service-text2">
-                        保育所等訪問支援
-                    </p>
-                    <p class="service-text3">
-                        保育所等訪問支援は、前述の児童福祉法の定義にもあったように保育所や幼稚園、認定こども 園、学校、放課後児童クラブなど<br>集団生活を営む施設を訪問し、障害のない子どもとの集団生活への適応のために専門的な支援を行うものです。
-                    </p>
-                    <p class="service-text3" style="padding-top: 32px;">
-                        通園でお困りの保護者様、学校生活に馴染めない児童の保護者様の相談を受けて、園児・児童が通う保育園、幼稚園、<br>学校に訪問支援員がお伺いし、保育士や幼稚園教諭、学校教師と共に、児童が不自由なく社会生活を送れるように<br>指導・支援していく福祉サービスです。<br>
-                        是非!お気軽にお問合せ、ご相談ください。
-                    </p>
-                </div>
-            </li>
-            <li class="service-box2">
-                <a href="service.html">
-                    <figure>
-                        <img src="img/service03.png" alt="" style="vertical-align: top;">
-                    </figure>
-                </a>
-                <div class="service-text">
-                    <p class="service-text2">
-                        放課後等デイサービス
-                    </p>
-                    <p class="service-text3">
-                        保育所等訪問支援は、前述の児童福祉法の定義にもあったように保育所や幼稚園、認定こども 園、学校、放課後児童クラブなど<br>集団生活を営む施設を訪問し、障害のない子どもとの集団生活への適応のために専門的な支援を行うものです。
-                    </p>
-                    <p class="service-text3" style="padding-top: 32px;">
-                        通園でお困りの保護者様、学校生活に馴染めない児童の保護者様の相談を受けて、園児・児童が通う保育園、幼稚園、<br>学校に訪問支援員がお伺いし、保育士や幼稚園教諭、学校教師と共に、児童が不自由なく社会生活を送れるように<br>指導・支援していく福祉サービスです。<br>
-                        是非!お気軽にお問合せ、ご相談ください。
-                    </p>
-                </div>
-            </li>
-            <li class="service-box2">
-                <a href="service.html">
-                    <figure>
-                        <img src="img/service04.jpg" alt="" style="vertical-align: top;">
-                    </figure>
-                </a>
-                <div class="service-text">
-                    <p class="service-text2">
-                        生活介護
-                    </p>
-                    <p class="service-text3">
-                        保育所等訪問支援は、前述の児童福祉法の定義にもあったように保育所や幼稚園、認定こども 園、学校、放課後児童クラブなど<br>集団生活を営む施設を訪問し、障害のない子どもとの集団生活への適応のために専門的な支援を行うものです。
-                    </p>
-                    <p class="service-text3" style="padding-top: 32px;">
-                        通園でお困りの保護者様、学校生活に馴染めない児童の保護者様の相談を受けて、園児・児童が通う保育園、幼稚園、<br>学校に訪問支援員がお伺いし、保育士や幼稚園教諭、学校教師と共に、児童が不自由なく社会生活を送れるように<br>指導・支援していく福祉サービスです。<br>
-                        是非!お気軽にお問合せ、ご相談ください。
-                    </p>
-                </div>
-            </li>
-        </ul>
-        <div class="button">
-            <a href="service.html">
-                <button class="message-more">
-                    more...
-                </button>
-            </a>
-        </div>
-    </section>
-
-    <section id="infomation">
-        <div class="message02">
-            <div class="message-logo">
-                各施設案内
-            </div>
-            <p>
-                INFORMATION FACILITYS
-            </p>
-        </div>
-        <div>
-            <div class="infomationContent">
-                <div class="item-list">
-                    <div class="item content-color">
-                        <a href="facility.html">
-                            <figure class="image">
-                                <img src="img/info01.png" alt="" style="vertical-align: top;" class="infoImg">
-                            </figure>
-                        </a>
-                        <figure class="imageTxt">
-                            <img src="img/info04.png" alt=""  style="vertical-align: top;">
-                        </figure>
-                        <div>
-                            <h3 class="infoTxt01">放課後等デイサービス<br>
-                            シンフォニア</h3>
-                            <p class="infoTxt02">〒816-0921<br>
-                                福岡県大野城市仲畑1丁目7番33号サニープレイスII 1F<br>
-                            TEL ／092-558-3318 FAX／092-558-3319
-                            </p>
-                            <div>
-                                <a href="facility.html">
-                                    <button class="message-more03">
-                                        more...
-                                    </button>
-                                </a>
-                                <a href="">
-                                    <button class="message-more04">
-                                        GoogleMapで観る
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
+            <div class="topSec06Bg">
+                <div class="topSec06W2 contentWrap">
+                    <div class="top06W1L">
+                        <p class="top06Txt1">充実した福利厚生</p>
+                        <p class="top06Txt2">Eラーニングの開催</p>
+                        <p class="top06Txt2">奨学金返済支援制度</p>
+                        <p class="top06Txt2">資格取得補助制度</p>
                     </div>
-                    <div class="item content-color">
-                        <a href="facilityaloha.html">
-                            <figure class="image">
-                                <img src="img/info02.png" alt="" style="vertical-align: top;" class="infoImg">
-                            </figure>
-                        </a>
-                        <figure class="imageTxt">
-                            <img src="img/info05.png" alt="" style="vertical-align: top;">
+                    <figure class="top06Img1">
+                        <img src="img/asset_h_l.svg">
+                    </figure>
+                    <div class="top06W1R">
+                        <p class="top06Txt3">私たちと一緒に<br>
+                            働いてくれる「やる気のある方」を<br>
+                            大募集しています。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="topSec06W3 contentWrap">
+                <ul class="top06Lists">
+                    <li class="top06List">
+                        <figure class="top06Img">
+                            <img src="img/sec06_img_1.jpg">
                         </figure>
-                        <div>
-                            <h3 class="infoTxt01"> デイサービス<br>
-                            ALOHAキッズ</h3>
-                            <p class="infoTxt02">事業所番号／4051700054〒818-0066<br>福岡県筑紫野市大字永岡1453-2 リファレンス筑紫野 1F<br>TEL ／092-923-5130 FAX／092-923-5135
-                            </p>
-                            <a href="facilityaloha.html">
-                                <button class="message-more03">
-                                    more...
-                                </button>
+                        <p class="top06Txt4">送迎・生活介護<br>
+                            スタッフ</p>
+                    </li>
+                    <li class="top06List">
+                        <figure class="top06Img">
+                            <img src="img/sec06_img_2.jpg">
+                        </figure>
+                        <p class="top06Txt4">指導員／保育<br>
+                            看護師／療法士</p>
+                    </li>
+                    <li class="top06List">
+                        <figure class="top06Img">
+                            <img src="img/sec06_img_3.jpg">
+                        </figure>
+                        <p class="top06Txt4">児童向け<br>
+                            デイルームスタッフ</p>
+                    </li>
+                    <li class="top06List">
+                        <figure class="top06Img">
+                            <img src="img/sec06_img_4.jpg">
+                        </figure>
+                        <p class="top06Txt4">保育補助<br>
+                            放課後等デイサービス指導員</p>
+                    </li>
+                    <li class="top06List">
+                        <figure class="top06Img">
+                            <img src="img/sec06_img_5.jpg">
+                        </figure>
+                        <p class="top06Txt4">その他介護スタッフ</p>
+                    </li>
+                    <li class="top06List">
+                        <figure class="top06Img">
+                            <img src="img/sec06_img_6.jpg">
+                        </figure>
+                        <p class="top06Txt4">生活支援員・送迎兼務</p>
+                    </li>
+                    <li class="top06List">
+                        <figure class="top06Img">
+                            <img src="img/sec06_img_7.jpg">
+                        </figure>
+                        <p class="top06Txt4">看護師・准看護師</p>
+                    </li>
+                    <li class="top06List">
+                        <div class="top06Circle">
+                            <a href="#">
+                                <p class="top06Txt5">求人一覧を見る</p>
                             </a>
-                            <button class="message-more04">
-                                GoogleMapで観る
-                            </button>
                         </div>
-                    </div>
-                    <div class="item content-color">
-                        <a href="facilityfeel.html">
-                            <figure class="image">
-                                <img src="img/info03.png" alt="" style="vertical-align: top;" class="infoImg">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="newsSec">
+            <div class="newsSecW contentWrap">
+                <div class="commonTtl01W newsSecTtl1">
+                    <span class="commonTtl01S">最新情報</span>
+                    <h2 class="commonTtl01">NEWS INFORMATION</h2>
+                </div>
+                <div class="newsWrap cf">
+                    <div class="topQrW">
+                        <div class="qrList">
+                            <figure class="qr">
+                                <img src="img/qr_1.png">
                             </figure>
-                        </a>
-                        <figure class="imageTxt">
-                            <img src="img/info06.png" alt="" style="vertical-align: top;">
-                        </figure>
-                        <div>
-                            <h3 class="infoTxt01"> じどうデイサービス<br>
-                            フィール</h3>
-                            <p class="infoTxt02">〒816-0921<br>
-                                福岡県大野城市仲畑1丁目7番33号サニープレイスII 1F<br>
-                            TEL ／092-558-3318 FAX／092-558-3319
-                            </p>
-                            <a href="facilityfeel.html">
-                                <button class="message-more03">
-                                    more...
-                                </button>
-                            </a>
-                            <button class="message-more04">
-                                GoogleMapで観る
-                            </button>
+                            <p class="qrTxt1">オフィシャルインスタグラム</p>
+                            <p class="qrTxt2">Instaglam<br>
+                                ID:SORA_H23.09</p>
+                        </div>
+                        <div class="qrList">
+                            <figure class="qr">
+                                <img src="img/qr_2.png">
+                            </figure>
+                            <p class="qrTxt1">オフィシャルフェイスブック</p>
+                            <p class="qrTxt2">Facebook <br>
+                                ID:sora00000</p>
                         </div>
                     </div>
+                    <div class="newsW">
+                        <ul class="newsLists">
+                            <li class="newsList">
+                                <p class="newsDate">2022年7月22日</p>
+                                <h3 class="newsTtl">夏季休暇のおしらせ</h3>
+                                <p class="newsTxt">記載の日程を夏季休暇とさせていただきます。＜夏季休暇期間＞2022年8月13日(土)～2021年8月15日(月)<br>
+                                    休暇期間中はメールでのお問い合わせは受け付けておりますが、回答は8月16日(火)以降、順次対応させていただきます。</p>
+                            </li>
+                            <li class="newsList">
+                                <p class="newsDate">2022年7月22日</p>
+                                <h3 class="newsTtl">夏季休暇のおしらせ</h3>
+                                <p class="newsTxt">記載の日程を夏季休暇とさせていただきます。＜夏季休暇期間＞2022年8月13日(土)～2021年8月15日(月)<br>
+                                    休暇期間中はメールでのお問い合わせは受け付けておりますが、回答は8月16日(火)以降、順次対応させていただきます。</p>
+                            </li>
+                            <li class="newsList">
+                                <p class="newsDate">2022年7月22日</p>
+                                <h3 class="newsTtl">夏季休暇のおしらせ</h3>
+                                <p class="newsTxt">記載の日程を夏季休暇とさせていただきます。＜夏季休暇期間＞2022年8月13日(土)～2021年8月15日(月)<br>
+                                    休暇期間中はメールでのお問い合わせは受け付けておりますが、回答は8月16日(火)以降、順次対応させていただきます。</p>
+                            </li>
+                            <li class="newsList">
+                                <p class="newsDate">2022年7月22日</p>
+                                <h3 class="newsTtl">夏季休暇のおしらせ</h3>
+                                <p class="newsTxt">記載の日程を夏季休暇とさせていただきます。＜夏季休暇期間＞2022年8月13日(土)～2021年8月15日(月)<br>
+                                    休暇期間中はメールでのお問い合わせは受け付けておりますが、回答は8月16日(火)以降、順次対応させていただきます。</p>
+                            </li>
+                            <li class="newsList">
+                                <p class="newsDate">2022年7月22日</p>
+                                <h3 class="newsTtl">夏季休暇のおしらせ</h3>
+                                <p class="newsTxt">記載の日程を夏季休暇とさせていただきます。＜夏季休暇期間＞2022年8月13日(土)～2021年8月15日(月)<br>
+                                    休暇期間中はメールでのお問い合わせは受け付けておりますが、回答は8月16日(火)以降、順次対応させていただきます。</p>
+                            </li>
+                            <li class="newsList">
+                                <p class="newsDate">2022年7月22日</p>
+                                <h3 class="newsTtl">夏季休暇のおしらせ</h3>
+                                <p class="newsTxt">記載の日程を夏季休暇とさせていただきます。＜夏季休暇期間＞2022年8月13日(土)～2021年8月15日(月)<br>
+                                    休暇期間中はメールでのお問い合わせは受け付けておりますが、回答は8月16日(火)以降、順次対応させていただきます。</p>
+                            </li>
+                        </ul>
+                        <ul class="pagerW">
+                            <li class="pager active"><a href=""><span>●</span></a></li>
+                            <li class="pager"><a href=""><span>●</span></a></li>
+                            <li class="pager"><a href=""><span>●</span></a></li>
+                            <li class="pager"><a href=""><span>●</span></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-    </section>
-
-    <section id="company">
-        <div class="message02">
-            <div class="message-logo">
-                会社概要
+        </section>
+	</main>
+    <div class="goTopBtn">
+        <a href="#"><img src="img/gotop.png"></a>
+    </div>
+    <footer>
+        <div class="footerW contentWrap">
+            <div class="headerLogo">
+                <a href="./"><img src="img/logo.svg" class="logo1"></a>
             </div>
-            <p>
-                COMPANY PROFILE
-            </p>
-        </div>
-        <div class="mv2">
-            <figure>
-                <img src="img/mv2.jpg" alt="" class="mv2-img">
-            </figure>
-            <figure class="mv02Bird">
-                <img src="img/bird03.png" alt="">
-            </figure>
-            <div class="mv2-main-text">
-                笑顔と安心の広がりが<br>
-                <span>どこまでも届くように。</span>
-            </div>
-            <div class="mv2-card">
-                <div class="mv2-card-range">
-                    <div class="mv2-card-text1">積極的な観点から<br> 革新的な配慮が<br> 産まれるよう<br> 一同努力します。
-                    </div>
-                    <p class="mv2-card-text2">◆ 設立 / 2011年09月00日<br>
-                        ◆ 社名 / 一般社団法人 空<br>
-                        ◆ 代表者名 / 代表理事 森田泰大<br>
-                        ◆ 本社所在 / 福岡県筑紫野市上古賀4丁目16-7<br>　　　 　　　オフィスパレア筑紫野I-A<br>
-                        ◆ 福岡事務所 / 福岡県福岡市南区長丘<br>　　　 　 　　　3丁目18番10号<br>
-                        ◆ 事業 / 児童発達支援<br>　　 　　保育所等訪問事業<br>　　 　　放課後等デイサービス<br>　　 　　生活介護
-                    </p>
-                    <div style="text-align: center;">
-                        <a href="company.html">
-                            <button class="message-more05">
-                                more...
-                            </button>
-                        </a>
-                    </div>
+            <div id="footerMenu">
+                <div class="headerMenuBtn headMenu sp">
+                    <a class="menu-trigger" href="javascript:void(0);"> <span></span> <span></span> <span></span> </a>
                 </div>
+				<div class="headerLinkW menuSlide">
+					<ul class="headerMenus">
+						<li class="headerMenu"><a href="/">ホーム</a></li>
+						<li class="headerMenu"><a href="greeting.html">ご挨拶</a></li>
+						<li class="headerMenu"><a href="service.html">サービス案内</a></li>
+						<li class="headerMenu"><a href="#">各施設案内</a></li>
+						<li class="headerMenu"><a href="#">企業情報</a></li>
+						<li class="headerMenu"><a href="#">最新情報</a></li>
+					</ul>
+				</div>
             </div>
         </div>
-    </section>
-
-    <section id="recruit">
-        <div class="message02">
-            <div class="message-logo">
-                採用情報
-            </div>
-            <p>
-                RECRUITMENT INFORMATION
-            </p>
-        </div>
-        <div class="recruit-content">
-            <div style="margin-right: 48px;">
-                <p class="recruit-contents">充実した福利厚生</p>
-                <p class="recruit-box">Eラーニングの開催</p>
-                <p class="recruit-box">奨学金返済支援制度</p>
-                <p class="recruit-box">資格取得補助制度</p>
-            </div>
-            <div>
-                <figure>
-                    <img src="img/recruit.png" alt="">
-                </figure>
-            </div>
-            <div style="margin-left: 48px;">
-                <p class="recrui-text">私たちと一緒に</p>
-                <p class="recrui-text">働いてくれる「やる気のある方」を</p>
-                <p class="recrui-text">大募集しています。</p>
-            </div>
-        </div>
-        <div class="recruit-item">
-            <div>
-                <figure>
-                    <a href="message.html">
-                        <img src="img/recruit01.jpg" alt="" class="recruitImg01">
-                    </a>
-                </figure>
-                <p class="recruit-item-text">送迎・生活介護<br>スタッフ</p>
-            </div>
-            <div>
-                <figure>
-                    <a href="message.html">
-                        <img src="img/recruit02.jpg" alt="" class="recruitImg01">
-                    </a>
-                </figure>
-                <p class="recruit-item-text">指導員／保育<br>看護師／療法士</p>
-            </div>
-            <div>
-                <figure>
-                    <a href="message.html">
-                        <img src="img/recruit03.jpg" alt=""
-                        class="recruitImg01">
-                    </a>
-                </figure>
-                <p class="recruit-item-text">児童向け<br>デイルームスタッフ</p>
-            </div>
-            <div>
-                <figure>
-                    <a href="message.html">
-                        <img src="img/recruit04.jpg" alt=""
-                        class="recruitImg01">
-                    </a>
-                </figure>
-                <p class="recruit-item-text">保育補助<br>放課後等デイサービス指導員</p>
-            </div>
-        </div>
-        <div class="recruit-item2">
-            <div>
-                <figure>
-                    <a href="message.html">
-                        <img src="img/recruit05.jpg" alt=""
-                        class="recruitImg01">
-                    </a>
-                </figure>
-                <p class="recruit-item-text">その他介護スタッフ</p>
-            </div>
-            <div>
-                <figure>
-                    <a href="message.html">
-                        <img src="img/recruit06.jpg" alt=""
-                        class="recruitImg01">
-                    </a>
-                </figure>
-                <p class="recruit-item-text">生活指導員・送迎兼務</p>
-            </div>
-            <div>
-                <figure>
-                    <a href="message.html">
-                        <img src="img/recruit07.jpg" alt="" class="recruitImg01">
-                    </a>
-                </figure>
-                <p class="recruit-item-text"
-                >看護師・准看護師</p>
-            </div>
-            <div>
-                <figure>
-                    <a href="message.html">
-                        <div class="recruitImg08">求人一覧を見る</div>
-                    </a>
-                </figure>
-            </div>
-        </div>
-    </section>
-
-    <section id="new" class="new-main02">
-        <div class="message">
-            <div class="message-logo">
-                最新情報
-            </div>
-            <p>
-                NEW INFORMATION
-            </p>
-        </div>
-        <div class="contentWidth contentWrap" style="background-color: #FFFFFF;">
-            <div class="newsmvImg">
-                <img src="img/news/newsmv.png" alt="">
-            </div>
-            <div class="container contentWidth">
-                <div class="container newsContent">
-                    <div>
-                        <div>
-                            <div class="newsContents01">
-                                <div class="newsContentTxt01">
-                                    フィール
-                                </div>
-                            </div>
-                            <figure>
-                                <img src="img/insta.png" alt="" style="vertical-align: top;">
-                            </figure>
-                            <p class="newsContentTxt02">オフィシャルインスタグラム</p>
-                            <p class="newsContentTxt05">Instagram<br>ID:SORA_H23.09</p>
-                        </div>
-                        <div>
-                            <div class="newsContents02">
-                                <div class="newsContentTxt01">
-                                    アロハキッズ
-                                </div>
-                            </div>
-                            <figure>
-                                <img src="img/insta.png" alt="" style="vertical-align: top;">
-                            </figure>
-                            <p class="newsContentTxt03">オフィシャルインスタグラム</p>
-                            <p class="newsContentTxt05">Instagram<br>ID:SORA_H23.09</p>
-                        </div>
-                        <div>
-                            <div class="newsContents03">
-                                <div class="newsContentTxt01">
-                                    シンフォニア
-                                </div>
-                            </div>
-                            <figure>
-                                <img src="img/insta.png" alt="" style="vertical-align: top;">
-                            </figure>
-                            <p class="newsContentTxt04">オフィシャルインスタグラム</p>
-                            <p class="newsContentTxt05">Instagram<br>ID:SORA_H23.09</p>
-                        </div>
-                        <div>
-                            <div class="newsContents04">
-                                <div class="newsContentTxt01">
-                                    一般社団法人 空
-                                </div>
-                            </div>
-                            <figure>
-                                <img src="img/facebook.png" alt="" style="vertical-align: top;">
-                            </figure>
-                            <p class="new-contents-text2">オフィシャルフェイスブック</p>
-                            <p class="newsContentTxt05">Facebook<br>ID:sora00000</p>
-                        </div>
-                    </div>
-                    <div style="margin-left: 80px;">
-                        <div style="display: flex;">
-                            <div class="newsContents05">
-                                <div class="newsContentTxt07">
-                                    全て表示
-                                </div>
-                            </div>
-                            <div class="newsContents06">
-                                <div class="newsContentTxt07">
-                                    フィール情報を表示
-                                </div>
-                            </div>
-                            <div class="newsContents06">
-                                <div class="newsContentTxt07">
-                                    アロハキッズ情報を表示
-                                </div>
-                            </div>
-                            <div class="newsContents06">
-                                <div class="newsContentTxt07">
-                                    シンフォニア情報を表示
-                                </div>
-                            </div>
-                        </div>
-                        <div class="dot">
-                            <div class="dot-content1" style="margin-top: 32px;"></div>
-                            <div class="dot-content" style="margin-top: 32px;"></div>
-                            <div class="dot-content" style="margin-top: 32px;"></div>
-                            <div class="dot-content" style="margin-top: 32px;"></div>
-                        </div>
-                        <div class="new-content-text" style="margin-top: 3rem;">
-                            <p class="new-contents-text3">2022年5月7日 / 最終更新日時 : 2022年5月7日</p>
-                            <p class="new-contents-text4">【お知らせ】 福祉・介護職員等処遇改善加算・特定処遇改善加算について</p>
-                            <p class="newsContentTxt9">今年度の当法人での福祉・介護職員等処遇改善加算・特定処遇改善加算についての計画内容をご報告いたします。<br>
-                                職場環境等の要件に係る主な取組状況については、<br>「障害福祉サービス等情報公表システム」の「◎サービス内容に関する事項」でお知らせしております。</p>
-                            <p class="newsContentTxt08">
-                                01／福祉介護職員処遇改善加算計画のお知らせ（一社空）2022年
-                            </p>
-                            <p class="newsContentTxt08">
-                                02／福祉介護職員等特定処遇改善加算計画のお知らせ（一社空）2022年
-                            </p>
-                        </div>
-                        <div class="new-content-text" style="margin: 32px 0;">
-                            <p class="new-contents-text5">2021年12月3日</p>
-                            <p class="new-contents-text4">SORA新聞 令和4年 はる号
-                            </p>
-                            <img src="img/news/news01.png" alt="" style="padding-bottom: 16px;">
-                            <img src="img/news/news02.png" alt="" style="margin-left: 1rem; padding-bottom: 16px;">
-                        </div>
-                        <div class="new-content-text">
-                            <p class="new-contents-text5">2021年12月1日</p>
-                            <p class="new-contents-text4">【お知らせ】 SORA新聞 令和4年 ふゆ号 
-                            </p>
-                            <img src="img/news/news03.png" alt="" style="padding-bottom: 16px;">
-                            <img src="img/news/news04.png" alt="" style="margin-left: 1rem; padding-bottom: 16px;">
-                        </div>
-                        <div class="new-content-text">
-                            <p class="new-contents-text5" style="padding-top: 32px;">2022年5月7日 / 最終更新日時 : 2022年5月7日</p>
-                            <p class="new-contents-text4">【お知らせ】 Instagram はじめました(*^^)v 
-                            </p>
-                            <p class="newsContentTxt9">Instagram　はじめました～～～～(^^♪<br>
-                                <sora_h23 class="09nr"></sora_h23>
-                                日頃の活動などなど・・・気ままに投稿していきまーす<br>
-                                ぜひ、フォローお願いします(o*。_。)oペコッ</p>
-                            <img src="img/news/newsinsta02.png" alt="" style="padding-bottom: 48px;">
-                        </div>
-                        <div class="dot" style="padding: 48px 0 16px 0;">
-                            <div class="dot-content1" style="margin-top: 2rem;"></div>
-                            <div class="dot-content" style="margin-top: 2rem;"></div>
-                            <div class="dot-content" style="margin-top: 2rem;"></div>
-                            <div class="dot-content" style="margin-top: 2rem;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer style="padding-top: 64px;">
-        <div class="header-inner">
-            <a href=""><img src="img/logo.png" alt="" class="logo"></a>
-            <ul class="nav-menu">
-                <a href=""><li class="menu">
-                    <div class="menu-title">ホーム</div>
-                </li></a>
-                <a href="greeting.html"><li class="menu">
-                    <div class="menu-title">ご挨拶</div>
-                </li></a>
-                <a href="service.html"><li class="menu">
-                    <div class="menu-title">サービス案内</div>
-                </li></a>
-                <a href="facility.html"><li class="menu">
-                    <div class="menu-title">各施設案内</div>
-                </li></a>
-                <a href="company.html"><li class="menu">
-                    <div class="menu-title">企業情報</div>
-                </li></a>
-                <a href="news.html"><li class="menu">
-                    <div class="menu-title">最新情報</div>
-                </li></a>
-            </ul>
-        </div>
-        <div class="footer-out">
-            福岡を中心とした、、児童発達支援／放課後等デイサービス／生活介護／居宅サービス／移動支援のサポート企業　一般社団法人　空
-        </div>    
+		<div class="headerCopy">
+			<div class="headerCopyW contentWrap">
+				<p class="headerTxt">福岡を中心とした、児童発達支援／放課後等デイサービス／生活介護／居宅サービス／移動支援のサポート企業 一般社団法人 空</p>
+			</div>
+		</div>
     </footer>
+</div>
+<!-- /#container --> 
+
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.matchHeight-min.js"></script>
+<script src="js/lightbox.js"></script>
+
+<script src="js/base.js"></script>
+  <!--スライダーjs-->
+  <!--/スライダーjs-->
+
+<script type="text/javascript">
+
+    $(".top05Slides").slick({
+      autoplay: true, // 自動再生
+      arrows: false, // 矢印
+      dots: false, // インジケーター
+        fade: false,
+        infinite: true,
+    });
+    $(".wo01ImgW").slick({
+      autoplay: true, // 自動再生
+      arrows: true, // 矢印
+      dots: false, // インジケーター
+        fade: false,
+        infinite: true,
+    });
+    $(".se01ImgW").slick({
+      autoplay: true, // 自動再生
+      arrows: true, // 矢印
+      dots: false, // インジケーター
+        fade: false,
+        infinite: true,
+    });
+    lightbox.option({
+      'resizeDuration': 400,
+      'wrapAround': true
+    })
+</script>
+    
+
+</script>
+
+
 </body>
 </html>

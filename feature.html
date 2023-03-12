@@ -1,413 +1,529 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <meta name="description" content="">
-    <meta name="keyword" content="">
-    <link rel="stylesheet" href="css/reset.css">
-    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="greeting.css">
-    <link rel="stylesheet" href="feature.css">
-    <link rel="stylesheet" href="css/jquery.jscrollpane.css">
-    <link rel="stylesheet" href="css/slider-pro.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/webfont-notosansjp.css">
-    <link rel="icon" href="img/favicon.ico">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="stylesheet" href="css/sp.css" media="screen and (max-width: 767px)">
-    <link rel="stylesheet" href="css/pc.css" media="screen and (min-width: 768px)">
-    <title>Feature</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一般社団法人 空 | SORA</title>
+<meta name="description" content="福岡を中心とした、児童発達支援／放課後等デイサービス／生活介護／居宅サービス／移動支援のサポート企業 一般社団法人 空">
+<meta name="keyword" content="">
+<meta name="format-detection" content="telephone=no">
+<link rel="preload" href="./style.css" as="style">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/colorbox.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon-180x180.png">
+<link rel="stylesheet" href="./css/sp.css" media="screen and (max-width: 767px)">
+<link rel="stylesheet" href="./css/pc.css" media="screen and (min-width: 768px)">
+
+  <!--スライダーcss-->
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  <!--/スライダーcss-->
+
+<!-- No Follow -->
+    <meta name="robots" content="noindex" />
+    <meta name="robots" content="nofollow" />
+
+    <!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.js"></script>
+<script src="js/rem.min.js"></script>
+<![endif]--> 
+
 </head>
 <body>
-    <header>
-        <div id="mv-greeting">
-            <div class="nav-out">
-                福岡を中心とした、児童発達支援／放課後等デイサービス／生活介護／居宅サービス／移動支援のサポート企業　一般社団法人　空
-            </div>
-            <div class="header-inner">
-                <a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
-                <ul class="nav-menu">
-                    <a href="index.html"><li class="menu">
-                        <div class="menu-title">ホーム</div>
-                    </li></a>
-                    <a href="greeting.html"><li class="menu">
-                        <div class="menu-title">ご挨拶</div>
-                    </li></a>
-                    <a href="service.html"><li class="menu">
-                        <div class="menu-title">サービス案内</div>
-                    </li></a>
-                    <a href="facility.html"><li class="menu">
-                        <div class="menu-title">各施設案内</div>
-                    </li></a>
-                    <a href="company.html"><li class="menu">
-                        <div class="menu-title">企業情報</div>
-                    </li></a>
-                    <a href="news.html"><li class="menu">
-                        <div class="menu-title">最新情報</div>
-                    </li></a>
-                </ul>
-            </div>
-            <div class="card">
-                <div class="card-range">
-                    <figure class="mvTel">
-                        <img src="img/phone.png" alt="">
-                    </figure>
-                    <div class="card-text1"><a style="color: #3E3A39;" href="092-554-8152">092-554-8152</a></div>
-                    <div class="card-text2">お問い合わせ可能時間/9:00〜17:00</div>
+    <div id="container" class="top">
+        <header id="header">
+            <div class="headerCopy">
+                <div class="headerCopyW contentWrap">
+                    <p class="headerTxt">福岡を中心とした、児童発達支援／放課後等デイサービス／生活介護／居宅サービス／移動支援のサポート企業 一般社団法人 空</p>
                 </div>
             </div>
-            <div class="card2">
-                <a href="recruit.html">
-                    <div class="card-range">
-                        <figure class="mvRec">
-                            <img src="img/recruit_sm.png" alt="">
-                        </figure>
-                        <div class="card-text3">採用情報</div>
-                        <p class="card-text5">お申し込みはコチラから</p>
+            <div class="headerW contentWrap">
+                <div class="headerLogo">
+                    <a href="./"><img src="img/logo.svg" class="logo1"></a>
+                </div>
+                <div id="menu">
+                    <div class="headerMenuBtn headMenu sp">
+                        <a class="menu-trigger" href="javascript:void(0);"> <span></span> <span></span> <span></span> </a>
                     </div>
-                </a>
-            </div>
-            <div class="card2">
-                <a href="company.html">
-                    <div class="card-range">
-                        <figure class="mvMail">
-                            <img src="img/mail.png" alt="">
-                        </figure>
-                        <div class="card-text4">お問い合わせ</div>
-                        <p class="card-text6">お気軽にお問い合わせください</p>
-                    </div>
-                </a>
-            </div>
-            <div>
-                <div class="message-greeting">
-                    <p>
-                        SPECIAL FEATURE
-                    </p>
-                    <div class="container">
-                        <div class="message-logo-greeting">
-                            特集
-                        </div>
+                    <div class="headerLinkW menuSlide">
+                        <ul class="headerMenus">
+                            <li class="headerMenu"><a href="./">ホーム</a></li>
+                            <li class="headerMenu"><a href="greeting.html">ご挨拶</a></li>
+                            <li class="headerMenu"><a href="service.html">サービス案内</a></li>
+                            <li class="headerMenu"><a href="facility.html">各施設案内</a></li>
+                            <li class="headerMenu"><a href="#">企業情報</a></li>
+                            <li class="headerMenu"><a href="#">最新情報</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <figure class="mvBird03">
-                <img src="./img/bird01.png" alt="">
-            </figure>
+        </header>
+        <main id="main">
+        <div id="mvWrap">
+            <!-- /#mvTxt1 -->
+            <div id="inMv" class="greetMv">
+                <div class="mvBtnW">
+                    <div class="mvBtn1">
+                        <p class="mvTel oswald telLink">092-554-8152</p>
+                        <p class="mvTelS">お問い合わせ可能時間／9:00〜17:00</p>
+                    </div>
+                    <div class="mvBtn2">
+                        <a href="#">
+                            <p class="mvBtn2Ttl">採用情報</p>
+                            <p class="mvBtn2Txt">お申し込みはコチラから</p>
+                        </a>
+                    </div>
+                    <div class="mvBtn3">
+                        <a href="#">
+                            <p class="mvBtn3Ttl">お問い合わせ</p>
+                            <p class="mvBtn3Txt">お気軽にお問い合わせください</p>
+                        </a>
+                    </div>
+                </div>
+                <h1 class="pageTtlEn">SPECIAL FEATURE</h1>
+                <p class="pageTtlJp"><span>特集</span></p>
+			</div>
         </div>
-    </header>
-
-    <section>
-        <div class="spFeature contentWrap spFeatureSpace">
-            <div class="spFeatureBox">
-                <a href="">
-                    <figure>
-                        <img src="img/Feature/men01.png" alt="" style="vertical-align: top; border-bottom: 5px solid #429AD0;">
-                    </figure>
-                </a>
-                <div class="spFeatureBoxTxt">
-                    <div class="spFeatureBoxTxt02">
-                        2023.02.24
-                    </div>
-                    <div class="spFeatureBoxTxt03">
-                        プロジェクト名／ソーシャルシテー計画
-                    </div>
-                    <div class="spFeatureBoxTxt04">
-                        一般社団法人 空／代表理事 森田泰大
-                    </div>
-                </div>
-            </div>
-            <div class="spFeatureBox">
-                <a href="">
-                    <figure>
-                        <img src="img/Feature/lady.png" alt="" style="vertical-align: top; border-bottom: 5px solid #B5B5B6;">
-                    </figure>
-                </a>
-                <div class="spFeatureBoxTxt">
-                    <div class="spFeatureBoxTxt05">
-                        2023.02.24
-                    </div>
-                    <div class="spFeatureBoxTxt06">
-                        プロジェクト名／ソーシャルシテー計画
-                    </div>
-                    <div class="spFeatureBoxTxt07">一般社団法人 空／代表理事 森田泰大</div>
-                </div>
-            </div>
-            <div class="spFeatureBox">
-                <a href="">
-                    <figure>
-                        <img src="img/Feature/men02.png" alt="" style="vertical-align: top; border-bottom: 5px solid #B5B5B6;">
-                    </figure>
-                </a>
-                <div class="spFeatureBoxTxt">
-                    <div class="spFeatureBoxTxt05">
-                        2023.02.24
-                    </div>
-                    <div class="spFeatureBoxTxt06">
-                        プロジェクト名／ソーシャルシテー計画
-                    </div>
-                    <div class="spFeatureBoxTxt07">一般社団法人 空／代表理事 森田泰大</div>
-                </div>
-            </div>
-            <div class="spFeatureBox">
-                <a href="">
-                    <figure>
-                        <img src="img/Feature/men03.png" alt="" style="vertical-align: top; border-bottom: 5px solid #B5B5B6;">
-                    </figure>
-                </a>
-                <div class="spFeatureBoxTxt">
-                    <div class="spFeatureBoxTxt05">
-                        2023.02.24
-                    </div>
-                    <div class="spFeatureBoxTxt06">
-                        プロジェクト名／ソーシャルシテー計画
-                    </div>
-                    <div class="spFeatureBoxTxt07">一般社団法人 空／代表理事 森田泰大</div>
-                </div>
-            </div>
-            <div class="dot dotPosition">
-                <div class="dot-content1"></div>
-                <div class="dot-content"></div>
-                <div class="dot-content"></div>
-                <div class="dot-content"></div>
-            </div>
-
-            <div class="spFeature spFeatureSpace">
-                <div class="spFeature">
-                    <figure>
-                        <img src="img/men.jpg" alt="" width="610" style="vertical-align: top;">
-                    </figure>
-                    <figure class="soraPosition">
-                        <img src="img/sora.png" alt="" style="vertical-align: top;">
-                    </figure>
-                    <div class="soraPositionText">
-                        平等に繋がる「空」。ココロに届け「想い」。
-                    </div>
-                </div>
-                <div class="spFeatureBg">
-                    <div class="spFeatureflex" style="padding-top: 9rem;">
-                        <div>
-                            <figure class="soraToplogo">
-                                <img src="img/Feature/logo01.png" alt="" style="vertical-align: top;">
+        <section id="feaSec01">
+            <div class="feaSec01W contentWrap">
+                <div class="feaW1">
+                    <ul class="feaTnW">
+                        <li class="feaTn cf is-active">
+                            <figure class="feaTnImg">
+                                <img src="img/feature/fea1_tn_1.jpg">
                             </figure>
-                            <figure class="soraToplogo02">
-                                <img src="img/Feature/logo02.png" alt="" style="vertical-align: top;">
+                            <div class="feaTxtW">
+                                <p class="feaDate">2023.02.24</p>
+                                <p class="fea01Ttl1">プロジェクト名／ソーシャルシテー計画</p>
+                                <p class="fea01Txt1">一般社団法人 空／代表理事 森田泰大</p>
+                            </div>
+                        </li>
+                        <li class="feaTn cf">
+                            <figure class="feaTnImg">
+                                <img src="img/feature/fea1_tn_2.jpg">
                             </figure>
-                            <div class="spFeatureTxt">
-                                www.sora-net.or.jp
+                            <div class="feaTxtW">
+                                <p class="feaDate">2023.02.24</p>
+                                <p class="fea01Ttl1">プロジェクト名／女性目線介護対策推進</p>
+                                <p class="fea01Txt1">一般社団法人 Healing-G／代表理事 鈴木英恵</p>
+                            </div>
+                        </li>
+                        <li class="feaTn cf">
+                            <figure class="feaTnImg">
+                                <img src="img/feature/fea1_tn_3.jpg">
+                            </figure>
+                            <div class="feaTxtW">
+                                <p class="feaDate">2023.02.24</p>
+                                <p class="fea01Ttl1">プロジェクト名／人材能力の新支援制度</p>
+                                <p class="fea01Txt1">株式会社 アギト／代表取締役 三井智明</p>
+                            </div>
+                        </li>
+                        <li class="feaTn cf">
+                            <figure class="feaTnImg">
+                                <img src="img/feature/fea1_tn_4.jpg">
+                            </figure>
+                            <div class="feaTxtW">
+                                <p class="feaDate">2023.02.24</p>
+                                <p class="fea01Ttl1">プロジェクト名／観光・緑地再生計画</p>
+                                <p class="fea01Txt1">株式会社 総合建設／代表取締役 高木仁志</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--
+                    <div class="feaPagerW">
+                        <li class="pager active"><a href=""><span>●</span></a></li>
+                        <li class="pager"><a href=""><span>●</span></a></li>
+                        <li class="pager"><a href=""><span>●</span></a></li>
+                        <li class="pager"><a href=""><span>●</span></a></li>
+                    </div>-->
+                </div>
+                <div class="feaW2">
+                    <div class="feaChangeW">
+                        <div class="fea01MainW">
+                            <figure class="fea01MainImg">
+                                <img src="img/feature/fea02_main_img.jpg">
+                            </figure>
+                            <div class="fea01MainTxtW">
+                                <figure class="feaLogo">
+                                    <img src="img/feature/fea_logo.png">
+                                </figure>
+                                <figure class="feaWord">
+                                    <img src="img/feature/fea_word.png">
+                                </figure>
+                                <p class="fea01Ttl2">プロジェクト名／ソーシャルシテー計画</p>
+                                <p class="fea01Sh poppin">Representative Director &amp; President</p>
+                                <p class="fea01Name poppin">YASUHIRO<br>
+                                    MORITA</p>
+                                <p class="fea01NameS">一般社団法人 空／代表理事 森田泰大</p>
+                            </div>
+                        </div>
+                        <p class="fea01Copy1 yumin">様々な利用者の利便性と充実だけを</p>
+                        <p class="fea01Copy2 yumin">追求した新時代ニーズをカタチに。</p>
+                        <p class="fea01Txt2">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2025年には、いわゆる団塊の世代がすべて75歳以上の後期高齢者となることから、今後、介護ニーズが飛躍的に増加していきます。このニーズに応えられるだけの介護サービスを確保しなければならないためです。しかし、厚生労働省の試算によれば、2025年から2040年にかけて、高齢化の進行スピードは鈍化し、一方で分かっています。このため、▼いかに支え手を確保していくか▼いかに少ない支え手で効率的なサービス提供を行っていくか―が重要な視点となるのです（関連記事はこちらとこちら。さらに、より細かく見ていくと、（1）すでに高齢化のピークを過ぎ、介護ニーズが減少モードに転じた地域もある（2）高齢化のピークは迎えていないが、近くピークを迎え、その後介る地域もある―ことも分かってきました。こうした「地域特性」をどう考えていくかが、第8期計画作成において極めて重要な視点となるのです。</p>
+                        <div class="fea01Box1">
+                            <figure class="fea01BoxImg1">
+                                <img src="img/feature/fea2_img_1.jpg">
+                            </figure>
+                            <div class="fea01BoxW1">
+                                <p class="fea01Copy3 yumin">共に歩んでいく必要なノウハウとしての協力企業。</p>
+                                <p class="fea01Copy4 yumin">伴走という位置のプロフェッショナル。</p>
+                                <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。2021－23年度を対象とする「第8期介護保険事業（支援）計進められています。</p>
+                            </div>
+                        </div>
+                        <div class="fea01Box2">
+                            <figure class="fea01BoxImg2">
+                                <img src="img/feature/fea2_img_2.jpg">
+                            </figure>
+                            <div class="fea01BoxW2">
+                                <p class="fea01Copy3 yumin">一般社団法人 空で育っていく新しい若き志士へ。</p>
+                                <p class="fea01Copy4 yumin">プロジェクト促進を促す満ち溢れた<br>
+                                    素質が良いシティの実現へ繋がる。</p>
+                                <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。</p>
+                            </div>
+                        </div>
+                        <div class="fea01Box3">
+                            <h2 class="fea01Ttl3 yumin">ソーシャルシティープロジェクトでより良い暮らしの提供を実現化します。</h2>
+                            <div class="fea01Box3W">
+                                <div class="fea01Box3L">
+                                    <figure class="fea01Box3Img">
+                                        <img src="img/feature/fea02_img_3.jpg">
+                                    </figure>
+                                    <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向け護計画」に向けたサービ8期介護保険事業（支援計画」に向けた）計画」に向けた制度改正論議が進められています。</p>
+                                </div>
+                                <div class="fea01Box3R">
+                                    <figure class="fea01Box3Img">
+                                        <img src="img/feature/fea02_img_4.jpg">
+                                    </figure>
+                                    <h3 class="fea01Copy5 yumin">新しい希望が明るい笑顔を作っていきます。</h3>
+                                    <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="spFeature02">
-                        <div class="spFeatureTxt02">
-                            STRONG KEY WORD
-                        </div>
-                        <figure>
-                            <img src="img/Feature/omoi.png" alt="" style="vertical-align: top;">
-                        </figure>
-                    </div>
-                    <div class="spFeatureTxt03">
-                        プロジェクト名／ソーシャルシテー計画
-                    </div>
-                    <div class="spFeatureTxt04">
-                        Representative Director & President
-                    </div>
-                    <div  class="spFeatureTxt05">
-                        YASUHIRO<br>
-                        MORITA
-                    </div>
-                    <div class="spFeatureTxt06">
-                        一般社団法人 空／代表理事 森田泰大
-                    </div>
-                </div>
-            </div>
-
-            <div class="contentWrap">
-                <div class="spFeatureTxt07">
-                    様々な利用者の利便性と充実だけを<br>
-                    <span class="spFeatureTxt08">追求した新時代ニーズをカタチに。</span>
-                </div>
-                <div>
-                    
-                </div>
-                <div class="spFeatureTxt09">
-                    介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2025年には、いわゆる団塊の世代がすべて75歳以上の後期高齢者となることから、今後、介護ニーズが飛躍的に増加していきます。このニーズに応えられるだけの介護サービスを確保しなければならないためです。しかし、厚生労働省の試算によれば、2025年から2040年にかけて、高齢化の進行スピードは鈍化し、一方で分かっています。このため、▼いかに支え手を確保していくか▼いかに少ない支え手で効率的なサービス提供を行っていくか―が重要な視点となるのです（関連記事はこちらとこちら。さらに、より細かく見ていくと、（1）すでに高齢化のピークを過ぎ、介護ニーズが減少モードに転じた地域もある（2）高齢化のピークは迎えていないが、近くピークを迎え、その後介る地域もある―ことも分かってきました。こうした「地域特性」をどう考えていくかが、第8期計画作成において極めて重要な視点となるのです。
-                </div>
-                <div class="spFeatureflex contentWrap">
-                    <figure>
-                        <img src="img/Feature/SpFeature01.png" alt="" style="vertical-align: top;">
-                    </figure>
-                    <div class="spFeatureContent">
-                        <div class="spFeatureContents01">
-                            共に歩んでいく必要なノウハウとしての協力企業
-                        </div>
-                        <div class="spFeatureContents02">
-                            伴走という位置のプロフェッショナル。
-                        </div>
-                        <div class="spFeatureContents03">
-                            介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021-23年度を対象とする「第8期介護保険事業(支援)計画」に向けた制度改正論議が進められています。第7期計画(2018-20年度対象)までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2021-23年度を対象とする「第8期介護保険事業(支援)計画」に向けた制度改正論議が進められています。2021-23年度を対象とする「第8期介護保険事業(支援)計進められています。
-                        </div>
-                    </div>
-                </div>
-                <div class="spFeatureflex contentWrap" style="padding-top: 32px;">
-                    <div class="spFeatureContent02">
-                        <div class="spFeatureContents01">
-                            一般社団法人 空で育っていく新しい若き志士へ。
-                        </div>
-                        <div class="spFeatureContents02">
-                            プロジェクト促進を促す満ち溢れた<br>
-                            素質が良いシティの実現へ繋がる。
-                        </div>
-                        <div  class="spFeatureContents04">
-                            介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業(支援)計画」に向けた制度改正論議が進められています。第7期計画(2018－20年度対象)までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2021－23年度を対象とする「第8期介護保険事業(支援)計画」に向けた制度改正論議が進められています。
-                        </div>
-                    </div>
-                    <figure>
-                        <img src="img/Feature/SpFeature02.png" alt="" style="vertical-align: top;">
-                    </figure>
-                </div>
-            </div>
-
-            <div class="spFeature">
-                <div class="spFeatureLine">
-                    <div class="spFeatureContents05">
-                        ソーシャルシティープロジェクトでより良い暮らしの提供を実現化します。
-                    </div>
-                    <div class="spFeatureContents09">
-                        <div class="spFeatureContents10">
-                            <figure>
-                                <img src="img/Feature/SpFeature03.png" alt="" style="vertical-align: top;">
+                    <div class="feaChangeW">
+                        <div class="fea01MainW">
+                            <figure class="fea01MainImg">
+                                <img src="img/feature/fea02_main_img.jpg">
                             </figure>
-                            <div class="spFeatureContents06">
-                                介護保険制度<span class="kagiKakko01">は「</span>3年を1期<span class="kagiKakko02">」</span>として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とす<span class="kagiKakko">る「</span>第8期介護保険事業(支援)計画<span class="kagiKakko"><span class="kagiKakko02">」</span>に向け護計画<span class="kagiKakko02">」</span>に向けたサービ8期介護保険事業(支援計画<span class="kagiKakko02">」</span>に向けた)計画<span class="kagiKakko02">」</span>に向けた制度改正論議が進められています。
+                            <div class="fea01MainTxtW">
+                                <figure class="feaLogo">
+                                    <img src="img/feature/fea_logo.png">
+                                </figure>
+                                <figure class="feaWord">
+                                    <img src="img/feature/fea_word.png">
+                                </figure>
+                                <p class="fea01Ttl2">プロジェクト名／ソーシャルシテー計画</p>
+                                <p class="fea01Sh poppin">Representative Director &amp; President</p>
+                                <p class="fea01Name poppin">YASUHIRO<br>
+                                    MORITA</p>
+                                <p class="fea01NameS">一般社団法人 空／代表理事 森田泰大</p>
                             </div>
                         </div>
-    
-                        <div>
-                            <figure>
-                                <img src="img/Feature/Spfeature04.png" alt="" style="vertical-align: top;">
+                        <p class="fea01Copy1 yumin">様々な利用者の利便性と充実だけを</p>
+                        <p class="fea01Copy2 yumin">これはプロジェクト2つ目。</p>
+                        <p class="fea01Txt2">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2025年には、いわゆる団塊の世代がすべて75歳以上の後期高齢者となることから、今後、介護ニーズが飛躍的に増加していきます。このニーズに応えられるだけの介護サービスを確保しなければならないためです。しかし、厚生労働省の試算によれば、2025年から2040年にかけて、高齢化の進行スピードは鈍化し、一方で分かっています。このため、▼いかに支え手を確保していくか▼いかに少ない支え手で効率的なサービス提供を行っていくか―が重要な視点となるのです（関連記事はこちらとこちら。さらに、より細かく見ていくと、（1）すでに高齢化のピークを過ぎ、介護ニーズが減少モードに転じた地域もある（2）高齢化のピークは迎えていないが、近くピークを迎え、その後介る地域もある―ことも分かってきました。こうした「地域特性」をどう考えていくかが、第8期計画作成において極めて重要な視点となるのです。</p>
+                        <div class="fea01Box1">
+                            <figure class="fea01BoxImg1">
+                                <img src="img/feature/fea2_img_1.jpg">
                             </figure>
-                            <div class="spFeatureContents07">
-                                新しい希望が明るい笑顔を作っていきます。
+                            <div class="fea01BoxW1">
+                                <p class="fea01Copy3 yumin">共に歩んでいく必要なノウハウとしての協力企業。</p>
+                                <p class="fea01Copy4 yumin">伴走という位置のプロフェッショナル。</p>
+                                <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。2021－23年度を対象とする「第8期介護保険事業（支援）計進められています。</p>
                             </div>
-                            <div class="spFeatureContents08">
-                                介護保険制度<span class="kagiKakko">は「</span>年を1期<span class="kagiKakko">」と</span>して、サービス提供体制の整備や、保険料の設定などが行われ、<br>2021－23年度を対象とする「第8期介護保険事業(支援)計画」に向けた制度改正論議が進め<br>られています。第7期計画(2018－20年度対象)までは<span class="kagiKakko">、「</span>2025年」を目指し、いかに介護<br>サービス提供体制を充実していくか、という観点で検討が進められてきました。
+                        </div>
+                        <div class="fea01Box2">
+                            <figure class="fea01BoxImg2">
+                                <img src="img/feature/fea2_img_2.jpg">
+                            </figure>
+                            <div class="fea01BoxW2">
+                                <p class="fea01Copy3 yumin">一般社団法人 空で育っていく新しい若き志士へ。</p>
+                                <p class="fea01Copy4 yumin">プロジェクト促進を促す満ち溢れた<br>
+                                    素質が良いシティの実現へ繋がる。</p>
+                                <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。</p>
+                            </div>
+                        </div>
+                        <div class="fea01Box3">
+                            <h2 class="fea01Ttl3 yumin">ソーシャルシティープロジェクトでより良い暮らしの提供を実現化します。</h2>
+                            <div class="fea01Box3W">
+                                <div class="fea01Box3L">
+                                    <figure class="fea01Box3Img">
+                                        <img src="img/feature/fea02_img_3.jpg">
+                                    </figure>
+                                    <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向け護計画」に向けたサービ8期介護保険事業（支援計画」に向けた）計画」に向けた制度改正論議が進められています。</p>
+                                </div>
+                                <div class="fea01Box3R">
+                                    <figure class="fea01Box3Img">
+                                        <img src="img/feature/fea02_img_4.jpg">
+                                    </figure>
+                                    <h3 class="fea01Copy5 yumin">新しい希望が明るい笑顔を作っていきます。</h3>
+                                    <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="feaChangeW">
+                        <div class="fea01MainW">
+                            <figure class="fea01MainImg">
+                                <img src="img/feature/fea02_main_img.jpg">
+                            </figure>
+                            <div class="fea01MainTxtW">
+                                <figure class="feaLogo">
+                                    <img src="img/feature/fea_logo.png">
+                                </figure>
+                                <figure class="feaWord">
+                                    <img src="img/feature/fea_word.png">
+                                </figure>
+                                <p class="fea01Ttl2">プロジェクト名／ソーシャルシテー計画</p>
+                                <p class="fea01Sh poppin">Representative Director &amp; President</p>
+                                <p class="fea01Name poppin">YASUHIRO<br>
+                                    MORITA</p>
+                                <p class="fea01NameS">一般社団法人 空／代表理事 森田泰大</p>
+                            </div>
+                        </div>
+                        <p class="fea01Copy1 yumin">様々な利用者の利便性と充実だけを</p>
+                        <p class="fea01Copy2 yumin">これはプロジェクト3つ目。</p>
+                        <p class="fea01Txt2">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2025年には、いわゆる団塊の世代がすべて75歳以上の後期高齢者となることから、今後、介護ニーズが飛躍的に増加していきます。このニーズに応えられるだけの介護サービスを確保しなければならないためです。しかし、厚生労働省の試算によれば、2025年から2040年にかけて、高齢化の進行スピードは鈍化し、一方で分かっています。このため、▼いかに支え手を確保していくか▼いかに少ない支え手で効率的なサービス提供を行っていくか―が重要な視点となるのです（関連記事はこちらとこちら。さらに、より細かく見ていくと、（1）すでに高齢化のピークを過ぎ、介護ニーズが減少モードに転じた地域もある（2）高齢化のピークは迎えていないが、近くピークを迎え、その後介る地域もある―ことも分かってきました。こうした「地域特性」をどう考えていくかが、第8期計画作成において極めて重要な視点となるのです。</p>
+                        <div class="fea01Box1">
+                            <figure class="fea01BoxImg1">
+                                <img src="img/feature/fea2_img_1.jpg">
+                            </figure>
+                            <div class="fea01BoxW1">
+                                <p class="fea01Copy3 yumin">共に歩んでいく必要なノウハウとしての協力企業。</p>
+                                <p class="fea01Copy4 yumin">伴走という位置のプロフェッショナル。</p>
+                                <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。2021－23年度を対象とする「第8期介護保険事業（支援）計進められています。</p>
+                            </div>
+                        </div>
+                        <div class="fea01Box2">
+                            <figure class="fea01BoxImg2">
+                                <img src="img/feature/fea2_img_2.jpg">
+                            </figure>
+                            <div class="fea01BoxW2">
+                                <p class="fea01Copy3 yumin">一般社団法人 空で育っていく新しい若き志士へ。</p>
+                                <p class="fea01Copy4 yumin">プロジェクト促進を促す満ち溢れた<br>
+                                    素質が良いシティの実現へ繋がる。</p>
+                                <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。</p>
+                            </div>
+                        </div>
+                        <div class="fea01Box3">
+                            <h2 class="fea01Ttl3 yumin">ソーシャルシティープロジェクトでより良い暮らしの提供を実現化します。</h2>
+                            <div class="fea01Box3W">
+                                <div class="fea01Box3L">
+                                    <figure class="fea01Box3Img">
+                                        <img src="img/feature/fea02_img_3.jpg">
+                                    </figure>
+                                    <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向け護計画」に向けたサービ8期介護保険事業（支援計画」に向けた）計画」に向けた制度改正論議が進められています。</p>
+                                </div>
+                                <div class="fea01Box3R">
+                                    <figure class="fea01Box3Img">
+                                        <img src="img/feature/fea02_img_4.jpg">
+                                    </figure>
+                                    <h3 class="fea01Copy5 yumin">新しい希望が明るい笑顔を作っていきます。</h3>
+                                    <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feaChangeW">
+                        <div class="fea01MainW">
+                            <figure class="fea01MainImg">
+                                <img src="img/feature/fea02_main_img.jpg">
+                            </figure>
+                            <div class="fea01MainTxtW">
+                                <figure class="feaLogo">
+                                    <img src="img/feature/fea_logo.png">
+                                </figure>
+                                <figure class="feaWord">
+                                    <img src="img/feature/fea_word.png">
+                                </figure>
+                                <p class="fea01Ttl2">プロジェクト名／ソーシャルシテー計画</p>
+                                <p class="fea01Sh poppin">Representative Director &amp; President</p>
+                                <p class="fea01Name poppin">YASUHIRO<br>
+                                    MORITA</p>
+                                <p class="fea01NameS">一般社団法人 空／代表理事 森田泰大</p>
+                            </div>
+                        </div>
+                        <p class="fea01Copy1 yumin">様々な利用者の利便性と充実だけを</p>
+                        <p class="fea01Copy2 yumin">これはプロジェクト4つ目。</p>
+                        <p class="fea01Txt2">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2025年には、いわゆる団塊の世代がすべて75歳以上の後期高齢者となることから、今後、介護ニーズが飛躍的に増加していきます。このニーズに応えられるだけの介護サービスを確保しなければならないためです。しかし、厚生労働省の試算によれば、2025年から2040年にかけて、高齢化の進行スピードは鈍化し、一方で分かっています。このため、▼いかに支え手を確保していくか▼いかに少ない支え手で効率的なサービス提供を行っていくか―が重要な視点となるのです（関連記事はこちらとこちら。さらに、より細かく見ていくと、（1）すでに高齢化のピークを過ぎ、介護ニーズが減少モードに転じた地域もある（2）高齢化のピークは迎えていないが、近くピークを迎え、その後介る地域もある―ことも分かってきました。こうした「地域特性」をどう考えていくかが、第8期計画作成において極めて重要な視点となるのです。</p>
+                        <div class="fea01Box1">
+                            <figure class="fea01BoxImg1">
+                                <img src="img/feature/fea2_img_1.jpg">
+                            </figure>
+                            <div class="fea01BoxW1">
+                                <p class="fea01Copy3 yumin">共に歩んでいく必要なノウハウとしての協力企業。</p>
+                                <p class="fea01Copy4 yumin">伴走という位置のプロフェッショナル。</p>
+                                <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。2021－23年度を対象とする「第8期介護保険事業（支援）計進められています。</p>
+                            </div>
+                        </div>
+                        <div class="fea01Box2">
+                            <figure class="fea01BoxImg2">
+                                <img src="img/feature/fea2_img_2.jpg">
+                            </figure>
+                            <div class="fea01BoxW2">
+                                <p class="fea01Copy3 yumin">一般社団法人 空で育っていく新しい若き志士へ。</p>
+                                <p class="fea01Copy4 yumin">プロジェクト促進を促す満ち溢れた<br>
+                                    素質が良いシティの実現へ繋がる。</p>
+                                <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。</p>
+                            </div>
+                        </div>
+                        <div class="fea01Box3">
+                            <h2 class="fea01Ttl3 yumin">ソーシャルシティープロジェクトでより良い暮らしの提供を実現化します。</h2>
+                            <div class="fea01Box3W">
+                                <div class="fea01Box3L">
+                                    <figure class="fea01Box3Img">
+                                        <img src="img/feature/fea02_img_3.jpg">
+                                    </figure>
+                                    <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向け護計画」に向けたサービ8期介護保険事業（支援計画」に向けた）計画」に向けた制度改正論議が進められています。</p>
+                                </div>
+                                <div class="fea01Box3R">
+                                    <figure class="fea01Box3Img">
+                                        <img src="img/feature/fea02_img_4.jpg">
+                                    </figure>
+                                    <h3 class="fea01Copy5 yumin">新しい希望が明るい笑顔を作っていきます。</h3>
+                                    <p class="fea01Txt3">介護保険制度は「3年を1期」として、サービス提供体制の整備や、保険料の設定などが行われ、2021－23年度を対象とする「第8期介護保険事業（支援）計画」に向けた制度改正論議が進められています。第7期計画（2018－20年度対象）までは、「2025年」を目指し、いかに介護サービス提供体制を充実していくか、という観点で検討が進められてきました。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feaW3">
+                    <!--
+                    <div class="feaPagerW pager2">
+                        <li class="pager active"><a href=""><span>●</span></a></li>
+                        <li class="pager"><a href=""><span>●</span></a></li>
+                        <li class="pager"><a href=""><span>●</span></a></li>
+                        <li class="pager"><a href=""><span>●</span></a></li>
+                    </div>-->
+                    <ul class="feaTnW feaTnWB">
+                        <li class="feaTn feaTnB is-active">
+                            <figure class="feaTnImg">
+                                <img src="img/feature/fea1_tn_1.jpg">
+                            </figure>
+                            <div class="feaTxtW">
+                                <p class="feaDate">2023.02.24</p>
+                                <p class="fea01Ttl1">プロジェクト名／ソーシャルシテー計画</p>
+                                <p class="fea01Txt1">一般社団法人 空／代表理事 森田泰大</p>
+                            </div>
+                        </li>
+                        <li class="feaTn feaTnB">
+                            <figure class="feaTnImg">
+                                <img src="img/feature/fea1_tn_2.jpg">
+                            </figure>
+                            <div class="feaTxtW">
+                                <p class="feaDate">2023.02.24</p>
+                                <p class="fea01Ttl1">プロジェクト名／女性目線介護対策推進</p>
+                                <p class="fea01Txt1">一般社団法人 Healing-G／代表理事 鈴木英恵</p>
+                            </div>
+                        </li>
+                        <li class="feaTn feaTnB">
+                            <figure class="feaTnImg">
+                                <img src="img/feature/fea1_tn_3.jpg">
+                            </figure>
+                            <div class="feaTxtW">
+                                <p class="feaDate">2023.02.24</p>
+                                <p class="fea01Ttl1">プロジェクト名／人材能力の新支援制度</p>
+                                <p class="fea01Txt1">株式会社 アギト／代表取締役 三井智明</p>
+                            </div>
+                        </li>
+                        <li class="feaTn feaTnB">
+                            <figure class="feaTnImg">
+                                <img src="img/feature/fea1_tn_4.jpg">
+                            </figure>
+                            <div class="feaTxtW">
+                                <p class="feaDate">2023.02.24</p>
+                                <p class="fea01Ttl1">プロジェクト名／観光・緑地再生計画</p>
+                                <p class="fea01Txt1">株式会社 総合建設／代表取締役 高木仁志</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-
-            <div class="spFeature contentWrap spFeatureSpace">
-                <div class="spFeatureBox">
-                    <a href="">
-                        <figure>
-                            <img src="img/Feature/men01.png" alt="" style="vertical-align: top; border-bottom: 5px solid #429AD0;">
-                        </figure>
-                    </a>
-                    <div class="spFeatureBoxTxt">
-                        <div class="spFeatureBoxTxt02">
-                            2023.02.24
-                        </div>
-                        <div class="spFeatureBoxTxt03">
-                            プロジェクト名／ソーシャルシテー計画
-                        </div>
-                        <div class="spFeatureBoxTxt04">
-                            一般社団法人 空／代表理事 森田泰大
-                        </div>
-                    </div>
-                </div>
-                <div class="spFeatureBox">
-                    <a href="">
-                        <figure>
-                            <img src="img/Feature/lady.png" alt="" style="vertical-align: top; border-bottom: 5px solid #B5B5B6;">
-                        </figure>
-                    </a>
-                    <div class="spFeatureBoxTxt">
-                        <div class="spFeatureBoxTxt05">
-                            2023.02.24
-                        </div>
-                        <div class="spFeatureBoxTxt06">
-                            プロジェクト名／ソーシャルシテー計画
-                        </div>
-                        <div class="spFeatureBoxTxt07">一般社団法人 空／代表理事 森田泰大</div>
-                    </div>
-                </div>
-                <div class="spFeatureBox">
-                    <a href="">
-                        <figure>
-                            <img src="img/Feature/men02.png" alt="" style="vertical-align: top; border-bottom: 5px solid #B5B5B6;">
-                        </figure>
-                    </a>
-                    <div class="spFeatureBoxTxt">
-                        <div class="spFeatureBoxTxt05">
-                            2023.02.24
-                        </div>
-                        <div class="spFeatureBoxTxt06">
-                            プロジェクト名／ソーシャルシテー計画
-                        </div>
-                        <div class="spFeatureBoxTxt07">一般社団法人 空／代表理事 森田泰大</div>
-                    </div>
-                </div>
-                <div class="spFeatureBox">
-                    <a href="">
-                        <figure>
-                            <img src="img/Feature/men03.png" alt="" style="vertical-align: top; border-bottom: 5px solid #B5B5B6;">
-                        </figure>
-                    </a>
-                    <div class="spFeatureBoxTxt">
-                        <div class="spFeatureBoxTxt05">
-                            2023.02.24
-                        </div>
-                        <div class="spFeatureBoxTxt06">
-                            プロジェクト名／ソーシャルシテー計画
-                        </div>
-                        <div class="spFeatureBoxTxt07">一般社団法人 空／代表理事 森田泰大</div>
-                    </div>
-                    <div class="dot dotPosition02">
-                        <div class="dot-content1"></div>
-                        <div class="dot-content"></div>
-                        <div class="dot-content"></div>
-                        <div class="dot-content"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
+        </section>
+	</main>
+    <div class="goTopBtn">
+        <a href="#"><img src="img/gotop.png"></a>
+    </div>
     <footer>
-        <div class="header-inner spFeatureSpace">
-            <a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
-            <ul class="nav-menu">
-                <a href="index.html"><li class="menu">
-                    <div class="menu-title">ホーム</div>
-                </li></a>
-                <a href="greeting.html"><li class="menu">
-                    <div class="menu-title">ご挨拶</div>
-                </li></a>
-                <a href="service.html"><li class="menu">
-                    <div class="menu-title">サービス案内</div>
-                </li></a>
-                <a href="facility.html"><li class="menu">
-                    <div class="menu-title">各施設案内</div>
-                </li></a>
-                <a href="company.html"><li class="menu">
-                    <div class="menu-title">企業情報</div>
-                </li></a>
-                <a href="news.html"><li class="menu">
-                    <div class="menu-title">最新情報</div>
-                </li></a>
-            </ul>
+        <div class="footerW contentWrap">
+            <div class="headerLogo">
+                <a href="./"><img src="img/logo.svg" class="logo1"></a>
+            </div>
+            <div id="footerMenu">
+                <div class="headerMenuBtn headMenu sp">
+                    <a class="menu-trigger" href="javascript:void(0);"> <span></span> <span></span> <span></span> </a>
+                </div>
+				<div class="headerLinkW menuSlide">
+					<ul class="headerMenus">
+						<li class="headerMenu"><a href="/">ホーム</a></li>
+						<li class="headerMenu"><a href="greeting.html">ご挨拶</a></li>
+						<li class="headerMenu"><a href="service.html">サービス案内</a></li>
+						<li class="headerMenu"><a href="#">各施設案内</a></li>
+						<li class="headerMenu"><a href="#">企業情報</a></li>
+						<li class="headerMenu"><a href="#">最新情報</a></li>
+					</ul>
+				</div>
+            </div>
         </div>
-        <div class="footer-out">
-            福岡を中心とした、、児童発達支援／放課後等デイサービス／生活介護／居宅サービス／移動支援のサポート企業　一般社団法人　空
-        </div>
+		<div class="headerCopy">
+			<div class="headerCopyW contentWrap">
+				<p class="headerTxt">福岡を中心とした、児童発達支援／放課後等デイサービス／生活介護／居宅サービス／移動支援のサポート企業 一般社団法人 空</p>
+			</div>
+		</div>
     </footer>
+</div>
+<!-- /#container --> 
+
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.matchHeight-min.js"></script>
+<script src="js/lightbox.js"></script>
+
+<script src="js/base.js"></script>
+  <!--スライダーjs-->
+  <!--/スライダーjs-->
+
+<script type="text/javascript">
+
+    $(".top05Slides").slick({
+      autoplay: true, // 自動再生
+      arrows: false, // 矢印
+      dots: false, // インジケーター
+        fade: false,
+        infinite: true,
+    });
+    $(".wo01ImgW").slick({
+      autoplay: true, // 自動再生
+      arrows: true, // 矢印
+      dots: false, // インジケーター
+        fade: false,
+        infinite: true,
+    });
+    $(".se01ImgW").slick({
+      autoplay: true, // 自動再生
+      arrows: true, // 矢印
+      dots: false, // インジケーター
+        fade: false,
+        infinite: true,
+    });
+    lightbox.option({
+      'resizeDuration': 400,
+      'wrapAround': true
+    })
+</script>
+    
+
+</script>
+
+
 </body>
 </html>
