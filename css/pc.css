@@ -788,7 +788,7 @@
     color: #DBDCDC !important;
 }
 .pager.active a{
-    color: #595757 !important;
+    color: #429AD0 !important;
 }
 
 .topQrW{
@@ -2643,7 +2643,7 @@
     padding-bottom: 32px;
 }
 .comSec03Txt2 {
-    font-size: 2.1rem;
+    font-size: 2rem;
     color: #595757;
     font-weight: lighter;
     line-height: 1.77;
@@ -2651,11 +2651,11 @@
 }
 .comSec03Txt3 {
 	display: inline-block;
-	margin-left: 140px;
+	margin-left: 132px;
 }
 .comSec03Txt4 {
 	display: inline-block;
-	margin-left: 160px;
+	margin-left: 152px;
 }
 .comSec03Txt5 {
 	font-size: 2.1rem;
@@ -2664,7 +2664,7 @@
     line-height: 1.77;
     padding: 10px 0;
 	display: inline-block;
-	margin-left: 100px;
+	margin-left: 92px;
 }
 #comSec04 {
 }
@@ -3079,6 +3079,10 @@ appearance: none;
     border-radius: 5px;
     margin: 0 16px 16px 0;
 }
+.newsSec01Contents6:hover {
+    background-color: #429AD0;
+	transition: 1.0s;
+}
 .newsSec01ContentTxt1 {
     font-size: 1.6rem;
     color: #F6F6F6;
@@ -3317,6 +3321,10 @@ appearance: none;
     border-radius: 50%;
     border: 3px solid #DCDDDD;
 	width: 171px;
+}
+.messageImg02:hover {
+	border: 3px solid #429AD0;
+	transition: 1.0s;
 }
 .mesSec01Txt3 {
     font-size: 2.4rem;
@@ -3793,4 +3801,81 @@ appearance: none;
 }
 .recruitImgPosi {
     margin-bottom: 128px;
+}
+.recruitBoxW {
+	padding: 0 20px 5px;
+}
+.recruitBoxW02 {
+	width: 800px;
+	margin-left: 20px;
+}
+.recruitBoxImg {
+	width: 325px;
+}
+.recruitBox {
+    border: 5px solid rgb(248, 244, 233);
+    border-radius: 8px;
+    margin: 64px 0;
+}
+.recruitBox02 {
+    background-color: rgb(235, 224, 194);
+	border-bottom: 3px solid rgb(44, 168, 105);
+	margin: 2px;
+}
+.recruitBox03 {
+	display: flex;
+	border-top: 1px dashed rgba(180,180,180,0.50);
+}
+.recruitBox03:nth-child(6){
+	border-bottom: 1px dashed rgba(180,180,180,0.50);
+
+}
+.recruitBox04 {
+	width: 150px;
+    background-color: rgb(249, 236, 219);
+}
+
+.recSec01Txt9 {
+    font-size: 2.4rem;
+    color: rgb(84, 43, 21);
+	font-weight: 600;
+    padding: 16px 0 16px 32px ;
+}
+.recSec01Txt10 {
+    font-size: 2.4rem;
+    color: #3E3A39;
+	font-weight: 600;
+    padding: 16px 0 16px 32px ;
+}
+.recSec01Txt11 {
+    font-size: 2rem;
+    color: rgb(84, 43, 21);
+	text-align: center;
+	padding: 30px 0;
+}
+.recSec01Txt12 {
+    font-size: 2rem;
+    color: #3E3A39;
+	font-weight: lighter;
+}
+.recSec01Txt13 {
+    font-size: 2rem;
+    color: rgb(84, 43, 21);
+	text-align: center;
+	padding: 15px 0;
+}
+.recSec01Txt14 {
+    font-size: 2rem;
+    color: rgb(84, 43, 21);
+	text-align: center;
+	padding: 45px 0;
+}
+.recSec01Txt15 {
+    font-size: 2rem;
+    color: rgb(84, 43, 21);
+	text-align: center;
+	padding: 30px 0;
+}
+.recruitFlex {
+	display: flex;
 }

@@ -15,7 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/reset.css">
-<link rel="stylesheet" href="./css/colorbox.css">
+<link href="./colorbox/design5/colorbox.css" rel="stylesheet" />
 <link rel="stylesheet" href="./style.css">
 <link rel="icon" href="img/favicon.ico">
 <link rel="apple-touch-icon" href="img/apple-touch-icon-180x180.png">
@@ -77,13 +77,13 @@
                         <p class="mvTelS">お問い合わせ可能時間／9:00〜17:00</p>
                     </div>
                     <div class="mvBtn2">
-                        <a href="#">
+                        <a href="recruit.html">
                             <p class="mvBtn2Ttl">採用情報</p>
                             <p class="mvBtn2Txt">お申し込みはコチラから</p>
                         </a>
                     </div>
                     <div class="mvBtn3">
-                        <a href="#">
+                        <a href="company.html">
                             <p class="mvBtn3Ttl">お問い合わせ</p>
                             <p class="mvBtn3Txt">お気軽にお問い合わせください</p>
                         </a>
@@ -189,11 +189,25 @@
                             </p>
                             <div class="newsSec01Flex2">
                                 <figure class="newsSec01Img1">
-                                    <img src="img/news/news_01.png" alt="">
+                                    <a class="inline" href="#inline_content1">
+                                        <img src="img/news/news_01.png" alt="">
+                                    </a>
                                 </figure>
+                                <div style="display:none">
+                                    <div id="inline_content1">
+                                        <img src="img/news/news_01.png" alt="">
+                                    </div>
+                                 </div>
                                 <figure class="newsSec01Img2">
-                                    <img src="img/news/news_02.png" alt="">
+                                    <a class="inline" href="#inline_content2">
+                                        <img src="img/news/news_02.png" alt="">
+                                    </a>
                                 </figure>
+                                <div style="display:none">
+                                    <div id="inline_content2">
+                                        <img src="img/news/news_02.png" alt="">
+                                    </div>
+                                 </div>
                             </div>
                         </div>
                         <div class="newsSec01Line1">
@@ -202,11 +216,25 @@
                             </p>
                             <div class="newsSec01Flex2">
                                 <figure class="newsSec01Img3">
-                                    <img src="img/news/news_03.png" alt="">
+                                    <a class="inline" href="#inline_content3">
+                                        <img src="img/news/news_03.png" alt="">
+                                    </a>
                                 </figure>
+                                <div style="display:none">
+                                    <div id="inline_content3">
+                                        <img src="img/news/news_03.png" alt="">
+                                    </div>
+                                 </div>
                                 <figure class="newsSec01Img4">
-                                    <img src="img/news/news_04.png" alt="">
+                                    <a class="inline" href="#inline_content4">
+                                        <img src="img/news/news_04.png" alt="">
+                                    </a>
                                 </figure>
+                                <div style="display:none">
+                                    <div id="inline_content4">
+                                        <img src="img/news/news_04.png" alt="">
+                                    </div>
+                                 </div>
                             </div>
                         </div>
                         <div class="newsSec01Line1">
@@ -266,6 +294,13 @@
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.matchHeight-min.js"></script>
 <script src="js/lightbox.js"></script>
+<script src="./colorbox/jquery.colorbox-min.js"></script>
+<script src="./colorbox/jquery.colorbox-ja.js"></script>
+<script>
+    $(document).ready(function(){
+       $(".inline").colorbox({inline:true, width:"50%"});
+    });
+ </script>
 
 <script src="js/base.js"></script>
   <!--スライダーjs-->
