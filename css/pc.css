@@ -3810,6 +3810,7 @@ appearance: none;
 .recruitBoxW02 {
 	width: 800px;
 	margin-left: 20px;
+	padding-bottom: 30px;
 }
 .recruitBoxImg {
 	width: 325px;
@@ -3829,7 +3830,7 @@ appearance: none;
 	display: flex;
 	border-top: 1px dashed rgba(180,180,180,0.50);
 }
-.recruitBox03:nth-child(6){
+.recruitBox03Line{
 	border-bottom: 1px dashed rgba(180,180,180,0.50);
 
 }
