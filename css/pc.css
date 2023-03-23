@@ -3835,7 +3835,7 @@ appearance: none;
 
 }
 .recruitBox04 {
-	width: 150px;
+	width: 200px;
     background-color: rgb(249, 236, 219);
 }
 
@@ -3909,7 +3909,7 @@ appearance: none;
 /* RECRUITSHOW */
 
 .recShowSec01W {
-	padding: 150px 0 80px 0;
+	padding-top: 150px;
 }
 .recShowLine {
 	width: 250px;
