@@ -301,7 +301,7 @@
                                     生年月日 <span class="inputStar">★</span>
                                 </th>
                                 <td>
-                                    <select name="year" id="" class="input02">
+                                    <select name="year" id="" class="recform02">
                                         <option value disabled selected>西暦</option>
                                         <option value="2008">2008</option>
                                         <option value="2007">2007</option>
@@ -334,7 +334,7 @@
                                         
                                     </select>
                                     <span class="inputTel">／</span>
-                                    <select name="month" id="" class="input04">
+                                    <select name="month" id="" class="recform03">
                                         <option value disabled selected>月</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -350,7 +350,7 @@
                                         <option value="12">12</option>
                                     </select>
                                     <span class="inputTel">／</span>
-                                    <select name="day" id="" class="input04">
+                                    <select name="day" id="" class="recform03">
                                         <option value disabled selected>日</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -391,7 +391,7 @@
                                     現在の職業 <span class="inputStar">★</span>
                                 </th>
                                 <td>
-                                    <select name="occupations" id="" class="input01">
+                                    <select name="occupations" id="" class="recform04">
                                         <option value disabled selected>選択してください</option>
                                         <option value="1">高校生</option>
                                         <option value="2">大学生</option>
@@ -434,11 +434,24 @@
                             </tr>
                             <tr class="comSec05InputSpace">
                                 <th class="inputTxt01">
-                                    お問い合わせ内容
+                                    <label for="gender">
+                                        性別
+                                    </label>
                                 </th>
-                                <td>
-                                    <input type="textarea" class="input03">
-                                </td>
+                                <td class="recFormGen">
+                                <span>
+                                    <label>
+                                        <input type="radio" name="gender" value="01">
+                                        <span class="recformGenTxt">男性</span>
+                                    </label>
+                                </span>
+                                <span>
+                                    <label>
+                                        <input type="radio" name="gender" value="02">
+                                        <span class="recformGenTxt">女性</span>
+                                    </label>
+                                </span>
+                            </td>
                             </tr>
                         </tbody>
                     </table>

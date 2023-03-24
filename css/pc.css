@@ -3944,3 +3944,39 @@ appearance: none;
 	margin-top: 55px;
 }
 /* RECRUITFORM */
+.recFormGen {
+	padding: 20px 0 70px 24px;
+}
+.recform02 {
+    background-color: #F2F2F3;
+	color: #595757;
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 8px 0 5px 24px;
+}
+.recform03 {
+    background-color: #F2F2F3;
+	color: #595757;
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 8px;
+}
+.recform04 {
+    background-color: #F2F2F3;
+	color: #595757;
+    width: 374px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px 0 10px 24px;
+}
+.recformGenTxt {
+	font-size: 1.4rem;
+	color: #595757;
+	font-weight: lighter;
+	margin-right: 10px;
+}
