@@ -640,15 +640,15 @@
     margin-bottom: 30px;
 }
 .top05Txt2 .mg1{
-    padding-left: 77px;
+    padding-left: 103px;
     display: inline-block;
 }
 .top05Txt2 .mg2{
-    padding-left: 91px;
+    padding-left: 123px;
     display: inline-block;
 }
 .top05Txt2 .mg3{
-    padding-left: 57px;
+    padding-left: 74px;
     display: inline-block;
 }
 
@@ -2678,20 +2678,20 @@
 }
 .comSec03Txt3 {
 	display: inline-block;
-	margin-left: 132px;
+	margin-left: 105px;
 }
 .comSec03Txt4 {
 	display: inline-block;
-	margin-left: 152px;
+	margin-left: 122px;
 }
 .comSec03Txt5 {
-	font-size: 2.1rem;
+	font-size: 1.6rem;
     color: #595757;
     font-weight: lighter;
     line-height: 1.77;
     padding: 10px 0;
 	display: inline-block;
-	margin-left: 92px;
+	margin-left: 75px;
 }
 #comSec04 {
 }
