@@ -75,7 +75,7 @@ html {
 body {
 	background: #FFFFFF;
 	color: #595757;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
     font-family: 'Noto Sans JP', sans-serif;
     font-feature-settings : "palt";
 	line-height: normal;
@@ -178,7 +178,7 @@ img{
 		
 	}
 	.headerTxt{
-		font-size: 1.2rem;
+		font-size: 1.6rem;
 		line-height: 4rem;
 		letter-spacing: 0.1em;
         color: #fff;

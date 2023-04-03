@@ -282,7 +282,7 @@
     margin-bottom: 50px;
 }
 .top01Txt2{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     line-height: 2.2rem;
     letter-spacing: 0.1em;
     margin-bottom: 55px;
@@ -561,7 +561,7 @@
     margin-bottom: 15px;
 }
 .top04Add{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2.1rem;
 }
 .top04BtnW{
@@ -635,7 +635,7 @@
     font-weight: 500;
 }
 .top05Txt2{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2.4rem;
     margin-bottom: 30px;
 }
@@ -724,7 +724,7 @@
     margin-right: 0;
 }
 .top06Txt4{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 2.9rem;
     letter-spacing: 0.1em;
 }
@@ -786,7 +786,7 @@
     border-bottom: none;
 }
 .newsDate{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin-bottom: 10px;
 }
 
@@ -796,7 +796,7 @@
     color: #4199CF;
 }
 .newsTxt{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2.1rem;
 }
 .pagerW{
@@ -830,13 +830,13 @@
     margin-bottom: 15px;
 }
 .qrTxt1{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 2.4rem;
     letter-spacing: 0.05em;
     margin-bottom: 5px;
 }
 .qrTxt2{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2.1rem;
     letter-spacing: 0.1em;
 }
@@ -1251,7 +1251,7 @@
     margin-bottom: 25px;
 }
 .gre01Txt2{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2.1rem;
     letter-spacing: 0.1em;
     margin-bottom: 30px;
@@ -1346,7 +1346,7 @@
     color: #1e5199;
 }
 .gre02Txt1{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-align: left;
     letter-spacing: 0.1em;
     line-height: 2.1rem;
@@ -1684,29 +1684,29 @@
     padding: 0 8px;
 }
 .serCopy1{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     letter-spacing: 0;
     color: #35a7d2;
     margin-bottom: 20px;
 }
 .serTtl2{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #35a7d2;
 }
 .serTxt1{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin-bottom: 10px;
 }
 .serTxt2{
     font-size: 1.2rem;
 }
 .serTxt3{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2rem;
     margin-bottom: 10px;
 }
 .serTxt4{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2rem;
 }
 .serBoxW2{
@@ -1727,7 +1727,7 @@
     align-items: center;
 }
 .serTtl3{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: 0.1em;
 }
 .serBoxC{
@@ -1738,7 +1738,7 @@
     padding: 0 25px;
 }
 .serList{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2.3rem;
 }
 .serBoxR{
@@ -1754,7 +1754,7 @@
     font-weight: 500;
 }
 .serAdd{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin-bottom: 12px;
 }
 .serTelW{
@@ -1817,7 +1817,7 @@
     color: #3e3a39 !important;
 }
 .serCaution{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2.3rem;
     color: #429ad0;
 }
@@ -1858,7 +1858,7 @@
     margin: 0 auto;
 }
 .faciSec01Txt1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #595757;
     text-align: center;
     padding-top: 16px;
@@ -2527,7 +2527,7 @@
     color: #FFFFFF;
 }
 .faicSec08Txt3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #FFFFFF;
     padding-top: 5px;
 }
@@ -2670,7 +2670,7 @@
     padding-bottom: 32px;
 }
 .comSec03Txt2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #595757;
     font-weight: lighter;
     line-height: 1.77;
@@ -2815,7 +2815,7 @@
     text-align: center;
 }
 .comSec05Txt3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #595757;
     line-height: 2.45;
     font-weight: lighter;
@@ -2847,13 +2847,13 @@
     padding: 10px 0 0 0;
 }
 .inputTxt01 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: lighter;
     color: #595757;
     text-align: left;
 }
 .inputTxt02 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: lighter;
     color: #9FA0A0;
     margin-left: 24px;
@@ -3119,7 +3119,7 @@ appearance: none;
 }
 .newsSec01ContentTxt2 {
     color: #EFB66D;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     letter-spacing: -0.2em;
     margin-bottom: 0;
     padding-top: 10px;
@@ -3146,7 +3146,7 @@ appearance: none;
     padding-top: 10px;
 }
 .newsSec01ContentTxt6 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #595757;
     font-family: "A-OTF リュウミン Pro", sans-serif;
     letter-spacing: 0.1em;
@@ -3160,7 +3160,7 @@ appearance: none;
     padding: 8px 16px;
 }
 .newsSec01ContentTxt8 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #595757;
 	font-weight: lighter;
 	padding-top: 40px;
@@ -3171,7 +3171,7 @@ appearance: none;
     padding-top: 10px;
 }
 .newsSec01ContentTxt10 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #595757;
     line-height: 2;
 	font-weight: lighter;
@@ -3179,7 +3179,7 @@ appearance: none;
 }
 
 .newsSec01ContentTxt11 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     letter-spacing: 0.1em;
     color: #429AD0;
 	padding-top: 15px;
@@ -3191,7 +3191,7 @@ appearance: none;
 	padding: 15px 0 40px 0;
 }
 .newsSec01ContentTxt13 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #595757;
 	line-height: 2;
 	font-weight: lighter;
