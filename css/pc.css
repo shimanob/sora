@@ -381,8 +381,8 @@
     background: #fff;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 80px;
     text-align: left;
     border-bottom: 1px solid rgba(0,0,0,0.3);
 }
@@ -395,7 +395,7 @@
     overflow: hidden;
 }
 .top03TxtW{
-    padding: 20px 0 20px 30px;
+    padding: 0 0 0 30px;
     box-sizing: border-box;
     position: relative;
     width: 750px;
@@ -405,13 +405,40 @@
     margin-bottom: 25px;
     color: #4199CF;
 }
+.top03BtnW{
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    letter-spacing: -0.4em;
+}
+.top03BtnW a{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    border: 1px solid rgba(53,167,210,0.3);
+    color: #fff;
+    background: #35a7d2;
+    border-radius: 6px;
+    line-height: 3rem;
+}
+.top03BtnW a:hover{
+    background: #fff;
+    color: #35a7d2 !important;
+}
+.top03Btn1{
+    padding: 0 8px;
+}
+
 .top03Txt1{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2.1rem;
     margin-bottom: 10px;
 }
 .top03Txt2{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2.1rem;
 }
 .top03More{
@@ -601,8 +628,8 @@
     text-align: left;
 }
 .top05Txt1{
-    font-size: 2.7rem;
-    line-height: 4.7rem;
+    font-size: 2.2rem;
+    line-height: 4rem;
     letter-spacing: 0.2em;
     margin-bottom: 20px;
     font-weight: 500;
