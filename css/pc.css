@@ -1269,6 +1269,7 @@
 }
 .gre01Txt2{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.1rem;
     letter-spacing: 0.1em;
     margin-bottom: 30px;
@@ -1364,6 +1365,7 @@
 }
 .gre02Txt1{
     font-size: 1.6rem;
+	font-weight: 300;
     text-align: left;
     letter-spacing: 0.1em;
     line-height: 2.1rem;
@@ -1716,18 +1718,22 @@
 }
 .serTxt1{
     font-size: 1.6rem;
+	font-weight: 300;
     margin-bottom: 10px;
 }
 .serTxt2{
     font-size: 1.6rem;
+	font-weight: 300;
 }
 .serTxt3{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2rem;
     margin-bottom: 10px;
 }
 .serTxt4{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2rem;
 }
 .serBoxW2{
@@ -1760,6 +1766,7 @@
 }
 .serList{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.3rem;
 }
 .serBoxR{
@@ -1776,6 +1783,7 @@
 }
 .serAdd{
     font-size: 1.6rem;
+	font-weight: 300;
     margin-bottom: 12px;
 }
 .serTelW{
@@ -3180,6 +3188,7 @@ appearance: none;
 }
 .newsSec01ContentTxt6 {
     font-size: 1.6rem;
+	font-weight: 300;
     color: #595757;
     font-family: "A-OTF リュウミン Pro", sans-serif;
     letter-spacing: 0.1em;
