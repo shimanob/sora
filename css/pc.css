@@ -554,7 +554,7 @@
     width: 154px;
 }
 .top04TxtW{
-    padding: 0 30px;
+    padding: 0 25px;
     text-align: left;
     box-sizing: border-box;
     margin-bottom: 95px;
@@ -564,17 +564,24 @@
 	font-weight: 300;
     letter-spacing: 0.1em;
     line-height: 3.3rem;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .top04Add{
     font-size: 1.6rem;
 	font-weight: 300;
     line-height: 2.1rem;
+	margin-bottom: 10px;
+}
+.top04Add2{
+    font-size: 1.6rem;
+	font-weight: 300;
+    line-height: 2.1rem;
+	padding-bottom: 15px;
 }
 .top04BtnW{
     position: absolute;
     bottom: 40px;
-    left: 30px;
+    left: 24px;
 }
 .top04Btn1{
     margin-right: 10px;
@@ -1712,6 +1719,9 @@
     color: #35a7d2;
     margin-bottom: 20px;
 }
+.serCopy1 span {
+	padding-left: 20px;
+}
 .serTtl2{
     font-size: 1.6rem;
     color: #35a7d2;
@@ -1738,7 +1748,6 @@
 }
 .serBoxW2{
     display: flex;
-    justify-content: space-between;
     padding: 20px 0;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 8px;
@@ -1760,7 +1769,6 @@
 .serBoxC{
     display: flex;
     width: 505px;
-    border-right: 1px solid rgba(0,0,0,0.3);
     box-sizing: border-box;
     padding: 0 25px;
 }
@@ -1771,9 +1779,11 @@
 }
 .serBoxR{
     display: inline-block;
+	border-left: 1px solid rgba(0,0,0,0.3);
     width: 400px;
     box-sizing: border-box;
     padding: 0 25px;
+	margin-left: 200px;
 }
 .serName{
     font-size: 1.6rem;
@@ -2348,7 +2358,7 @@
     border-radius: 20px;
     margin-top: 100px;
     position: relative;
-	width: 800px;
+	width: 650px;
 	margin: 100px auto;
 }
 .alohaSec08Card1 {
@@ -2356,7 +2366,7 @@
     border-radius: 20px;
     margin-top: 100px;
     position: relative;
-	width: 800px;
+	width: 650px;
 	margin: 100px auto;
 }
 .feelSec08Card1 {
@@ -2364,7 +2374,7 @@
     border-radius: 20px;
     margin-top: 100px;
     position: relative;
-	width: 800px;
+	width: 650px;
 	margin: 100px auto;
 }
 .faciSec08Txt1 {
@@ -2379,8 +2389,8 @@
     border-radius: 8px;
     box-sizing: border-box;
     padding: 15px;
-    margin-bottom: 32px;
-	margin-right: 40px;
+    margin-bottom: 15px;
+	margin-right: 20px;
 }
 .faicSec08mvTel1{
     font-size: 3.4rem;
@@ -2463,7 +2473,7 @@
     background: #fff;
     box-sizing: border-box;
     padding: 18px 15px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     position: relative;
 }
 .faicSec08mvBtn2 a:before{
@@ -2560,9 +2570,9 @@
     color: #EFB66D;
 }
 .faciSec08Card2 {
-	width: 548px;
+	width: 528px;
 	margin: 0 auto;
-	padding-bottom: 32px;
+	padding-bottom: 40px;
 }
 .faicSec08Txt2 {
     font-size: 1.6rem;
@@ -2571,12 +2581,11 @@
 .faicSec08Txt3 {
     font-size: 1.6rem;
     color: #FFFFFF;
-    padding-top: 5px;
 }
 .faicSec08sinfoDot {
     position: absolute;
     top: -52px;
-    left: 420px;
+    left: 315px;
 }
 .faicSec08sinfoDotcontent1 {
     width: 19.2px;
