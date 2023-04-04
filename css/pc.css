@@ -277,18 +277,21 @@
 }
 .top01Txt1{
     font-size: 2rem;
+	font-weight: 300;
     letter-spacing: 0.1em;
     line-height: 4.1rem;
     margin-bottom: 50px;
 }
 .top01Txt2{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.2rem;
     letter-spacing: 0.1em;
     margin-bottom: 55px;
 }
 .top01Name{
     font-size: 2rem;
+	font-weight: 300;
     letter-spacing: 0.1em;
     margin-bottom: 80px;
 }
@@ -434,11 +437,13 @@
 
 .top03Txt1{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.1rem;
     margin-bottom: 10px;
 }
 .top03Txt2{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.1rem;
 }
 .top03More{
@@ -556,12 +561,14 @@
 }
 .top04Name{
     font-size: 2rem;
+	font-weight: 300;
     letter-spacing: 0.1em;
     line-height: 3.3rem;
     margin-bottom: 15px;
 }
 .top04Add{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.1rem;
 }
 .top04BtnW{
@@ -617,25 +624,26 @@
     font-size: 3.5rem;
 }
 .top05TxtW{
-    width: 330px;
+    width: 360px;
     box-sizing: border-box;
     background: #fff;
     padding: 30px 35px;
     position: absolute;
     left: 50%;
-    transform: translateX(218px);
+    transform: translateX(230px);
     top: 0;
     text-align: left;
 }
 .top05Txt1{
-    font-size: 2.2rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 3.4rem;
     letter-spacing: 0.2em;
     margin-bottom: 20px;
     font-weight: 500;
 }
 .top05Txt2{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.4rem;
     margin-bottom: 30px;
 }
@@ -648,7 +656,7 @@
     display: inline-block;
 }
 .top05Txt2 .mg3{
-    padding-left: 74px;
+    padding-left: 106px;
     display: inline-block;
 }
 
@@ -725,6 +733,7 @@
 }
 .top06Txt4{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.9rem;
     letter-spacing: 0.1em;
 }
@@ -787,16 +796,19 @@
 }
 .newsDate{
     font-size: 1.6rem;
+	font-weight: 300;
     margin-bottom: 10px;
 }
 
 .newsTtl{
     font-size: 1.6rem;
+	font-weight: 300;
     margin-bottom: 10px;
     color: #4199CF;
 }
 .newsTxt{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.1rem;
 }
 .pagerW{
@@ -830,13 +842,16 @@
     margin-bottom: 15px;
 }
 .qrTxt1{
+	color: #429AD0;
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.4rem;
     letter-spacing: 0.05em;
     margin-bottom: 5px;
 }
 .qrTxt2{
     font-size: 1.6rem;
+	font-weight: 300;
     line-height: 2.1rem;
     letter-spacing: 0.1em;
 }
@@ -1123,7 +1138,6 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    text-align: center;
 }
 #inMv:before{
     content: "";
@@ -1146,6 +1160,7 @@
     margin-bottom: 30px;
     margin-right: -0.6em;
     font-weight: 500;
+	text-align: center;
 }
 .pageTtlJp{
     color: #429ad0;
@@ -1154,7 +1169,9 @@
     line-height: 3rem;
     padding: 0 8px;
     display: inline-block;
-    text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 .pageTtlJp span{
     white-space: nowrap;
@@ -1627,6 +1644,10 @@
     border-radius: 8px;
     overflow: hidden;
 }
+.serImg img {
+	height: 384px;
+	object-fit: cover;
+}
 .serTxtW1{
     width: 720px;
     box-sizing: border-box;
@@ -1698,7 +1719,7 @@
     margin-bottom: 10px;
 }
 .serTxt2{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 .serTxt3{
     font-size: 1.6rem;
@@ -1817,7 +1838,7 @@
     color: #3e3a39 !important;
 }
 .serCaution{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     line-height: 2.3rem;
     color: #429ad0;
 }
@@ -1835,6 +1856,11 @@
 .faciFlex {
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+.faciFlex2 {
+    display: flex;
+    justify-content: center;
     position: relative;
 }
 .faciSec01Card1 {
@@ -2314,33 +2340,39 @@
     border-radius: 20px;
     margin-top: 100px;
     position: relative;
+	width: 800px;
+	margin: 100px auto;
 }
 .alohaSec08Card1 {
     background: #B5C97D;
     border-radius: 20px;
     margin-top: 100px;
     position: relative;
+	width: 800px;
+	margin: 100px auto;
 }
 .feelSec08Card1 {
     background: #EFB66D;
     border-radius: 20px;
     margin-top: 100px;
     position: relative;
+	width: 800px;
+	margin: 100px auto;
 }
 .faciSec08Txt1 {
     font-size: 2.4rem;
     letter-spacing: 0.22em;
     color: #FFFFFF;
     padding: 32px;
-    text-align: center;
+	text-align: center;
 }
 .faicSec08mvBtn1{
     background: #fff;
     border-radius: 8px;
     box-sizing: border-box;
     padding: 15px;
-    margin-bottom: 60px;
-    margin-left: 32px;
+    margin-bottom: 32px;
+	margin-right: 40px;
 }
 .faicSec08mvTel1{
     font-size: 3.4rem;
@@ -2520,7 +2552,9 @@
     color: #EFB66D;
 }
 .faciSec08Card2 {
-    margin-right: 32px;
+	width: 548px;
+	margin: 0 auto;
+	padding-bottom: 32px;
 }
 .faicSec08Txt2 {
     font-size: 1.6rem;
@@ -2534,7 +2568,7 @@
 .faicSec08sinfoDot {
     position: absolute;
     top: -52px;
-    left: 570px;
+    left: 420px;
 }
 .faicSec08sinfoDotcontent1 {
     width: 19.2px;
@@ -2609,7 +2643,7 @@
     font-weight: 500;
 }
 .comSec02Txt2 {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     font-weight: lighter;
     color: #595757;
     line-height: 2.01;
@@ -2640,7 +2674,7 @@
 }
 .comSec03GoogleCont {
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 40px;
 }
 .comSec03Google {
     color: #FFFFFF;
@@ -2691,7 +2725,7 @@
     line-height: 1.77;
     padding: 10px 0;
 	display: inline-block;
-	margin-left: 75px;
+	margin-left: 106px;
 }
 #comSec04 {
 }
@@ -2783,6 +2817,9 @@
 .comSec05W {
 	background-color: #FFFFFF;
 	padding: 85px 85px 50px 85px;
+}
+.comSec05W1 {
+	width: 320px;
 }
 .comSec05Flex {
 	display: flex;
@@ -3120,28 +3157,24 @@ appearance: none;
 .newsSec01ContentTxt2 {
     color: #EFB66D;
     font-size: 1.6rem;
-    letter-spacing: -0.2em;
     margin-bottom: 0;
     padding-top: 10px;
 }
 .newsSec01ContentTxt3 {
     color: #B5C97D;
-    font-size: 1.4rem;
-    letter-spacing: -0.2em;
+    font-size: 1.6rem;
     margin-bottom: 0;
     padding-top: 10px;
 }
 .newsSec01ContentTxt4 {
     color: #61BCCC;
-    font-size: 1.4rem;
-    letter-spacing: -0.2em;
+    font-size: 1.6rem;
     margin-bottom: 0;
     padding-top: 10px;
 }
 .newsSec01ContentTxt5 {
     color: #429AD0;
-    font-size: 1.4rem;
-    letter-spacing: -0.2em;
+    font-size: 1.6rem;
     margin-bottom: 0;
     padding-top: 10px;
 }
@@ -3173,7 +3206,6 @@ appearance: none;
 .newsSec01ContentTxt10 {
     font-size: 1.6rem;
     color: #595757;
-    line-height: 2;
 	font-weight: lighter;
     padding-top: 8px;
 }
@@ -3193,7 +3225,6 @@ appearance: none;
 .newsSec01ContentTxt13 {
     font-size: 1.6rem;
     color: #595757;
-	line-height: 2;
 	font-weight: lighter;
 	padding: 15px 0 40px 0;
 }
