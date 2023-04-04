@@ -2359,7 +2359,7 @@
     margin-top: 100px;
     position: relative;
 	width: 650px;
-	margin: 100px auto;
+	margin: 100px 255px;
 }
 .alohaSec08Card1 {
     background: #B5C97D;
@@ -2367,7 +2367,7 @@
     margin-top: 100px;
     position: relative;
 	width: 650px;
-	margin: 100px auto;
+	margin: 100px 255px;
 }
 .feelSec08Card1 {
     background: #EFB66D;
@@ -2375,7 +2375,7 @@
     margin-top: 100px;
     position: relative;
 	width: 650px;
-	margin: 100px auto;
+	margin: 100px 255px;
 }
 .faciSec08Txt1 {
     font-size: 2.4rem;
