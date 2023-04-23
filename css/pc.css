@@ -2671,9 +2671,15 @@
 .comSec03W {
 	padding: 85px 0;
 }
+.comSec03W1 {
+	padding: 0 0 85px 0;
+}
 .comSec03Flex {
 	display: flex;
 	justify-content: space-between;
+}
+.comSec03Flex1 {
+	display: flex;
 }
 .comSec03Card1 {
 }
@@ -2704,6 +2710,9 @@
     text-indent: 0.1em;
     cursor: pointer;
 }
+.comSec03Line {
+    border-top: 1px solid rgba(180,180,180,0.5);
+}
 .comSec03Line1 {
     border-bottom: 1px solid rgba(180,180,180,0.5);
 }
@@ -2725,7 +2734,7 @@
     color: #595757;
     font-weight: lighter;
     line-height: 1.77;
-    padding: 10px 0;
+    padding: 10px 0 10px 20px;
 }
 .comSec03Txt3 {
 	display: inline-block;
@@ -2742,8 +2751,33 @@
     line-height: 1.77;
     padding: 10px 0;
 	display: inline-block;
-	margin-left: 106px;
+	margin-left: 126px;
 }
+.comSec03Txt6 {
+    font-size: 1.6rem;
+    color: #595757;
+    font-weight: lighter;
+    line-height: 1.77;
+    padding: 10px 0;
+    margin-left: 40px;
+}
+.comSec03Txt7 {
+    font-size: 1.6rem;
+    color: #595757;
+    font-weight: lighter;
+    line-height: 1.77;
+    padding: 10px 0;
+    margin: 0 0 0 auto;
+}
+.comSec03Txt8 {
+    font-size: 1.6rem;
+    color: #595757;
+    font-weight: lighter;
+    line-height: 1.77;
+    padding: 10px 0;
+    margin-left: 177px;
+}
+
 #comSec04 {
 }
 .comSec04Txt1 {
@@ -2757,14 +2791,14 @@
     position: relative;
     align-items: center;
     border: 1px solid rgba(180,180,180,0.29);
-    padding: 32px;
-    margin-top: 32px;
+    padding: 0 32px;
+    margin-top: 42px;
 }
 .comSec04Txt2 {
     font-size: 2.1rem;
     color: #595757;
     font-weight: lighter;
-    padding: 0 50px;
+    padding-right: 50px;
 }
 .comSec04Txt3 {
     font-size: 2.4rem;
@@ -2775,16 +2809,17 @@
 }
 .comSec04Line {
     border-left: 1px solid rgba(180,180,180,0.29);
+    padding: 22px 0;
 }
 .comSec04Flex {
 	display: flex;
 	flex-wrap: wrap;
 }
 .comSec04Txt4 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 500;
     line-height: 2.29;
-    color: #3E3A39;
+    color: #35A7D2;
     padding-left: 60px;
 }
 .comSec04Txt5 {
@@ -2821,6 +2856,20 @@
 }
 .comSec04Txt8 {
     width: 250px;
+}
+.comSec04Txt9 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    line-height: 2.29;
+    color: #35A7D2;
+    padding-left: 60px;
+}
+.comSec04Txt10 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    line-height: 2.29;
+    color: #595757;
+    padding-left: 40px;
 }
 .comSec04Bottomline {
     border-bottom: 1px solid rgba(180,180,180,0.29);
