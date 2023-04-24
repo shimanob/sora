@@ -2714,13 +2714,13 @@
     border-top: 1px solid rgba(180,180,180,0.5);
 }
 .comSec03Line1 {
-    border-bottom: 1px solid rgba(180,180,180,0.5);
+    border-bottom: 1px solid rgba(60,60,60,0.3);
 }
 .comSec03Line2 {
-    border-bottom: 1px solid rgba(180,180,180,0.29);
+    border-bottom: 1px solid rgba(60,60,60,0.3);
 }
 .comSec03Line3 {
-    border-bottom: 1px dashed rgba(180,180,180,0.3);
+    border-bottom: 1px dashed rgba(60,60,60,0.3);
 }
 .comSec03Txt1 {
     font-size: 3rem;
@@ -2733,7 +2733,6 @@
     font-size: 1.6rem;
     color: #595757;
     font-weight: lighter;
-    line-height: 1.77;
     padding: 10px 0 10px 20px;
 }
 .comSec03Txt3 {
@@ -2748,7 +2747,6 @@
 	font-size: 1.6rem;
     color: #595757;
     font-weight: lighter;
-    line-height: 1.77;
     padding: 10px 0;
 	display: inline-block;
 	margin-left: 126px;
@@ -2757,7 +2755,6 @@
     font-size: 1.6rem;
     color: #595757;
     font-weight: lighter;
-    line-height: 1.77;
     padding: 10px 0;
     margin-left: 40px;
 }
@@ -2765,7 +2762,6 @@
     font-size: 1.6rem;
     color: #595757;
     font-weight: lighter;
-    line-height: 1.77;
     padding: 10px 0;
     margin: 0 0 0 auto;
 }
@@ -2773,7 +2769,6 @@
     font-size: 1.6rem;
     color: #595757;
     font-weight: lighter;
-    line-height: 1.77;
     padding: 10px 0;
     margin-left: 177px;
 }
@@ -2790,15 +2785,15 @@
     display: flex;
     position: relative;
     align-items: center;
-    border: 1px solid rgba(180,180,180,0.29);
-    padding: 0 32px;
+    border: 1px solid rgba(60,60,60,0.3);
+    padding: 0 27px;
     margin-top: 42px;
 }
 .comSec04Txt2 {
-    font-size: 2.1rem;
+    font-size: 1.6rem;
     color: #595757;
     font-weight: lighter;
-    padding-right: 50px;
+    padding-right: 35px;
 }
 .comSec04Txt3 {
     font-size: 2.4rem;
@@ -2808,26 +2803,23 @@
     padding: 0 0 32px 64px;
 }
 .comSec04Line {
-    border-left: 1px solid rgba(180,180,180,0.29);
-    padding: 22px 0;
+    border-left: 1px solid rgba(60,60,60,0.3);
 }
 .comSec04Flex {
 	display: flex;
 	flex-wrap: wrap;
 }
 .comSec04Txt4 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    line-height: 2.29;
     color: #35A7D2;
-    padding-left: 60px;
+    padding: 20px 0 10px 30px;
 }
 .comSec04Txt5 {
     font-size: 1.6rem;
     font-weight: lighter;
-    line-height: 2.29;
     color: #595757;
-    padding-left: 60px;
+    padding-left: 30px;
 }
 .comSec04Txt6 {
     font-size: 2.1rem;
@@ -2858,18 +2850,16 @@
     width: 250px;
 }
 .comSec04Txt9 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: lighter;
-    line-height: 2.29;
     color: #35A7D2;
-    padding-left: 60px;
+    padding: 5px 0 0 30px;
 }
 .comSec04Txt10 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: lighter;
-    line-height: 2.29;
     color: #595757;
-    padding-left: 40px;
+    padding: 5px 0 20px 20px;
 }
 .comSec04Bottomline {
     border-bottom: 1px solid rgba(180,180,180,0.29);
